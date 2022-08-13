@@ -1,0 +1,23 @@
+@import "../vendor/variables.css";
+@import url("../blocks/page/page.css");
+
+@import url("../blocks/about/about.css");
+@import url("../blocks/about/__header/about__header.css");
+@import url("../blocks/about/__header-accent/about__header-accent.css");
+@import url("../blocks/about/__paragraph/about__paragraph.css");
+@import url("../blocks/about/__slide-image/about__slide-image.css");
+@import url("../blocks/about/__slide-image/_1/about__slide-image_1.css");
+@import url("../blocks/about/__slide-image/_2/about__slide-image_2.css");
+/*@import url("../blocks/about/");*/
+/*@import url("../blocks/about/");*/
+/*@import url("../blocks/about/");*/
+@import url("../blocks/carousel/carousel.css");
+@import url("../blocks/carousel/__slide/carousel__slide.css");
+@import url("../blocks/carousel/__control/carousel__control.css");
+/*@import url("../blocks/carousel/");*/
+@import url("../blocks/btn/__arrow/btn__arrow.css");
+@import url("../blocks/btn/__arrow/_backward/btn__arrow_backward.css");
+@import url("../blocks/btn/__arrow/_forward/btn__arrow_forward.css");
+@import url("../blocks/btn/__arrow/_blue/btn__arrow_blue.css");
+@import url("../blocks/carousel/__counter/carousel__counter.css");
+
