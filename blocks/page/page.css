@@ -1,0 +1,7 @@
+.page{
+  width: 1440px;
+  padding: 0;
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+  outline: 1px solid black;
+}

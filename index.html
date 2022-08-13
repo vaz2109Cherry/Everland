@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="vendor/normalize.css">
-    <link rel="stylesheet" href="pages/index.css">
-    <title>Everland</title>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0">
+  <link rel="stylesheet" href="vendor/normalize.css">
+  <link rel="stylesheet" href="pages/index.css">
+  <title>Everland</title>
 </head>
 
 <body class="page">
@@ -19,20 +20,22 @@
 
   <main class="main">
 
-      <section class="about">
-          <div class="about__slide">
-              <h1><span>Everland</span> — социальный предпринимательский проект</h1>
-              <p>Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью устойчиво интегрироваться в
-                  открытый рынок труда </p>
-              <img src="images/carousel-man-1.png" alt="Люди из Everland за работой">
-              <img src="images/carousel-man-2.png" alt="Люди из Everland за работой">
-          </div>
-          <div>
-              <button class="btn__forward btn__forward_blue">Назад</button>
-              <span class="">1/6</span>
-              <button class="btn__backward btn__backward_blue">Вперед</button>
-          </div>
-      </section>
+    <section class="about">
+      <div class="carousel">
+        <div class="carousel__slide">
+          <h1 class="about__header"><span class="about__header-accent">Everland</span>&nbsp;—&nbsp;социальный предпринимательский проект</h1>
+          <p class="about__paragraph">Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью устойчиво интегрироваться в
+            открытый рынок труда </p>
+          <img src="images/carousel-man-1.png" alt="Люди из Everland за работой" class="about__slide-image about__slide-image_1">
+          <img src="images/carousel-man-2.png" alt="Люди из Everland за работой" class="about__slide-image about__slide-image_2">
+        </div>
+        <div class="carousel__control">
+          <button class="btn__arrow btn__arrow_backward btn__arrow_blue carousel__backward">Назад</button>
+          <span class="carousel__counter">1/6</span>
+          <button class="btn__arrow btn__arrow_forward btn__arrow_blue carousel__forward">Вперед</button>
+        </div>
+      </div>
+    </section>
 
     <section class="donation-button"></section>
 
@@ -52,103 +55,108 @@
 
     <section class="news"></section>
 
-      <section class="donation">
-          <h2>Поддержите нас</h2>
-          <form action="POST" name="donation-form">
-              <input type="radio" name="pay_type" id="every_month" class="donation-form__radio">
-              <label for="every_month" class="donation-form__label-radio">Ежемесячно</label>
-              <input type="radio" name="pay_type" id="one_pay" class="donation-form__radio">
-              <label for="one_pay" class="donation-form__label-radio">Разово</label>
+    <section class="donation">
+      <h2>Поддержите нас</h2>
+      <form action="POST" name="donation-form">
+        <input type="radio" name="pay_type" id="every_month" class="donation-form__radio">
+        <label for="every_month" class="donation-form__label-radio">Ежемесячно</label>
+        <input type="radio" name="pay_type" id="one_pay" class="donation-form__radio">
+        <label for="one_pay" class="donation-form__label-radio">Разово</label>
 
-              <h5 class="donation-form__header">Размер пожертвования</h5>
-              <input type="radio" name="pay-sum" id="donat_250" class="donation-form__radio"><label
-                  for="donat_250" class="donation-form__label-radio">250₽</label>
-              <input type="radio" name="pay-sum" id="donat_500" class="donation-form__radio"><label
-                  for="donat_500" class="donation-form__label-radio">500₽</label>
-              <input type="radio" name="pay-sum" id="donat_750" class="donation-form__radio"><label
-                  for="donat_750" class="donation-form__label-radio">275₽</label>
-              <input type="radio" name="pay-sum" id="donat_1000" class="donation-form__radio"><label
-                  for="donat_1000" class="donation-form__label-radio">1000₽</label>
-              <input type="radio" name="pay-sum" id="donat_other" class="donation-form__radio"><label
-                  for="donat_other" class="donation-form__label-radio">Другая сумма</label>
+        <h5 class="donation-form__header">Размер пожертвования</h5>
+        <input type="radio" name="pay-sum" id="donat_250" class="donation-form__radio"><label
+        for="donat_250" class="donation-form__label-radio">250₽</label>
+        <input type="radio" name="pay-sum" id="donat_500" class="donation-form__radio"><label
+        for="donat_500" class="donation-form__label-radio">500₽</label>
+        <input type="radio" name="pay-sum" id="donat_750" class="donation-form__radio"><label
+        for="donat_750" class="donation-form__label-radio">275₽</label>
+        <input type="radio" name="pay-sum" id="donat_1000" class="donation-form__radio"><label
+        for="donat_1000" class="donation-form__label-radio">1000₽</label>
+        <input type="radio" name="pay-sum" id="donat_other" class="donation-form__radio"><label
+        for="donat_other" class="donation-form__label-radio">Другая сумма</label>
 
-              <p class="donation-form__paragraph">Регулярные пожертвования очень важны для Everland. Это то, что
-                  помогает нашим программам работать бесперебойно, что
-                  открывает новые востребованные проекты, что максимально эффективно решает социальную задачу. Если вы
-                  захотите поддерживать
-                  наши программы постоянно, то каждый месяц с вашей карты будет списываться указанная вами сумма.</p>
+        <p class="donation-form__paragraph">Регулярные пожертвования очень важны для Everland. Это то, что
+          помогает нашим программам работать бесперебойно, что
+          открывает новые востребованные проекты, что максимально эффективно решает социальную задачу. Если вы
+          захотите поддерживать
+          наши программы постоянно, то каждый месяц с вашей карты будет списываться указанная вами сумма.</p>
 
-              <h5 class="donation-form__header">Размер пожертвования</h5>
-              <div class="donation-form__carousel carousel">
-                  <button class="carousel__backward btn__chevron">Назад</button>
-                  <div class="carousel__slide">
-                      <input type="radio" name="pay-system" id="pay-system_cards" class="donation-form__radio">
-                      <label for="pay-system_cards" class="donation-form__label-radio">
-                          <img src="images/mir-logo.png" alt="Мир" class="donation-form__pay-system-logo">
-                          <img src="images/maestro-logo.png" alt="Maestro" class="donation-form__pay-system-logo">
-                          <img src="images/visa-logo.png" alt="VISA" class="donation-form__pay-system-logo">
-                          <img src="images/mastercard-logo.png" alt="MasterCard" class="donation-form__pay-system-logo">
-                      </label>
+        <h5 class="donation-form__header">Размер пожертвования</h5>
+        <div class="donation-form__carousel carousel">
+          <button class="carousel__backward btn__chevron">Назад</button>
+          <div class="carousel__slide">
+            <input type="radio" name="pay-system" id="pay-system_cards" class="donation-form__radio">
+            <label for="pay-system_cards" class="donation-form__label-radio">
+              <img src="images/mir-logo.png" alt="Мир" class="donation-form__pay-system-logo">
+              <img src="images/maestro-logo.png" alt="Maestro" class="donation-form__pay-system-logo">
+              <img src="images/visa-logo.png" alt="VISA" class="donation-form__pay-system-logo">
+              <img src="images/mastercard-logo.png" alt="MasterCard" class="donation-form__pay-system-logo">
+            </label>
 
-                      <input type="radio" name="pay-system" id="pay-system_yoomoney" class="donation-form__radio">
-                      <label for="pay-system_yoomoney" class="donation-form__label-radio">
-                          <img src="images/yoo-money.png" alt="Ю-Money" class="donation-form__pay-system-logo">
-                      </label>
+            <input type="radio" name="pay-system" id="pay-system_yoomoney" class="donation-form__radio">
+            <label for="pay-system_yoomoney" class="donation-form__label-radio">
+              <img src="images/yoo-money.png" alt="Ю-Money" class="donation-form__pay-system-logo">
+            </label>
 
-                      <input type="radio" name="pay-system" id="pay-system_webmoney" class="donation-form__radio">
-                      <label for="pay-system_webmoney" class="donation-form__label-radio">
-                          <img src="images/webmoney-logo.png" class="donation-form__pay-system-logo">
-                      </label>
-                  </div>
-                  <button class="carousel__forward btn__chevron">Вперед</button>
-              </div>
-
-              <h5 class="donation-form__header">Ваши данные</h5>
-              <input type="text" name="name" id="fio" class="donation-form__input-text" placeholder="Иван Иванов">
-              <input type="email" name="email" id="email" class="donation-form__input-text" placeholder="myemail@example.com">
-              <input type="checkbox" name="offer" id="offer_chbx" class="donation-form__checkbox"><label for="offer_chbx" class="donation-form__label-text">Соглашаюсь с <a href="#" class="donation-form__link">офертой</a></label>
-              <input type="checkbox" name="personal-data" id="personal-data_chbx" class="donation-form__checkbox"><label for="personal-data_chbx" class="donation-form__label-text">Соглашаюсь на <a href="#" class="donation-form__link">обработку моих персональных данных</a></label>
-
-              <button type="submit" class="donation-form__submit btn__submit">Поддержать</button>
-
-          </form>
-
-          <div class="appreciate">
-              <h4 class="appreciate__header">Everland создается силами многих. Мы благодарны каждому за поддержку!</h4>
-              <div class="appreciate__block">
-                  <p class="appreciate__paragraph">Аноним........................................500 ₽</p>
-                  <p class="appreciate__paragraph">2 часа назад</p>
-              </div>
-              <div class="appreciate__block">
-                  <p class="appreciate__paragraph">Аноним........................................500 ₽</p>
-                  <p class="appreciate__paragraph">2 часа назад</p>
-              </div>
-              <div class="appreciate__block">
-                  <p class="appreciate__paragraph">Аноним........................................500 ₽</p>
-                  <p class="appreciate__paragraph">2 часа назад</p>
-              </div>
-              <div class="appreciate__block">
-                  <p class="appreciate__paragraph">Аноним........................................500 ₽</p>
-                  <p class="appreciate__paragraph">2 часа назад</p>
-              </div>
-              <div class="appreciate__block">
-                  <p class="appreciate__paragraph">Аноним........................................500 ₽</p>
-                  <p class="appreciate__paragraph">2 часа назад</p>
-              </div>
-              <div class="appreciate__block">
-                  <p class="appreciate__paragraph">Аноним........................................500 ₽</p>
-                  <p class="appreciate__paragraph">2 часа назад</p>
-              </div>
-              <div class="appreciate__block">
-                  <p class="appreciate__paragraph">Аноним........................................500 ₽</p>
-                  <p class="appreciate__paragraph">2 часа назад</p>
-              </div>
-              <div class="appreciate__block">
-                  <p class="appreciate__paragraph">Аноним........................................500 ₽</p>
-                  <p class="appreciate__paragraph">2 часа назад</p>
-              </div>
+            <input type="radio" name="pay-system" id="pay-system_webmoney" class="donation-form__radio">
+            <label for="pay-system_webmoney" class="donation-form__label-radio">
+              <img src="images/webmoney-logo.png" class="donation-form__pay-system-logo">
+            </label>
           </div>
-      </section>
+          <button class="carousel__forward btn__chevron">Вперед</button>
+        </div>
+
+        <h5 class="donation-form__header">Ваши данные</h5>
+        <input type="text" name="name" id="fio" class="donation-form__input-text" placeholder="Иван Иванов">
+        <input type="email" name="email" id="email" class="donation-form__input-text" placeholder="myemail@example.com">
+        <input type="checkbox" name="offer" id="offer_chbx" class="donation-form__checkbox"><label for="offer_chbx"
+                                                                                                   class="donation-form__label-text">Соглашаюсь
+        с <a href="#" class="donation-form__link">офертой</a></label>
+        <input type="checkbox" name="personal-data" id="personal-data_chbx" class="donation-form__checkbox"><label
+        for="personal-data_chbx" class="donation-form__label-text">Соглашаюсь на <a href="#"
+                                                                                    class="donation-form__link">обработку
+        моих персональных данных</a></label>
+
+        <button type="submit" class="donation-form__submit btn__submit">Поддержать</button>
+
+      </form>
+
+      <div class="appreciate">
+        <h4 class="appreciate__header">Everland создается силами многих. Мы благодарны каждому за поддержку!</h4>
+        <div class="appreciate__block">
+          <p class="appreciate__paragraph">Аноним........................................500 ₽</p>
+          <p class="appreciate__paragraph">2 часа назад</p>
+        </div>
+        <div class="appreciate__block">
+          <p class="appreciate__paragraph">Аноним........................................500 ₽</p>
+          <p class="appreciate__paragraph">2 часа назад</p>
+        </div>
+        <div class="appreciate__block">
+          <p class="appreciate__paragraph">Аноним........................................500 ₽</p>
+          <p class="appreciate__paragraph">2 часа назад</p>
+        </div>
+        <div class="appreciate__block">
+          <p class="appreciate__paragraph">Аноним........................................500 ₽</p>
+          <p class="appreciate__paragraph">2 часа назад</p>
+        </div>
+        <div class="appreciate__block">
+          <p class="appreciate__paragraph">Аноним........................................500 ₽</p>
+          <p class="appreciate__paragraph">2 часа назад</p>
+        </div>
+        <div class="appreciate__block">
+          <p class="appreciate__paragraph">Аноним........................................500 ₽</p>
+          <p class="appreciate__paragraph">2 часа назад</p>
+        </div>
+        <div class="appreciate__block">
+          <p class="appreciate__paragraph">Аноним........................................500 ₽</p>
+          <p class="appreciate__paragraph">2 часа назад</p>
+        </div>
+        <div class="appreciate__block">
+          <p class="appreciate__paragraph">Аноним........................................500 ₽</p>
+          <p class="appreciate__paragraph">2 часа назад</p>
+        </div>
+      </div>
+    </section>
 
   </main>
 

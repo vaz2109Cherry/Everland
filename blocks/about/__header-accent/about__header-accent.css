@@ -1,0 +1,6 @@
+.about__header-accent{
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 120%;
+  color: var(--text-card-blue);
+}

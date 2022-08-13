@@ -1,3 +1,34 @@
+.page {
+  --background-card-icons-blue: #E7F0F--;
+  --background-card-icons-red: #FEEFEA;
+  --background-card-icons-green: #DAEFD5;
+  --background-card-icons-violet: #EAE6FF;
+
+  --text-card-blue: #0C4BA0;
+  --text-card-orange: #E98509;
+  --text-card-green: #319B17;
+  --text-card-violet: #8B75FF;
+  --text-card-black: #333333;
+
+  --background-main: #FFFFFF;
+
+  --background-blocks-gray: #F5F5F5;
+  --background-blocks-blue: #E7F0FF;
+
+  --outline-elements-grey: #DADADA;
+
+  --text-donation-40: rgba(0, 0, 0, 0.4);
+  --text-donation-30: rgba(0, 0, 0, 0.3);
+  --text-donation-20: rgba(0, 0, 0, 0.2);
+  --text-donation-10: rgba(0, 0, 0, 0.1);
+
+  --background-button-hover: #4183DC;
+  --background-button-disabled: #C4C4C4;
+
+  --background-button-pressed-blue: #00275C;
+  --background-button-pressed-orange: #864A00;
+  --background-button-pressed-green: #0E4900;
+  --background-button-pressed-purple: #4935B5;
+}
 
 
-/*# sourceMappingURL=variables.css.map */
