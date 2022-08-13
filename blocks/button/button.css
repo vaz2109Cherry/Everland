@@ -1,3 +1,5 @@
 .button {
-
+  background-color: transparent;
+  border: 1px solid #0C4BA0;
+  border-radius: 10px;
 }

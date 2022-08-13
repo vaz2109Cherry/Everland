@@ -3,6 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Не прописан!! -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
@@ -15,20 +17,25 @@
 <div class="page__inner">
 
   <header class="header">
-    <img src="./images/header-logo.svg" alt="Логотип Everland" class="header__logo">
-    <button class="header__menu_button">
-      <div class="header__menu_button_container">
-        <img src="./images/header-menu-open.svg" alt="Открыть меню" class="header__menu_image">
-        <p class="header__menu_text">Меню</p>
+    <div class="header__first_line_container">
+      <img src="./images/header-logo.svg" alt="Логотип Everland" class="header__logo">
+      <button class="header__menu_button">
+        <div class="header__menu_button_container">
+          <img src="./images/header-menu-open.svg" alt="Открыть меню" class="header__menu_image">
+          <p class="header__menu_text">Меню</p>
+        </div>
+      </button>
+      <div class="header__button_container">
+        <button class="button button_header">
+          <p class="button__name">Платформа</p>
+        </button>
+        <button class="button button_active button_header">
+          <p class="button__name">Поддержать</p>
+        </button>
       </div>
-    </button>
-    <button class="button">
-      <p class="button__name">Платформа</p>
-    </button>
-    <button class="button button_active">
-      <p class="button__name">Поддержать</p>
-    </button>
-    <div class="header__menu header_menu_opened">
+    </div>
+    <div class="header__menu">
+      <!-- class 'header_menu_closed' for closing  -->
       <div class="header__menu_group">
         <h2 class="header__menu_highlight">О проекте</h2>
         <p class="header__menu_paragraph">АНО Пространство равных возможностей</p>
@@ -53,11 +60,11 @@
         <p class="header__menu_paragraph">Работодателям</p>
         <p class="header__menu_paragraph">Портфолио</p>
       </div>
-      <div class="header__menu_group">
-        <h2 class="header__menu_highlight">Мы благодарим</h2>
-        <h2 class="header__menu_highlight">Программы</h2>
-        <h2 class="header__menu_highlight">Наставникам</h2>
-        <h2 class="header__menu_highlight">Помочь</h2>
+      <div class="header__menu_group header_menu_group_last_row">
+        <h2 class="header__menu_highlight header_menu_highlight_last_row">Мы благодарим</h2>
+        <h2 class="header__menu_highlight header_menu_highlight_last_row">Программы</h2>
+        <h2 class="header__menu_highlight header_menu_highlight_last_row">Наставникам</h2>
+        <h2 class="header__menu_highlight header_menu_highlight_last_row">Помочь</h2>
       </div>
     </div>
     <nav class="header__navigation">

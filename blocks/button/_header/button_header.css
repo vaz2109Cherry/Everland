@@ -1,0 +1,14 @@
+.button_header {
+  height: 48px;
+  width: 180px;
+}
+
+@media (max-width: 769px) {
+  .button_header {
+    height: 44px;
+    width: 134px;
+  }
+  .button_header .button__name {
+    font-size: 16px;
+  }
+}

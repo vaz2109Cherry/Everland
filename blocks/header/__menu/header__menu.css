@@ -1,3 +1,12 @@
 .header__menu {
+  display: flex;
+  padding: 40px 39px 0 39px;
+  max-height: 520px;
+}
 
+@media (max-width: 769px) {
+  .header__menu {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }
