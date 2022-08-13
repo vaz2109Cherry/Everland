@@ -1,0 +1,9 @@
+.card__icon_type_briefcase {
+    background-image: url(../../../../images/icon_briefcase.svg);
+}
+
+@media screen and (max-width: 985px) {
+    .card__icon_type_briefcase {
+        background-image: url(../../../../images/icon_briefcase_768_320.svg);
+    }
+}
