@@ -1,6 +1,6 @@
 @import url('../blocks/button/button.css');
-@import url('../blocks/button/__name/button__name.css');
-@import url('../blocks/button/_active/button_active.css');
+@import url('../blocks/button/__text/button__text.css');
+@import url('../blocks/button/_secondary_blue/button_secondary_blue.css');
 @import url('../blocks/button/_header/button_header.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__first_line_container/header__first_line_container.css');
@@ -10,8 +10,11 @@
 @import url('../blocks/header/__menu_button/header__menu_button.css');
 @import url('../blocks/header/__menu_button_container/header__menu_button_container.css');
 @import url('../blocks/header/__menu_group/header__menu_group.css');
+@import url('../blocks/header/__menu_group_open_container/header__menu_group_open_container.css');
 @import url('../blocks/header/__menu_group/_last_row/header_menu_group_last_row.css');
 @import url('../blocks/header/__menu_highlight/header__menu_highlight.css');
+@import url('../blocks/header/__menu_group_button/header__menu_group_button.css');
+@import url('../blocks/header/__menu_group_button_img/header__menu_group_button_img.css');
 @import url('../blocks/header/__menu_highlight/_last_row/header_menu_highlight_last_row.css');
 @import url('../blocks/header/__menu_highlight/_opened/header_menu_highlight_opened.css');
 @import url('../blocks/header/__menu_image/header__menu_image.css');

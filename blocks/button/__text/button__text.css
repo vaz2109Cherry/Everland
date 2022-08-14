@@ -1,4 +1,4 @@
-.button__name {
+.button__text {
   margin: 0;
   padding: 0;
   text-align: center;
@@ -7,5 +7,11 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
-  color: #0C4BA0;
+  color: #FFFFFF;
+}
+
+@media (max-width: 769px) {
+  .button__text {
+    font-size: 14px;
+  }
 }

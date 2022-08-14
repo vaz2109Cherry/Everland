@@ -1,6 +1,6 @@
 .header__menu {
   display: flex;
-  padding: 40px 39px 0 39px;
+  padding: 40px 40px 0 40px;
   max-height: 520px;
 }
 
@@ -8,5 +8,13 @@
   .header__menu {
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+}
+
+@media (max-width: 321px) {
+  .header__menu {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 15px 10px 0 10px;
   }
 }

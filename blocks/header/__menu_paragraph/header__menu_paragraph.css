@@ -21,3 +21,9 @@
     max-width: 196px;
   }
 }
+
+@media (max-width: 321px) {
+  .header__menu_paragraph {
+    padding: 0 0 10px 0;
+  }
+}

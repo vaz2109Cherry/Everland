@@ -10,7 +10,12 @@
     column-gap: 78px;
     padding: 64px 0 0 0;
   }
-  .header_menu_group_last_row:last-of-type {
-    /* padding: 0; */
+}
+
+@media (max-width: 321px) {
+  .header_menu_group_last_row {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
   }
 }

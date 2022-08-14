@@ -1,2 +1,8 @@
 .header__menu_group {
 }
+
+@media (max-width: 321px) {
+  .header__menu_group {
+    padding: 0 0 20px 0;
+  }
+}

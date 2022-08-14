@@ -1,5 +1,25 @@
 .button {
-  background-color: transparent;
-  border: 1px solid #0C4BA0;
+  width: 70px;
+  height: 24px;
+  background-color: #0C4BA0;
+  border: 0;
   border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.button:hover {
+  background-color: #4183DC;
+}
+
+.button:active {
+  background-color: #00275C;
+}
+
+.button:disabled {
+  background-color: #F5F5F5;
+  border: 2px solid rgba(196, 196, 196, 1);
+}
+
+.button:disabled .button__text {
+  color: rgba(38, 38, 38, 0.5);
 }

@@ -9,3 +9,10 @@
     padding-left: 24px;
   }
 }
+
+@media (max-width: 321px) {
+  .header__menu_button {
+    order: initial;
+    padding: 0;
+  }
+}

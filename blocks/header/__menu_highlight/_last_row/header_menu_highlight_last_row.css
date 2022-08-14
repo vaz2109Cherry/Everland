@@ -10,3 +10,9 @@
     padding: 0;
   }
 }
+
+@media (max-width: 321px) {
+  .header_menu_highlight_last_row {
+    padding-bottom: 20px;
+  }
+}
