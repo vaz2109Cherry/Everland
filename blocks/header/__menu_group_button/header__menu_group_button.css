@@ -1,0 +1,13 @@
+.header__menu_group_button {
+  display: none;
+}
+
+@media (max-width: 321px) {
+  .header__menu_group_button {
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+  }
+}
