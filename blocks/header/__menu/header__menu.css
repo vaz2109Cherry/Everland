@@ -1,7 +1,6 @@
 .header__menu {
   display: flex;
   padding: 40px 40px 0 40px;
-  max-height: 520px;
 }
 
 @media (max-width: 769px) {
