@@ -1,4 +1,4 @@
-.button {
+.button_main {
   width: 70px;
   height: 24px;
   background-color: #0C4BA0;
@@ -7,19 +7,19 @@
   box-sizing: border-box;
 }
 
-.button:hover {
+.button_main:hover {
   background-color: #4183DC;
 }
 
-.button:active {
+.button_main:active {
   background-color: #00275C;
 }
 
-.button:disabled {
+.button_main:disabled {
   background-color: #F5F5F5;
   border: 2px solid rgba(196, 196, 196, 1);
 }
 
-.button:disabled .button__text {
+.button_main:disabled .button__text {
   color: rgba(38, 38, 38, 0.5);
 }
