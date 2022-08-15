@@ -1,0 +1,4 @@
+.button__slide_left {
+  background: transparent url(../../../../images/slide-right.svg) no-repeat; 
+  background-size: contain;
+}

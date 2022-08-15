@@ -1,0 +1,28 @@
+.card__button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: auto;
+    min-width: 165px;
+    min-height: 48px;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 985px) {
+    .card__button {
+        min-height: 44px;
+        margin-bottom: 28px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .card__button {
+        min-height: 44px;
+        margin-bottom: 28px;
+    }
+}

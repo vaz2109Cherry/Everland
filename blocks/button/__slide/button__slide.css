@@ -1,0 +1,17 @@
+.button__slide {
+  width: 35px;
+  height: 35px;
+  background: #333333;
+  border-radius: 10px;
+  border: none;
+  transform: rotate(-180deg);
+  padding: 0;
+}
+
+@media screen and (max-width: 1440px) {
+  .button__slide {
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+  }
+}
