@@ -1,0 +1,32 @@
+.consumers__title {
+    margin: 0;
+    padding-top: 100px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+    /* identical to box height, or 77px */
+    letter-spacing: -0.01em;
+}
+
+@media screen and (max-width: 985px) {
+    .consumers__title {
+        padding-top: 50px;
+        margin-bottom: 32px;
+        text-align: center;
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .consumers__title {
+        margin: 0;
+        max-width: 100%;
+        padding-top: 32px;
+        margin-bottom: 24px;
+        font-size: 26px;
+    }
+}
