@@ -23,6 +23,8 @@
 
 @media screen and (max-width: 460px) {
     .consumers__title {
+        margin: 0;
+        max-width: 100%;
         padding-top: 32px;
         margin-bottom: 24px;
         font-size: 26px;

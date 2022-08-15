@@ -3,6 +3,9 @@
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/_bg-color/card_bg-color_white.css);
+@import url(../blocks/card/_bg-color/card_bg-color_light-blue.css);
+@import url(../blocks/card/_bg-color/card_bg-color_light-green.css);
+@import url(../blocks/card/_bg-color/card_bg-color_light-orange.css);
 @import url(../blocks/card/__content/card__content.css);
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__text/card__text.css);
@@ -17,11 +20,16 @@
 @import url(../blocks/card/__button/_color/card__button_color_light-blue.css);
 @import url(../blocks/card/__button/_color/card__button_color_light-orange.css);
 @import url(../blocks/card/__button/_color/card__button_color_light-green.css);
+@import url(../blocks/card/__button/_color/card__button_color_white.css);
 @import url(../blocks/card/card__button-text/card__button-text.css);
 @import url(../blocks/card/card__button-text/_color/card__button-text_color_blue.css);
 @import url(../blocks/card/card__button-text/_color/card__button-text_color_orange.css);
 @import url(../blocks/card/card__button-text/_color/card__button-text_color_green.css);
-
+@import url(../blocks/card/card__button-text/_color/card__button-text_color_black.css);
+@import url(../blocks/directions/directions.css);
+@import url(../blocks/directions/__content/directions__content.css);
+@import url(../blocks/directions/__cards/directions__cards.css);
+@import url(../blocks/directions/__card/directions__card.css);
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/section-title/section-title.css);
