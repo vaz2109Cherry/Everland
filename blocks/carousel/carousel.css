@@ -1,4 +1,9 @@
 .carousel{
-  height: 565px;
-  position: relative;
+  /*height: 565px;*/
+  /*position: relative;*/
+  display: grid;
+  grid-template-rows: min-content 35px;
+  grid-template-columns: min-content;
+  column-gap: 14px;
+  row-gap: 20px;
 }

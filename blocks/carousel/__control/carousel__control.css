@@ -1,8 +1,7 @@
 .carousel__control{
   width: 126px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
   display: flex;
   justify-content: space-between;
   align-items: center;

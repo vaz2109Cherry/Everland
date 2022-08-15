@@ -1,8 +1,16 @@
 .about__header{
-  width: 826px;
   padding: 0;
   margin: 0;
+  grid-row: 1 / 2;
   font-weight: 700;
   font-size: 72px;
   line-height: 120%;
+  letter-spacing: -0.02em;
+}
+
+@media screen and (max-width: 1439px){
+  .about__header{
+    width: 424px;
+    font-size: 38px;
+  }
 }
