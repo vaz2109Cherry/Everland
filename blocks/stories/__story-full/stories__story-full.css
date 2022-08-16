@@ -1,0 +1,6 @@
+.stories__story-full {
+  grid-area: story;
+  width: 229px;
+  height: 48px;
+  margin-bottom: 150px;
+}
