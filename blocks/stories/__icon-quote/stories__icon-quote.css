@@ -1,0 +1,9 @@
+.stories__icon-quote {
+  grid-area: icon-quote;
+}
+
+/*@media screen and (max-width: 985px){*/
+/*  .stories__icon-quote {*/
+/*    grid-area: story;*/
+/*  }*/
+/*}*/

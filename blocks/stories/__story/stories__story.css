@@ -1,0 +1,44 @@
+.stories__story {
+  border-radius: 30px;
+  display: grid;
+  grid-column-gap: 19px;
+  grid-template-columns: min-content 42px min-content 1fr;
+  grid-template-areas: "avatar none icon-quote story";
+}
+
+.stories__story:nth-child(2) {
+  grid-template-columns: min-content 1fr 42px min-content;
+  grid-template-areas: "icon-quote story none avatar";
+}
+
+@media screen and (max-width: 985px){
+  .stories__story {
+    grid-template-columns: min-content 1fr;
+    grid-template-rows: min-content 1fr;
+    grid-template-areas:
+      "avatar icon-quote"
+      "avatar story";
+  }
+
+  .stories__story:nth-child(2) {
+    grid-template-columns: 1fr min-content;
+    grid-template-areas:
+      "icon-quote avatar"
+      "story avatar";
+  }
+
+}
+
+@media screen and (max-width: 680px){
+  .stories__story {
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content;
+    grid-template-areas:
+      "avatar"
+      "icon-quote"
+      "story";
+  }
+
+
+
+}

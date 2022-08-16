@@ -1,0 +1,5 @@
+.stories__avatar {
+  width: 224px;
+  grid-area: avatar;
+  margin: 0;
+}

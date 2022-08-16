@@ -1,0 +1,19 @@
+.special {
+  padding: 0 40px 150px;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1439px) {
+  .special {
+  max-width: 688px;
+  padding-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .special {
+  max-width: 300px;
+  padding: 0 10px 64px;
+  }
+}

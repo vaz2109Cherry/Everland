@@ -1,0 +1,20 @@
+.button_header {
+  height: 48px;
+  width: 180px;
+}
+
+@media (max-width: 769px) {
+  .button_header {
+    height: 44px;
+    width: 134px;
+  }
+  .button_header .button__text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 321px) {
+  .button_header {
+    display: none;
+  }
+}

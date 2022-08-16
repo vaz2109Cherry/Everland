@@ -1,0 +1,8 @@
+.stories__card {
+  background-color: #EAE6FF;
+  border-radius: 30px;
+  display: flex;
+  flex: 1;
+  /*max-width: 670px;*/
+
+}
