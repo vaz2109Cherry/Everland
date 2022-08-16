@@ -94,7 +94,9 @@
 /*stories*/
 @import url('../blocks/button/button.css');
 @import url('../blocks/button/_regular/button_regular_white-blue.css');
+@import url('../blocks/button/_regular/button_regular_blue-white.css');
 @import url('../blocks/button/_link/button_link_blue.css');
+@import url('../blocks/button/_link/button_link_white.css');
 @import url('../blocks/button/__arrow/button__arrow.css');
 
 /**/
@@ -127,19 +129,12 @@
 /*-stories-*/
 
 /*donation-buttons*/
-@import "../blocks/page/__inner/page__inner.css";
-
-
-@import "../blocks/button/button.css";
-@import "../blocks/button/_regular/button_regular_blue-white.css";
-@import "../blocks/button/_link/button_link_white.css";
-
-@import "../blocks/donation-buttons/__form/donation-buttons__form.css";
-@import "../blocks/donation-buttons/donation-buttons.css";
-@import "../blocks/donation-buttons/__sizes/donations-buttons__sizes.css";
-@import "../blocks/donation-buttons/__radio/donation-buttons__radio.css";
-@import "../blocks/donation-buttons/__button-send/donation-buttons__button-send.css";
-@import "../blocks/donation-buttons/__button-size/donation-buttons__button-size.css";
+@import url('../blocks/donation-buttons/__form/donation-buttons__form.css');
+@import url('../blocks/donation-buttons/donation-buttons.css');
+@import url('../blocks/donation-buttons/__sizes/donations-buttons__sizes.css');
+@import url('../blocks/donation-buttons/__radio/donation-buttons__radio.css');
+@import url('../blocks/donation-buttons/__button-send/donation-buttons__button-send.css');
+@import url('../blocks/donation-buttons/__button-size/donation-buttons__button-size.css');
 /*-donation-buttons-*/
 
 
