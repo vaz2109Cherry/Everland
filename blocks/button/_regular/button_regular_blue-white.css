@@ -1,0 +1,13 @@
+.button_regular_blue-white{
+  background-color: #0C4BA0;
+  color: white;
+  box-sizing: border-box;
+}
+
+.button_regular_blue-white:hover{
+  background-color: #4183DC;
+}
+
+.button_regular_blue-white:active{
+  background-color: #00275C;
+}
