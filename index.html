@@ -94,7 +94,42 @@
 
       <section class="about"></section>
 
-      <section class="donation-button"></section>
+    <section class="donation-buttons">
+
+      <form class="donation-buttons__form " action="#" name="donation-buttons-form">
+
+        <fieldset class="donations-buttons__sizes">
+          <label class="donation-buttons__button-size button button_link_white" for="donation-250">
+            250₽
+            <input class="donation-buttons__radio" type="radio" name="donation-size" id="donation-250">
+          </label>
+
+          <label class="donation-buttons__button-size button button_link_white" for="donation-500">
+            500₽
+            <input class="donation-buttons__radio" type="radio" name="donation-size" id="donation-500">
+          </label>
+
+          <label class="donation-buttons__button-size button button_link_white" for="donation-750">
+            750₽
+            <input class="donation-buttons__radio" type="radio" name="donation-size" id="donation-750">
+          </label>
+
+          <label class="donation-buttons__button-size button button_link_white" for="donation-1000">
+            1000₽
+            <input class="donation-buttons__radio" type="radio" name="donation-size" id="donation-1000">
+          </label>
+
+          <label class="donation-buttons__button-size button button_link_white" for="donation-other">
+            Другая сумма
+            <input class="donation-buttons__radio" type="radio" name="donation-size" id="donation-other">
+          </label>
+        </fieldset>
+
+        <button class="donation-buttons__button-send button_regular_blue-white button" type="button" name="button-send">Поддержать</button>
+
+      </form>
+
+    </section>
 
       <section class="consumers">
         <h2 class="consumers__title">Для кого мы работаем</h2>
