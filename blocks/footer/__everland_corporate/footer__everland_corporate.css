@@ -11,3 +11,18 @@
   max-width: 629px;
   padding-top: 50px;
 }
+
+@media (max-width: 769px) {
+  .footer__everland_corporate {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    padding-top: 28px;
+  }
+}
+
+@media (max-width: 321px) {
+  .footer__everland_corporate {
+    font-size: 12px;
+  }
+}

@@ -8,3 +8,14 @@
   row-gap: 10px;
   align-content: flex-start;
 }
+
+@media (max-width: 769px) {
+  .footer__links {
+    column-gap: 55px;
+  }
+}
+
+@media (max-width: 321px) {
+  .footer__links {
+  }
+}

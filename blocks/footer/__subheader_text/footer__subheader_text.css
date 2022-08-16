@@ -10,3 +10,17 @@
   color: #333333;
   padding-top: 90px;
 }
+
+@media (max-width: 769px) {
+  .footer__subheader_text {
+    font-size: 20px;
+    padding-top: 56px;
+  }
+}
+
+@media (max-width: 321px) {
+  .footer__subheader_text {
+    font-size: 16px;
+    padding-top: 40px;
+  }
+}

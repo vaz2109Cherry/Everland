@@ -13,3 +13,20 @@
 .footer__phone_number:last-of-type {
   padding: 0;
 }
+
+@media (max-width: 769px) {
+  .footer__phone_number {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+  }
+  .footer__phone_number:last-of-type {
+    padding-top: 16px;
+  }
+}
+
+@media (max-width: 321px) {
+  .footer__phone_number {
+    font-size: 12px;
+  }
+}

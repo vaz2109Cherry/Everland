@@ -11,3 +11,18 @@
   color: #333333;
   max-width: 483px;
 }
+
+@media (max-width: 769px) {
+  .footer__description {
+    padding-top: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+  }
+}
+
+@media (max-width: 321px) {
+  .footer__description {
+    font-size: 12px;
+  }
+}

@@ -4,3 +4,18 @@
   gap: 20px;
   padding-top: 60px;
 }
+
+@media (max-width: 769px) {
+  .footer__practicum_info {
+    padding-top: 34px;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+}
+
+@media (max-width: 321px) {
+  .footer__practicum_info {
+  }
+}

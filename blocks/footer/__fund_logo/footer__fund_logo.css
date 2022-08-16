@@ -1,2 +1,13 @@
 .footer__fund_logo {
 }
+
+@media (max-width: 769px) {
+  .footer__fund_logo {
+    max-height: 30px;
+  }
+}
+
+@media (max-width: 321px) {
+  .footer__fund_logo {
+  }
+}

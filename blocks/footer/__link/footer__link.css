@@ -8,3 +8,15 @@
   font-feature-settings: 'pnum' on, 'lnum' on;
   color: #333333;
 }
+
+@media (max-width: 769px) {
+  .footer__link {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 321px) {
+  .footer__link {
+    font-size: 14px;
+  }
+}

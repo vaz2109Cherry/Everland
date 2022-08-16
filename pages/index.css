@@ -96,6 +96,8 @@
 @import url('../blocks/footer/__beeline_logo/footer__beeline_logo.css');
 @import url('../blocks/footer/__fund_logo/footer__fund_logo.css');
 @import url('../blocks/footer/__subscription_logos_container/footer__subscription_logos_container.css');
+@import url('../blocks/footer/__telegram_logo/footer__telegram_logo.css');
+@import url('../blocks/footer/__vk_logo/footer__vk_logo.css');
 @import url('../blocks/footer/__contacts/footer__contacts.css');
 @import url('../blocks/footer/__telephones/footer__telephones.css');
 @import url('../blocks/footer/__phone_number/footer__phone_number.css');

@@ -10,3 +10,17 @@
   color: #333333;
   max-width: 313px;
 }
+
+@media (max-width: 769px) {
+  .footer__adress {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+  }
+}
+
+@media (max-width: 321px) {
+  .footer__adress {
+    font-size: 12px;
+  }
+}

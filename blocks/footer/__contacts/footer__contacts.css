@@ -3,3 +3,16 @@
   column-gap: 53px;
   padding-top: 50px;
 }
+
+@media (max-width: 769px) {
+  .footer__contacts {
+    padding-top: 28px;
+    flex-direction: column;
+    row-gap: 16px;
+  }
+}
+
+@media (max-width: 321px) {
+  .footer__contacts {
+  }
+}
