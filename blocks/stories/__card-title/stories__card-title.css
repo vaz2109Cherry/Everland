@@ -1,0 +1,13 @@
+.stories__card-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 120%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #333333;
+
+  /*TODO FIX*/
+  width: 366px;
+  height: 120px;
+  margin-bottom: 29px;
+}
