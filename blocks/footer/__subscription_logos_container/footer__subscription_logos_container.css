@@ -1,0 +1,5 @@
+.footer__subscription_logos_container {
+  display: flex;
+  gap: 10px;
+  padding-top: 11px;
+}

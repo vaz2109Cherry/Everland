@@ -1,0 +1,5 @@
+.footer__support_logos_container {
+  display: flex;
+  gap: 50px;
+  padding-top: 19px;
+}

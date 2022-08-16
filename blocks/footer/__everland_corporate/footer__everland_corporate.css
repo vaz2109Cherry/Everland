@@ -1,0 +1,13 @@
+.footer__everland_corporate {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: rgba(38, 38, 38, 0.5);
+  max-width: 629px;
+  padding-top: 50px;
+}

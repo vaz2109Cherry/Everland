@@ -1,0 +1,5 @@
+.footer__contacts {
+  display: flex;
+  column-gap: 53px;
+  padding-top: 50px;
+}
