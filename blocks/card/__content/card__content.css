@@ -1,0 +1,18 @@
+.card__content {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    max-width: 85%;
+}
+
+@media screen and (max-width: 985px) {
+    .card__content {
+        max-width: 87.55555555555556%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .card__content {
+        max-width: 88%;
+    }
+}

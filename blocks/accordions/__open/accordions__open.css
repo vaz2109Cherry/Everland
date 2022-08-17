@@ -1,0 +1,22 @@
+.accordions__open {
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 20px;
+  background: transparent url(../../../images/accordion__open.svg) no-repeat; 
+  background-size: contain;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1439px) {
+  .accordions__open {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .accordions__open {
+    margin-left: 20px;
+  }
+}

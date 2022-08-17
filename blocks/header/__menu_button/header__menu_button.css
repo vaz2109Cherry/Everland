@@ -1,0 +1,18 @@
+.header__menu_button {
+  background-color: transparent;
+  border: 0;
+}
+
+@media (max-width: 769px) {
+  .header__menu_button {
+    order: 4;
+    padding-left: 24px;
+  }
+}
+
+@media (max-width: 321px) {
+  .header__menu_button {
+    order: initial;
+    padding: 0;
+  }
+}

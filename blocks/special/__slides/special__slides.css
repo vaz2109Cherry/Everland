@@ -1,0 +1,19 @@
+.special__slides {
+  max-width: 78px;
+  grid-column: 6 / 7;
+  grid-row: 8 / 9;
+}
+
+@media screen and (max-width: 1439px) {
+  .special__slides{
+    max-width: 56px;
+    grid-column: 4 / 6;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .special__slides {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+  }
+}

@@ -1,0 +1,25 @@
+.stories__container {
+  padding: 0 40px;
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  grid-template-rows: min-content min-content 1fr;
+  grid-gap: 50px;
+  grid-template-areas:
+    "header all-story"
+    "story story"
+    "card-story card-story";
+
+}
+
+@media screen and (max-width: 985px){
+  .stories__container {
+    grid-template-columns: 1fr;
+    /*grid-template-rows: min-content;*/
+    grid-template-areas:
+      "header"
+      "story"
+      "card-story"
+      "all-story"
+  ;
+  }
+}

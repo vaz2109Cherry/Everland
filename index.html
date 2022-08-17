@@ -1,62 +1,426 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="vendor/normalize.css" />
-    <link rel="stylesheet" href="pages/index.css" />
-    <title>Everland</title>
-  </head>
-  <body>
-    <div class="container">
-        <section class="agency">
-          <h2 class="agency__title">Лучшие проекты агентства</h2>
-          <h3 class="agency__subtitle">
-            Мы выполняем работы в области веб-разработки, дизайна, права, видео,
-            анимации и контента
-          </h3>
-          <ul class="agency__list"><li class="agency__container">
-            <a href="#" class="agency__link">
-              <img
-                class="agency__image"
-                src="./images/agency-1.jpg"
-                alt="скрипты-рекомендации для бизнеса"
-              />
-              <p class="agency__caption">
-                Скрипты-рекомендации для бизнеса (DisQuestion)
-              </p>
-            </a>
-          </li>
-          <li class="agency__container">
-            <a href="#" class="agency__link">
-              <img
-                class="agency__image"
-                src="./images/agency-2.jpg"
-                alt="Проект Онконавигатор"
-              />
-              <p class="agency__caption">Проект «Онконавигатор»</p>
-            </a>
-          </li>
-          <li class="agency__container">
-            <a href="#" class="agency__link">
-              <img
-                class="agency__image"
-                src="./images/agency-3.jpg"
-                alt="Проект Миграции: приоткрывая личное"
-              />
-              <p class="agency__caption">
-                Проект «Миграции: приоткрывая личное»
-              </p>
-            </a>
-          </li>
-          </ul>
-          <!-- <button class="button"></button> -->
-        </section>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/normalize.css">
+  <link rel="stylesheet" href="pages/index.css">
+  <title>Everland</title>
+</head>
+
+<body class="page">
+  <div class="page__inner">
+
+    <header class="header">
+    <div class="header__first_line_container">
+      <img src="./images/header-logo.svg" alt="Логотип Everland" class="header__logo">
+      <button class="header__menu_button">
+        <div class="header__menu_button_container">
+          <img src="./images/header-menu-open.svg" alt="Открыть меню" class="header__menu_image">
+          <p class="header__menu_text">Меню</p>
+        </div>
+      </button>
+      <div class="header__button_container">
+        <button class="button_main button_secondary_blue button_header">
+          <p class="button__text">Платформа</p>
+        </button>
+        <button class="button_main button_header">
+          <p class="button__text">Поддержать</p>
+        </button>
+      </div>
     </div>
-  </body>
+    <div class="header__menu">
+      <!-- class 'header_menu_opened' for opening (right now it's always opened)  -->
+      <div class="header__menu_group">
+        <div class="header__menu_group_open_container">
+          <h2 class="header__menu_highlight header_menu_highlight_opened">О проекте</h2>
+          <button class="header__menu_group_button"><img src="./images/header_menu_icon_shevron.png" alt="Открыть/закрыть категорию" class="header__menu_group_button_img"></button>
+        </div>
+        <!-- 'header_menu_highlight_opened' for opening menu on 320px, right now it's always opened. -->
+        <p class="header__menu_paragraph">АНО Пространство равных возможностей</p>
+        <p class="header__menu_paragraph">Новости</p>
+        <p class="header__menu_paragraph">Сотрудничество</p>
+        <p class="header__menu_paragraph">Инклюзия</p>
+        <p class="header__menu_paragraph">Учебным заведениям</p>
+        <p class="header__menu_paragraph">Годовые отчеты</p>
+      </div>
+      <div class="header__menu_group">
+        <div class="header__menu_group_open_container">
+          <h2 class="header__menu_highlight header_menu_highlight_opened">Людям с инвалидностью</h2>
+          <button class="header__menu_group_button"><img src="./images/header_menu_icon_shevron.png" alt="Открыть/закрыть категорию" class="header__menu_group_button_img"></button>
+        </div>
+        <p class="header__menu_paragraph">Платформа</p>
+        <p class="header__menu_paragraph">Курсы</p>
+        <p class="header__menu_paragraph">Everland Profi</p>
+        <p class="header__menu_paragraph">Бесплатное такси</p>
+      </div>
+      <div class="header__menu_group">
+        <div class="header__menu_group_open_container">
+          <h2 class="header__menu_highlight">Услуги</h2>
+          <button class="header__menu_group_button"><img src="./images/header_menu_icon_shevron.png" alt="Открыть/закрыть категорию" class="header__menu_group_button_img"></button>
+        </div>
+        <p class="header__menu_paragraph">Услуги агентства</p>
+        <p class="header__menu_paragraph">Готовые сайты</p>
+        <p class="header__menu_paragraph">Доступность для людей с инвалидностью</p>
+        <p class="header__menu_paragraph">Работодателям</p>
+        <p class="header__menu_paragraph">Портфолио</p>
+      </div>
+      <div class="header__menu_group header_menu_group_last_row">
+        <h2 class="header__menu_highlight header_menu_highlight_last_row">Мы благодарим</h2>
+        <h2 class="header__menu_highlight header_menu_highlight_last_row">Программы</h2>
+        <h2 class="header__menu_highlight header_menu_highlight_last_row">Наставникам</h2>
+        <h2 class="header__menu_highlight header_menu_highlight_last_row">Помочь</h2>
+      </div>
+    </div>
+    <nav class="header__navigation">
+      <ul class="header__navigation_list">
+        <li><a href="#" class="header__navigation_link">Для кого</a></li>
+        <li><a href="#" class="header__navigation_link">Направления работы</a></li>
+        <li><a href="#" class="header__navigation_link">Преимущества</a></li>
+        <li><a href="#" class="header__navigation_link">Основные цифры</a></li>
+        <li><a href="#" class="header__navigation_link">Спецпроекты</a></li>
+        <li><a href="#" class="header__navigation_link">Истории</a></li>
+        <li><a href="#" class="header__navigation_link">Агентство</a></li>
+        <li><a href="#" class="header__navigation_link">Новости</a></li>
+      </ul>
+    </nav>
+    </header>
+
+    <main class="main">
+
+      <section class="about"></section>
+
+    <section class="donation-buttons">
+
+      <form class="donation-buttons__form " action="#" name="donation-buttons-form">
+
+        <fieldset class="donations-buttons__sizes">
+          <label class="donation-buttons__button-size button button_link_white" for="donation-250">
+            250₽
+            <input class="donation-buttons__radio" type="radio" name="donation-size" id="donation-250">
+          </label>
+
+          <label class="donation-buttons__button-size button button_link_white" for="donation-500">
+            500₽
+            <input class="donation-buttons__radio" type="radio" name="donation-size" id="donation-500">
+          </label>
+
+          <label class="donation-buttons__button-size button button_link_white" for="donation-750">
+            750₽
+            <input class="donation-buttons__radio" type="radio" name="donation-size" id="donation-750">
+          </label>
+
+          <label class="donation-buttons__button-size button button_link_white" for="donation-1000">
+            1000₽
+            <input class="donation-buttons__radio" type="radio" name="donation-size" id="donation-1000">
+          </label>
+
+          <label class="donation-buttons__button-size button button_link_white" for="donation-other">
+            Другая сумма
+            <input class="donation-buttons__radio" type="radio" name="donation-size" id="donation-other">
+          </label>
+        </fieldset>
+
+        <button class="donation-buttons__button-send button_regular_blue-white button" type="button" name="button-send">Поддержать</button>
+
+      </form>
+
+    </section>
+
+      <section class="consumers">
+        <h2 class="consumers__title">Для кого мы работаем</h2>
+        <div class="cards">
+          <div class="card card_bg-color_white">
+            <div class="card__icon card__icon_type_disabled card__icon_color_light-blue"></div>
+            <div class="card__content">
+              <h4 class="card__title">Для людей с инвалидностью</h4>
+              <p class="card__text">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
+            </div>
+            <a href="#" class="card__button card__button_color_light-blue">
+              <p class="card__button-text card__button-text_color_blue">Подробнее</p><img
+                src="./images/forwardiconarrow_blue.svg" alt="Стрелка" class="card__button-arrow">
+            </a>
+          </div>
+          <div class="card card_bg-color_white">
+            <div class="card__icon card__icon_type_briefcase card__icon_color_light-orange"></div>
+            <div class="card__content">
+              <h4 class="card__title">Для работодателей</h4>
+              <p class="card__text">Помогаем создать устойчивые инклюзивные команды, вовлекаем интеллектуальных
+                волонтеров</p>
+            </div>
+            <a href="#" class="card__button card_bg-color_light-orange">
+              <p class="card__button-text card__button-text_color_orange">Подробнее</p><img
+                src="./images/forwardiconarrow_orange.svg" alt="Стрелка" class="card__button-arrow">
+            </a>
+          </div>
+          <div class="card card_bg-color_white">
+            <div class="card__icon card__icon_type_following card__icon_color_light-green"></div>
+            <div class="card__content">
+              <h4 class="card__title">Для КСО-партнеров </h4>
+              <p class="card__text">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
+            </div>
+            <a href="#" class="card__button card__button_color_light-green">
+              <p class="card__button-text card__button-text_color_green">Подробнее</p><img
+                src="./images/forwardiconarrow_green.svg" alt="Стрелка" class="card__button-arrow">
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="directions">
+        <h2 class="consumers__title directions__title">Наши направления</h2>
+        <div class="cards directions__cards">
+          <div class="card directions__card card_bg-color_light-orange">
+            <div class="card__content directions__content">
+              <h4 class="card__title">Доступность услуг DisQuestion</h4>
+              <p class="card__text">Сервисы для бизнеса по повышению доступности услуг для маломобильных клиентов ― контракты с крупнейшими компаниями в России</p>
+            </div>
+            <a href="#" class="card__button card__button_color_white">
+              <p class="card__button-text card__button-text_color_black">Подробнее</p><img
+                src="./images/forwardiconarrow_black.svg" alt="Стрелка" class="card__button-arrow">
+            </a>
+          </div>
+          <div class="card directions__card card_bg-color_light-blue">
+            <div class="card__content directions__content">
+              <h4 class="card__title">Трудоустройство</h4>
+              <p class="card__text">Решение социальной проблемы с использованием предпринимательских инструментов: оказываем услуги разным компаниям и НКО, таким образом зарабатываем и даем работу людям с инвалидностью</p>
+            </div>
+            <a href="#" class="card__button card__button_color_white">
+              <p class="card__button-text card__button-text_color_black">Подробнее</p><img
+                src="./images/forwardiconarrow_black.svg" alt="Стрелка" class="card__button-arrow">
+            </a>
+          </div>
+          <div class="card directions__card card_bg-color_light-green">
+           <div class="card__content directions__content">
+              <h4 class="card__title">Биржа проектов и готовые решения</h4>
+              <p class="card__text">ИТ-система для интеграции в открытый рынок труда людей с инвалидностью  в качестве самозанятых и в рамках трудоустройства в другие компании</p>
+            </div>
+            <a href="#" class="card__button card__button_color_white">
+              <p class="card__button-text card__button-text_color_black">Подробнее</p><img
+                src="./images/forwardiconarrow_black.svg" alt="Стрелка" class="card__button-arrow">
+            </a>
+          </div>
+          <div class="card directions__card card_bg-color_light-blue">
+            <div class="card__content directions__content">
+              <h4 class="card__title">Агентство</h4>
+              <p class="card__text">Услуги специалистов с инвалидностью для крупных компаний (дизайн, право, контент и другие)</p>
+            </div>
+            <a href="#" class="card__button card__button_color_white">
+              <p class="card__button-text card__button-text_color_black">Подробнее</p><img
+                src="./images/forwardiconarrow_black.svg" alt="Стрелка" class="card__button-arrow">
+            </a>
+          </div>
+          <div class="card directions__card card_bg-color_light-green">
+            <div class="card__content directions__content">
+              <h4 class="card__title">Коворкинг</h4>
+              <p class="card__text">Уникальное пространство, в котором специалисты с инвалидностью могут работать и офлайн – приходить, участвовать в образовательных мероприятиях, встречаться с заказчиками, работать в команде</p>
+            </div>
+            <a href="#" class="card__button card__button_color_white">
+              <p class="card__button-text card__button-text_color_black">Подробнее</p><img
+                src="./images/forwardiconarrow_black.svg" alt="Стрелка" class="card__button-arrow">
+            </a>
+          </div>
+          <div class="card directions__card card_bg-color_light-orange">
+            <div class="card__content directions__content">
+              <h4 class="card__title">Для людей с инвалидностью</h4>
+              <p class="card__text">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
+            </div>
+            <a href="#" class="card__button card__button_color_white">
+              <p class="card__button-text card__button-text_color_black">Подробнее</p><img
+                src="./images/forwardiconarrow_black.svg" alt="Стрелка" class="card__button-arrow">
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="advantages">
+        <h2 class="section-title section-title__advantages_off">Главное в работе</h2>
+        <h2 class="section-title section-title__advantages_on">Главное в нашей работе</h2>
+        <div class="accordions">
+          <div class="accordions__item">
+            <p class="accordions__title">Заработанные средства</p>
+            <button type="button" class="accordions__open"></button>
+          </div>
+          <div class="accordions__item">
+            <p class="accordions__title">Крупные клиенты</p>
+            <button type="button" class="accordions__open"></button>
+          </div>
+          <div class="accordions__item">
+            <p class="accordions__title">Инклюзивность</p>
+            <button type="button" class="accordions__open"></button>
+          </div>
+          <div class="accordions__item">
+            <p class="accordions__title">Свои исследования</p>
+            <button type="button" class="accordions__open"></button>
+          </div>
+          <div class="accordions__item">
+            <p class="accordions__title">Использование Digital</p>
+            <button type="button" class="accordions__open"></button>
+          </div>
+          <div class="accordions__item">
+            <p class="accordions__title">Большой опыт</p>
+            <button type="button" class="accordions__open"></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="numbers">
+        <h2 class="section-title">Everland в цифрах</h2>
+        <div class="numbers__container">
+          <img class="numbers__img" src="./images/Evarland-numbers.jpg" alt="">
+          <div class="numbers__cards">
+            <div class="numbers__card">
+            <div>
+              <h4 class="numbers__title"><span class="numbers__title-span">380+</span> человек</h4>
+              <p class="numbers__text">прошли обучение и получили работу в разных статусах</p>
+            </div>
+            <div>
+              <h4 class="numbers__title"><span class="numbers__title-span">1200+</span> человек</h4>
+              <p class="numbers__text">наше сообщество ― люди с разными видами инвалидности</p>
+            </div>
+            <div>
+              <h4 class="numbers__title"><span class="numbers__title-span">35 000</span> рублей</h4>
+              <p class="numbers__text">средний заработок в проекте/в рамках работы агентства</p>
+            </div>
+            <div>
+              <h4 class="numbers__title"><span class="numbers__title-span">3</span> недели</h4>
+              <p class="numbers__text">нужно, чтобы получить первую оплату после прокачки в Everland</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="special">
+        <div class="special__container">
+          <p class="special__title">Наши спецпроекты</p>
+          <h2 class="section-title section-title_special">Фотопроект «Семья как семья»</h2>
+          <p class="special__text">Фотопроект Алексея Горшенина включает в себя восемь историй людей и семей, где один или оба супруга имеют инвалидность</p>
+          <button type="button" class="button button_watch">Посмотреть</button>
+          <div class="special__slides">
+            <button type="button" class="button__slide button__slide_left"></button>
+            <button type="button" class="button__slide button__slide_right"></button>
+          </div>
+          <img class="special__img" src="./images/special-img.jpg" alt="">
+        </div>
+      </section>
+
+      <section class="stories">
+
+        <div class="stories__container">
+
+          <h2 class="stories__title title">Наши истории</h2>
+          <button class="stories__button-all-story button button_regular_white-blue">Все истории</button>
+
+          <ul class="stories__list-story">
+            <li class="stories__story">
+              <img class="stories__avatar" src="/images/story-avatar-1.jpg" alt="Автор истории Максим Гильфанов.">
+              <img class="stories__icon-quote" src="/images/icon_quote.jpg" alt="Цитата.">
+              <div class="stories__story-text">
+                <h3 class="stories__story-quote">Мне интересно слушать интервью с людьми. Это мотивация и вдохновение, которых так не хватает</h3>
+                <p class="stories__story-about">Максиму Гильфанову из Узбекистана 41 год. Диплом программиста и курсы по веб-дизайну не решили проблему с трудоустройством</p>
+                <a href="#" class="stories__story-full button button_link_blue">
+                  <p>История Максима</p>
+                  <div class="button__arrow button__arrow_blue"></div>
+                </a>
+              </div>
+            </li>
+
+            <li class="stories__story">
+              <img class="stories__avatar" src="/images/story-avatar-2.jpg" alt="Автор истории Максим Чернышов.">
+              <img class="stories__icon-quote" src="/images/icon_quote.jpg" alt="Цитата.">
+              <div class="stories__story-text">
+                <h3 class="stories__story-quote">Платформа дала надежду: кто-то заинтересован в трудоустройстве инвалидов</h3>
+                <p class="stories__story-about">Максиму Чернышову из Набережных Челнов 32 года. В детстве он неудачно сделал сальто и повредил позвоночник. С тех пор ему тяжело передвигаться на большие расстояния</p>
+                <a href="#" class="stories__story-full button button_link_blue">
+                  <p>История Максима</p>
+                  <div class="button__arrow button__arrow_blue"></div>
+                </a>
+              </div>
+            </li>
+          </ul>
+
+          <ul class="stories__list-card">
+            <li class="stories__card">
+              <img class="stories__card-avatar" src="/images/story-avatar-card1.jpg" alt="Автор истории Айслу Асан">
+              <div class="stories__card-text">
+                <p class="stories__card-name">Айслу Асан</p>
+                <h3 class="stories__card-title">Когда хочется жить</h3>
+                <a href="" class="stories__card-link">История Айслу</a>
+              </div>
+            </li>
+
+            <li class="stories__card">
+              <img class="stories__card-avatar" src="/images/story-avatar-card2.jpg" alt="Автор истории Артём Плаксин">
+              <div class="stories__card-text">
+                <p class="stories__card-name">Артём Плаксин</p>
+                <h3 class="stories__card-title">Не видеть и смотреть в будущее</h3>
+                <a href="" class="stories__card-link">История Артёма</a>
+              </div>
+            </li>
+          </ul>
+
+        </div>
+
+      </section>
+      <section class="agency">
+        <h2 class="agency__title">
+          Лучшие проекты агентства
+        </h2>
+        <h3 class="agency__subtitle">
+          Мы выполняем работы в области веб-разработки, дизайна, права, видео,
+          анимации и контента
+        </h3>
+        <ul class="agency__list">
+          <li class="agency__container">
+          <a href="#" class="agency__link">
+            <img
+              class="agency__image"
+              src="./images/agency-1.jpg"
+              alt="скрипты-рекомендации для бизнеса"
+            />
+            <p class="agency__caption">
+              Скрипты-рекомендации для бизнеса (DisQuestion)
+            </p>
+          </a>
+        </li>
+        <li class="agency__container">
+          <a href="#" class="agency__link">
+            <img
+              class="agency__image"
+              src="./images/agency-2.jpg"
+              alt="Проект Онконавигатор"
+            />
+            <p class="agency__caption">Проект «Онконавигатор»</p>
+          </a>
+        </li>
+        <li class="agency__container">
+          <a href="#" class="agency__link">
+            <img
+              class="agency__image"
+              src="./images/agency-3.jpg"
+              alt="Проект Миграции: приоткрывая личное"
+            />
+            <p class="agency__caption">
+              Проект «Миграции: приоткрывая личное»
+            </p>
+          </a>
+        </li>
+        </ul>
+        <!-- <button class="button"></button> -->
+      </section>
+
+      <section class="donation"></section>
+
+    </main>
+
+    <footer class="footer">
+
+    </footer>
+
+  </div>
+
+</body>
 </html>

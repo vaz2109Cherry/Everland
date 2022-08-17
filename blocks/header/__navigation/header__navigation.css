@@ -1,0 +1,8 @@
+.header__navigation {
+}
+
+@media (max-width: 769px) {
+  .header__navigation {
+    display: none;
+  }
+}
