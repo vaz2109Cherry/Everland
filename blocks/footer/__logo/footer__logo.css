@@ -1,3 +1,14 @@
 .footer__logo {
   height: 46px;
 }
+
+@media (max-width: 769px) {
+  .footer__logo {
+    height: 24px;
+  }
+}
+
+@media (max-width: 321px) {
+  .footer__logo {
+  }
+}

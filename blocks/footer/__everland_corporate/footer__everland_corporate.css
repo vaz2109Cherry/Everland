@@ -24,5 +24,7 @@
 @media (max-width: 321px) {
   .footer__everland_corporate {
     font-size: 12px;
+    order: 6;
+    padding-top: 32px;
   }
 }

@@ -14,5 +14,8 @@
 
 @media (max-width: 321px) {
   .footer__contacts {
+    order: 4;
+    padding-top: 47px;
+    row-gap: 10px;
   }
 }

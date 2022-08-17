@@ -29,4 +29,7 @@
   .footer__phone_number {
     font-size: 12px;
   }
+  .footer__phone_number:last-of-type {
+    padding-top: 0;
+  }
 }

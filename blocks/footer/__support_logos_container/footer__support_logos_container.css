@@ -3,3 +3,14 @@
   gap: 50px;
   padding-top: 19px;
 }
+
+@media (max-width: 769px) {
+  .footer__support_logos_container {
+    gap: 21.15px;
+  }
+}
+
+@media (max-width: 321px) {
+  .footer__support_logos_container {
+  }
+}
