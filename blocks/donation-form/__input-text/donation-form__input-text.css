@@ -1,0 +1,20 @@
+.donation-form__input-text{
+  width: 455px;
+  height: 45px;
+  padding: 11px 20px;
+  margin-bottom: 21px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  border: 1px solid var(--outline-elements-grey);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.donation-form__input-text:first-of-type{
+  margin-top: 12px;
+}
+
+.donation-form__input-text:last-of-type{
+  margin-bottom: 0;
+}

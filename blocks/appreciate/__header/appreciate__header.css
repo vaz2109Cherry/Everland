@@ -1,0 +1,12 @@
+.appreciate__header{
+  width: 488px;
+  padding: 0;
+  margin: 0;
+  margin-top: 39px;
+  margin-bottom: 74px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 120%;
+  text-align: center;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}

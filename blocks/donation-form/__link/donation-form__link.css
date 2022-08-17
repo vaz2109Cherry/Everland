@@ -1,0 +1,8 @@
+.donation-form__link{
+  color: var(--text-card-blue);
+  text-decoration: none;
+}
+
+.donation-form__link:hover{
+  text-decoration: underline;
+}

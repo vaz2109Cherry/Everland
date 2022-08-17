@@ -1,0 +1,8 @@
+.donation-form__carousel-slide{
+  width: 100%;
+  padding: 0;
+  margin: 0 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

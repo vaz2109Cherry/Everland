@@ -1,0 +1,7 @@
+.appreciate__block_opacity_10{
+  color: var(--text-donation-10);
+}
+
+.appreciate__block_opacity_10:after{
+  border-top: 2px dotted var(--text-donation-10);
+}

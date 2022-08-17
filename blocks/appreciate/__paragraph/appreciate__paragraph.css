@@ -1,0 +1,12 @@
+.appreciate__paragraph{
+  padding: 0 10px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: inherit;
+  position: relative;
+  background: var(--background-blocks-blue);
+  z-index: 2;
+}

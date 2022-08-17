@@ -1,3 +1,11 @@
-.donation{
+@import url("../../vendor/variables.css");
 
+.donation{
+  padding: 100px 40px;
+  display: grid;
+  grid-template-rows: min-content 1fr;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 50px;
+  column-gap: 117px;
+  background: var(--background-blocks-blue);
 }

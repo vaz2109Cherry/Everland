@@ -1,0 +1,19 @@
+.donation-form__new_chbox{
+  position: relative;
+  padding-left: 33px;
+}
+.donation-form__new_chbox:after{
+  content: "";
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-color: var(--outline-elements-grey);
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.donation-form__checkbox:checked + .donation-form__new_chbox:after{
+  background: var(--outline-elements-grey) url("../../../images/Icon_check.svg") no-repeat center;
+}

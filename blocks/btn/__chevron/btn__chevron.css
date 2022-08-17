@@ -1,0 +1,11 @@
+.btn__chevron{
+  width: 20px;
+  height: 20px;
+  font-size: 0;
+  background: transparent url("../../../images/shevron.svg") no-repeat center;
+  border: none;
+}
+
+.btn__chevron:hover{
+  cursor: pointer;
+}

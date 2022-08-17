@@ -1,0 +1,17 @@
+.donation-form__label-chbox{
+  padding: 0;
+  margin: 0;
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.donation-form__label-chbox:first-of-type{
+  margin-top: 26px;
+}
+
+.donation-form__label-chbox:last-of-type{
+  margin-bottom: 23px;
+}

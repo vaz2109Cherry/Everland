@@ -1,0 +1,15 @@
+.donation-form{
+  width: 691px;
+  max-height: 953px;
+  padding: 30px 0;
+  padding-left: 16px;
+  padding-right: 23px;
+  margin: 0;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  display: flex;
+  flex-direction: column;
+  background: var(--background-main);
+  border-radius: 30px;
+  box-sizing: border-box;
+}
