@@ -55,7 +55,7 @@
 @import url(../blocks/numbers/__title-span/numbers__title-span.css);
 @import url(../blocks/numbers/__text/numbers__text.css);
 
-@import url(../blocks/__slide/special__slide.css);
+@import url(../blocks/slide/slide.css);
 
 @import url(../blocks/special/special.css);
 @import url(../blocks/special/__slides/special__slides.css);
