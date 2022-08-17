@@ -1,0 +1,19 @@
+.agency__image{
+    width: 460px;
+    height: 460px;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 1040px) {
+    .agency__image{
+        width: 334px;
+        height: 334px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .agency__image{
+        width: 300px;
+        height: 300px;
+    }
+}
