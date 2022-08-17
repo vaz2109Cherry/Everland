@@ -25,15 +25,18 @@
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/section-title/section-title.css);
-@import url(../blocks/section-title/_off/section-title_off.css);
-@import url(../blocks/section-title/_on/section-title_on.css);
+@import url(../blocks/section-title/__advantages/_off/section-title__advantages_off.css);
+@import url(../blocks/section-title/__advantages/_on/section-title__advantages_on.css);
 @import url(../blocks/section-title/_special/section-title_special.css);
 
 @import url(../blocks/advantages/advantages.css);
 @import url(../blocks/accordions/accordions.css);
 @import url(../blocks/accordions/__item/accordions__item.css);
+@import url(../blocks/accordions/__block/accordions__block.css);
 @import url(../blocks/accordions/__title/accordions__title.css);
 @import url(../blocks/accordions/__open/accordions__open.css);
+@import url(../blocks/accordions/__text/accordions__text.css);
+@import url(../blocks/accordions/_active/accordions__active.css);
 
 @import url(../blocks/numbers/numbers.css);
 @import url(../blocks/numbers/__container/numbers__container.css);
@@ -44,14 +47,17 @@
 @import url(../blocks/numbers/__title-span/numbers__title-span.css);
 @import url(../blocks/numbers/__text/numbers__text.css);
 
+@import url(../blocks/__slide/special__slide.css);
+
 @import url(../blocks/special/special.css);
+@import url(../blocks/special/__slides/special__slides.css);
 @import url(../blocks/special/__container/special__container.css);
 @import url(../blocks/special/__img/special__img.css);
-@import url(../blocks/special/__slides/special__slides.css);
 @import url(../blocks/special/__text/special__text.css);
 @import url(../blocks/special/__title/special__title.css);
 
 @import url(../blocks/button/__slide/button__slide.css);
+@import url(../blocks/button/__slide/_black/button__slide_black.css);
 @import url(../blocks/button/__slide/_left/button__slide_left.css);
-@import url(../blocks/button/__slide/_right/button__slide_right.css);
+@import url(../blocks/button/_link/button_link_purple.css);
 @import url(../blocks/button/_watch/button_watch.css);

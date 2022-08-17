@@ -5,12 +5,19 @@
 
 @media screen and (max-width: 1439px) {
   .section-title_special {
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+  }
+}
+
+@media screen and (max-width: 1125px) {
+  .section-title_special {
     grid-column: 1 / 6;
     grid-row: 3 / 4;
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 767px) {
   .section-title_special {
     grid-column: 1 / 4;
     grid-row: 5 / 6;

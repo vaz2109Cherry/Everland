@@ -2,26 +2,19 @@
   box-sizing: border-box;
   border: 2px solid #DADADA;
   border-radius: 30px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding: 30px 20px;
-  max-height: 100px;
-  max-width: 100%;
+  padding: 30px 20px 10px;
 }
 
 @media screen and (max-width: 1439px) {
   .accordions__item {
     max-width: 100%;
     border-radius: 20px;
-    max-height: 72px;
   }
 }
 
 @media screen and (max-width: 568px) {
   .accordions__item {
-    padding: 15px 15px;
+    padding: 15px 15px 0;
     border-radius: 15px;
   }
 }

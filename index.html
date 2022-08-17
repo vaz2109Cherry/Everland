@@ -71,30 +71,55 @@
         <h2 class="section-title section-title__advantages_off">Главное в работе</h2>
         <h2 class="section-title section-title__advantages_on">Главное в нашей работе</h2>
         <div class="accordions">
+
           <div class="accordions__item">
-            <p class="accordions__title">Заработанные средства</p>
-            <button type="button" class="accordions__open"></button>
+            <div class="accordions__block">
+              <h3 class="accordions__title">Заработанные средства</h3>
+              <button type="button" class="accordions__open"></button>
+            </div>
+            <p class="accordions__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, fugit beatae labore mollitia molestiae a accusamus omnis libero quas assumenda repellat exercitationem odio asperiores. Temporibus labore eveniet sequi ut architecto!</p>
           </div>
+
           <div class="accordions__item">
-            <p class="accordions__title">Крупные клиенты</p>
-            <button type="button" class="accordions__open"></button>
+            <div class="accordions__block">
+              <h3 class="accordions__title">Крупные клиенты</h3>
+              <button type="button" class="accordions__open"></button>
+            </div>
+            <p class="accordions__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat distinctio molestiae fuga accusantium animi quidem inventore id a officiis voluptatum, quis quod voluptatibus earum nulla, impedit, aliquid ducimus tempora. Provident?</p>
           </div>
+
           <div class="accordions__item">
-            <p class="accordions__title">Инклюзивность</p>
-            <button type="button" class="accordions__open"></button>
+            <div class="accordions__block">
+              <h3 class="accordions__title">Инклюзивность</h3>
+              <button type="button" class="accordions__open"></button>
+            </div>
+            <p class="accordions__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus architecto odio asperiores libero. Reprehenderit consequuntur repudiandae minus, ipsa laudantium laboriosam officia animi ad impedit et saepe dignissimos, ut eaque beatae?</p>
           </div>
+
           <div class="accordions__item">
-            <p class="accordions__title">Свои исследования</p>
-            <button type="button" class="accordions__open"></button>
+            <div class="accordions__block">
+              <h3 class="accordions__title">Свои исследования</h3>
+              <button type="button" class="accordions__open"></button>
+            </div>
+            <p class="accordions__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dolorem deleniti, magni similique iure temporibus delectus aliquid, nemo dolore esse voluptas rem. Animi similique et asperiores laboriosam? Perferendis, molestiae? Maiores!</p>
           </div>
+
           <div class="accordions__item">
-            <p class="accordions__title">Использование Digital</p>
-            <button type="button" class="accordions__open"></button>
+            <div class="accordions__block">
+              <h3 class="accordions__title">Использование Digital</h3>
+              <button type="button" class="accordions__open"></button>
+            </div>
+            <p class="accordions__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic doloribus eaque et dolorem vel ullam amet eius dignissimos consequatur reprehenderit debitis enim assumenda, laborum optio animi rerum impedit pariatur. Perspiciatis.</p>
           </div>
+
           <div class="accordions__item">
-            <p class="accordions__title">Большой опыт</p>
-            <button type="button" class="accordions__open"></button>
+            <div class="accordions__block">
+              <h3 class="accordions__title">Большой опыт</h3>
+             <button type="button" class="accordions__open"></button>
+           </div>
+           <p class="accordions__text">За время сущетсования проекта с 2016 года социальная предпринимательская  модель Everland доказала свою эффективность  - мы действительно умеем давать работу людям с разными видами инвалидности</p>
           </div>
+
         </div>
       </section>
 
@@ -125,16 +150,69 @@
       </section>
 
       <section class="special">
-        <div class="special__container">
-          <p class="special__title">Наши спецпроекты</p>
-          <h2 class="section-title section-title_special">Фотопроект «Семья как семья»</h2>
-          <p class="special__text">Фотопроект Алексея Горшенина включает в себя восемь историй людей и семей, где один или оба супруга имеют инвалидность</p>
-          <button type="button" class="button button_watch">Посмотреть</button>
-          <div class="special__slides">
-            <button type="button" class="button__slide button__slide_left"></button>
-            <button type="button" class="button__slide button__slide_right"></button>
+        <div class="special__slides">
+          <button type="button" class="button__slide button__slide_black button__slide_left" onclick="minusSlide()"></button>
+          <button type="button" class="button__slide button__slide_black button__slide_right" onclick="plusSlide()"></button>
+        </div>
+
+        <div class="slide">
+          <div class="special__container">
+            <p class="special__title">Наши спецпроекты</p>
+            <h2 class="section-title section-title_special">Фотопроект «Семья как семья»</h2>
+            <p class="special__text">Фотопроект Алексея Горшенина включает в себя восемь историй людей и семей, где один или оба супруга имеют инвалидность</p>
+            <button type="button" class="button button_link_purple button_watch">Посмотреть</button>
+            <img class="special__img" src="./images/special-img.jpg" alt="">     
+         </div>
+        </div>
+
+        <div class="slide">
+          <div class="special__container" style="background: #FEEFEA;">
+           <p class="special__title">Наши спецпроекты</p>
+           <h2 class="section-title section-title_special">Lorem ipsum dolor sit amet</h2>
+            <p class="special__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem saepe illo commodi odio nesciunt, cum hic doloremque laborum laudantium ea earum accusantium explicabo.</p>
+            <button type="button" class="button button_link_purple button_watch">Посмотреть</button>
+            <img class="special__img" src="./images/special-img.jpg" alt="">     
           </div>
-          <img class="special__img" src="./images/special-img.jpg" alt="">     
+        </div>
+
+        <div class="slide">
+          <div class="special__container" style="background: #DAEFD5;">
+            <p class="special__title">Наши спецпроекты</p>
+            <h2 class="section-title section-title_special">Yandex Practicum 2022</h2>
+            <p class="special__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum vel dolorum animi ipsam quas, nostrum inventore deserunt veritatis.</p>
+            <button type="button" class="button button_link_purple button_watch">Посмотреть</button>
+            <img class="special__img" src="./images/special-img.jpg" alt="">     
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="special__container" style="background: #EAE6FF;">
+            <p class="special__title">Наши спецпроекты</p>
+            <h2 class="section-title section-title_special">vaz2109Cherry</h2>
+            <p class="special__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo autem ex, porro distinctio minus dolore dicta odit, dignissimos excepturi provident tempore ipsum enim!</p>
+            <button type="button" class="button button_link_purple button_watch">Посмотреть</button>
+            <img class="special__img" src="./images/special-img.jpg" alt="">     
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="special__container" style="background: #E7F0FF;">
+            <p class="special__title">Наши спецпроекты</p>
+            <h2 class="section-title section-title_special">Lorem ipsum dolor sit amet</h2>
+            <p class="special__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, eveniet. Totam maiores animi, repudiandae in itaque minus consequatur quia!</p>
+            <button type="button" class="button button_link_purple button_watch">Посмотреть</button>
+            <img class="special__img" src="./images/special-img.jpg" alt="">     
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="special__container" style="background: #DAEFD5;">
+            <p class="special__title">Наши спецпроекты</p>
+            <h2 class="section-title section-title_special">ООО «ЭВЕРЛЭНД»</h2>
+            <p class="special__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati suscipit ut corrupti rem atque, error in asperiores voluptate cupiditate, labore non perspiciatis expedita?</p>
+            <button type="button" class="button button_link_purple button_watch">Посмотреть</button>
+            <img class="special__img" src="./images/special-img.jpg" alt="">    
+          </div>
         </div>
       </section>
 
@@ -153,6 +231,8 @@
     </footer>
 
   </div>
+
+  <script src="./pages/index.js"></script>
 
 </body>
 
