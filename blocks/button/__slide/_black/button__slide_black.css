@@ -1,0 +1,14 @@
+.button__slide_black {
+  background: transparent url(../../../../images/slide-black.svg) no-repeat; 
+  background-size: contain;
+}
+
+.button__slide_black:hover {
+  background: transparent url(../../../../images/slide-black-hover.svg) no-repeat; 
+  background-size: contain;
+}
+
+.button__slide_black:active {
+  background: transparent url(../../../../images/slide-black-pressed.svg) no-repeat; 
+  background-size: contain;
+}

@@ -1,0 +1,17 @@
+.accordions__active .accordions__text {
+  height: 76px;
+}
+
+@media screen and (max-width: 568px) {
+  .accordions__active .accordions__text {
+    height: 126px;
+    border-radius: 15px;
+  }
+}
+
+.accordions__active .accordions__open {
+  transform: rotate(45deg);
+  transition: all 200ms ease;
+  background: transparent url(../../../images/accordions__active.svg) no-repeat; 
+  background-size: contain;
+}

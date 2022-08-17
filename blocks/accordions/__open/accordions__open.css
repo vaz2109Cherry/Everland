@@ -8,6 +8,16 @@
   cursor: pointer;
 }
 
+.accordions__open:hover {
+  background: transparent url(../../../images/accordion__open-hover.svg) no-repeat; 
+  background-size: contain;
+}
+
+.accordions__open:active {
+  transform: rotate(45deg);
+  transition: all 200ms ease;
+}
+
 @media screen and (max-width: 1439px) {
   .accordions__open {
     width: 32px;

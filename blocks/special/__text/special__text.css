@@ -4,7 +4,7 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 130%;
-  margin: 20px 0;
+  margin: 0;
   max-width: 427px;
   grid-column: 1 / 4;
   grid-row: 5 / 6;
@@ -12,14 +12,20 @@
 
 @media screen and (max-width: 1439px) {
   .special__text {
-    margin: 0;
+    grid-column: 1 / 5;
     font-size: 16px;
     line-height: 120%;
+  }
+}
+
+@media screen and (max-width: 1125px) {
+  .special__text {
+    margin: 0;
     grid-column: 1 / 5;
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 767px) {
   .special__text {
     font-size: 14px;
     grid-column: 1 / 4;
