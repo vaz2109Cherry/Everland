@@ -1,0 +1,17 @@
+.donation-buttons__form {
+  background-color: #E7F0FF;
+  padding: 58px 54px 58px 30px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  max-width: 1360px;
+  margin: 0 40px;
+}
+
+@media screen and (max-width: 985px){
+  .donation-buttons__form {
+    padding: 32px 24px 36px 24px;
+
+  }
+}
+

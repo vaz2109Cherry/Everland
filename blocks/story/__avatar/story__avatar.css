@@ -1,0 +1,23 @@
+.story__avatar {
+  margin: 0;
+  height: 224px;
+  width: 224px;
+  grid-area: avatar;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1100px) {
+  .story__avatar {
+    margin: 22px 0 0 2px ;
+    height: 204px;
+    width: 204px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .story__avatar {
+    margin: 0 0 0 1px;
+    height: 80px;
+    width: 80px;
+  }
+}

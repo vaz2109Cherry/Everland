@@ -9,7 +9,7 @@
   grid-row: 1 / 2;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 1125px) {
   .special__title {
     font-size: 16px;
     line-height: 120%;
@@ -17,7 +17,7 @@
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 767px) {
   .special__title {
     font-size: 14px;
     grid-column: 1 / 2;

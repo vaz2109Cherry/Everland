@@ -9,6 +9,15 @@
 
 @media screen and (max-width: 1439px) {
   .special__img {
+    width: 455px;
+    height: 293px;
+    border-radius: 30px;
+    grid-column: 6 / 7;
+  }
+}
+
+@media screen and (max-width: 1125px) {
+  .special__img {
     width: 259px;
     height: 284px;
     border-radius: 10px;
@@ -16,7 +25,7 @@
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 767px) {
   .special__img {
     width: 254px;
     height: 180px;

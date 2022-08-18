@@ -3,20 +3,21 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
-  <meta name="viewport" content="width=device-width; initial-scale=1.0">
   <link rel="stylesheet" href="vendor/normalize.css">
   <link rel="stylesheet" href="pages/index.css">
   <title>Everland</title>
 </head>
 
 <body class="page">
+  <div class="page__inner">
 
     <header class="header">
     <div class="header__first_line_container">
-      <img src="./images/header-logo.svg" alt="Логотип Everland" class="header__logo">
+      <img src="./images/logo.svg" alt="Логотип Everland" class="header__logo">
       <button class="header__menu_button">
         <div class="header__menu_button_container">
           <img src="./images/header-menu-open.svg" alt="Открыть меню" class="header__menu_image">
@@ -109,7 +110,42 @@
     </div>
   </section>
 
-  <section class="donation-button"></section>
+    <section class="donation-buttons">
+
+      <form class="donation-buttons__form " action="#" name="donation-buttons-form">
+
+        <fieldset class="donations-buttons__sizes">
+          <label class="donation-buttons__button-size button button_link_white" for="donation-250">
+            250₽
+            <input class="donation-buttons__radio" type="radio" name="donation-size" id="donation-250">
+          </label>
+
+          <label class="donation-buttons__button-size button button_link_white" for="donation-500">
+            500₽
+            <input class="donation-buttons__radio" type="radio" name="donation-size" id="donation-500">
+          </label>
+
+          <label class="donation-buttons__button-size button button_link_white" for="donation-750">
+            750₽
+            <input class="donation-buttons__radio" type="radio" name="donation-size" id="donation-750">
+          </label>
+
+          <label class="donation-buttons__button-size button button_link_white" for="donation-1000">
+            1000₽
+            <input class="donation-buttons__radio" type="radio" name="donation-size" id="donation-1000">
+          </label>
+
+          <label class="donation-buttons__button-size button button_link_white" for="donation-other">
+            Другая сумма
+            <input class="donation-buttons__radio" type="radio" name="donation-size" id="donation-other">
+          </label>
+        </fieldset>
+
+        <button class="donation-buttons__button-send button_regular_blue-white button" type="button" name="button-send">Поддержать</button>
+
+      </form>
+
+    </section>
 
       <section class="consumers">
         <h2 class="consumers__title">Для кого мы работаем</h2>
@@ -221,30 +257,55 @@
         <h2 class="section-title section-title__advantages_off">Главное в работе</h2>
         <h2 class="section-title section-title__advantages_on">Главное в нашей работе</h2>
         <div class="accordions">
+
           <div class="accordions__item">
-            <p class="accordions__title">Заработанные средства</p>
-            <button type="button" class="accordions__open"></button>
+            <div class="accordions__block">
+              <h3 class="accordions__title">Заработанные средства</h3>
+              <button type="button" class="accordions__open"></button>
+            </div>
+            <p class="accordions__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, fugit beatae labore mollitia molestiae a accusamus omnis libero quas assumenda repellat exercitationem odio asperiores. Temporibus labore eveniet sequi ut architecto!</p>
           </div>
+
           <div class="accordions__item">
-            <p class="accordions__title">Крупные клиенты</p>
-            <button type="button" class="accordions__open"></button>
+            <div class="accordions__block">
+              <h3 class="accordions__title">Крупные клиенты</h3>
+              <button type="button" class="accordions__open"></button>
+            </div>
+            <p class="accordions__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat distinctio molestiae fuga accusantium animi quidem inventore id a officiis voluptatum, quis quod voluptatibus earum nulla, impedit, aliquid ducimus tempora. Provident?</p>
           </div>
+
           <div class="accordions__item">
-            <p class="accordions__title">Инклюзивность</p>
-            <button type="button" class="accordions__open"></button>
+            <div class="accordions__block">
+              <h3 class="accordions__title">Инклюзивность</h3>
+              <button type="button" class="accordions__open"></button>
+            </div>
+            <p class="accordions__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus architecto odio asperiores libero. Reprehenderit consequuntur repudiandae minus, ipsa laudantium laboriosam officia animi ad impedit et saepe dignissimos, ut eaque beatae?</p>
           </div>
+
           <div class="accordions__item">
-            <p class="accordions__title">Свои исследования</p>
-            <button type="button" class="accordions__open"></button>
+            <div class="accordions__block">
+              <h3 class="accordions__title">Свои исследования</h3>
+              <button type="button" class="accordions__open"></button>
+            </div>
+            <p class="accordions__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dolorem deleniti, magni similique iure temporibus delectus aliquid, nemo dolore esse voluptas rem. Animi similique et asperiores laboriosam? Perferendis, molestiae? Maiores!</p>
           </div>
+
           <div class="accordions__item">
-            <p class="accordions__title">Использование Digital</p>
-            <button type="button" class="accordions__open"></button>
+            <div class="accordions__block">
+              <h3 class="accordions__title">Использование Digital</h3>
+              <button type="button" class="accordions__open"></button>
+            </div>
+            <p class="accordions__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic doloribus eaque et dolorem vel ullam amet eius dignissimos consequatur reprehenderit debitis enim assumenda, laborum optio animi rerum impedit pariatur. Perspiciatis.</p>
           </div>
+
           <div class="accordions__item">
-            <p class="accordions__title">Большой опыт</p>
-            <button type="button" class="accordions__open"></button>
+            <div class="accordions__block">
+              <h3 class="accordions__title">Большой опыт</h3>
+             <button type="button" class="accordions__open"></button>
+           </div>
+           <p class="accordions__text">За время сущетсования проекта с 2016 года социальная предпринимательская  модель Everland доказала свою эффективность  - мы действительно умеем давать работу людям с разными видами инвалидности</p>
           </div>
+
         </div>
       </section>
 
@@ -275,24 +336,178 @@
       </section>
 
       <section class="special">
-        <div class="special__container">
-          <p class="special__title">Наши спецпроекты</p>
-          <h2 class="section-title section-title_special">Фотопроект «Семья как семья»</h2>
-          <p class="special__text">Фотопроект Алексея Горшенина включает в себя восемь историй людей и семей, где один или оба супруга имеют инвалидность</p>
-          <button type="button" class="button button_watch">Посмотреть</button>
-          <div class="special__slides">
-            <button type="button" class="button__slide button__slide_left"></button>
-            <button type="button" class="button__slide button__slide_right"></button>
+        <div class="special__slides">
+          <button type="button" class="button__slide button__slide_black button__slide_left" onclick="minusSlide()"></button>
+          <button type="button" class="button__slide button__slide_black button__slide_right" onclick="plusSlide()"></button>
+        </div>
+
+        <div class="slide">
+          <div class="special__container">
+            <p class="special__title">Наши спецпроекты</p>
+            <h2 class="section-title section-title_special">Фотопроект «Семья как семья»</h2>
+            <p class="special__text">Фотопроект Алексея Горшенина включает в себя восемь историй людей и семей, где один или оба супруга имеют инвалидность</p>
+            <button type="button" class="button_link_purple button_watch">Посмотреть</button>
+            <img class="special__img" src="./images/special-img.jpg" alt="">
+         </div>
+        </div>
+
+        <div class="slide">
+          <div class="special__container" style="background: #FEEFEA;">
+           <p class="special__title">Наши спецпроекты</p>
+           <h2 class="section-title section-title_special">Lorem ipsum dolor sit amet</h2>
+            <p class="special__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem saepe illo commodi odio nesciunt, cum hic doloremque laborum laudantium ea earum accusantium explicabo.</p>
+            <button type="button" class="button_link_purple button_watch">Посмотреть</button>
+            <img class="special__img" src="./images/special-img.jpg" alt="">
           </div>
-          <img class="special__img" src="./images/special-img.jpg" alt="">
+        </div>
+
+        <div class="slide">
+          <div class="special__container" style="background: #DAEFD5;">
+            <p class="special__title">Наши спецпроекты</p>
+            <h2 class="section-title section-title_special">Yandex Practicum 2022</h2>
+            <p class="special__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum vel dolorum animi ipsam quas, nostrum inventore deserunt veritatis.</p>
+            <button type="button" class="button_link_purple button_watch">Посмотреть</button>
+            <img class="special__img" src="./images/special-img.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="special__container" style="background: #EAE6FF;">
+            <p class="special__title">Наши спецпроекты</p>
+            <h2 class="section-title section-title_special">vaz2109Cherry</h2>
+            <p class="special__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo autem ex, porro distinctio minus dolore dicta odit, dignissimos excepturi provident tempore ipsum enim!</p>
+            <button type="button" class="button_link_purple button_watch">Посмотреть</button>
+            <img class="special__img" src="./images/special-img.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="special__container" style="background: #E7F0FF;">
+            <p class="special__title">Наши спецпроекты</p>
+            <h2 class="section-title section-title_special">Lorem ipsum dolor sit amet</h2>
+            <p class="special__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, eveniet. Totam maiores animi, repudiandae in itaque minus consequatur quia!</p>
+            <button type="button" class="button_link_purple button_watch">Посмотреть</button>
+            <img class="special__img" src="./images/special-img.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="special__container" style="background: #DAEFD5;">
+            <p class="special__title">Наши спецпроекты</p>
+            <h2 class="section-title section-title_special">ООО «ЭВЕРЛЭНД»</h2>
+            <p class="special__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati suscipit ut corrupti rem atque, error in asperiores voluptate cupiditate, labore non perspiciatis expedita?</p>
+            <button type="button" class="button_link_purple button_watch">Посмотреть</button>
+            <img class="special__img" src="./images/special-img.jpg" alt="">
+          </div>
         </div>
       </section>
 
-  <section class="history"></section>
+      <section class="stories">
 
-  <section class="advantages"></section>
+        <div class="stories__container">
 
-  <section class="news"></section>
+          <h2 class="stories__title title">Наши истории</h2>
+          <button class="stories__button-all-story button button_regular_white-blue">Все истории</button>
+
+          <ul class="stories__list-story">
+            <li class="story stories__list-story-item">
+              <img class="story__avatar" src="./images/story-avatar-1.jpg" alt="Автор истории Максим Гильфанов.">
+              <img class="story__icon-quote" src="./images/icon-quote.svg" alt="Цитата.">
+              <div class="story__story-text">
+                <h3 class="story__quote">Мне интересно слушать интервью с&nbsp;людьми. Это мотивация и&nbsp;вдохновение, которых так не&nbsp;хватает</h3>
+                <p class="story__about">Максиму Гильфанову из Узбекистана 41 год. Диплом программиста и курсы по веб-дизайну не решили проблему с трудоустройством</p>
+                <a href="#" class="story__full button button_link_blue">История Максима</a>
+              </div>
+            </li>
+
+            <li class="story stories__list-story-item">
+              <img class="story__avatar" src="./images/story-avatar-2.jpg" alt="Автор истории Максим Чернышов.">
+              <img class="story__icon-quote" src="./images/icon-quote.svg" alt="Цитата.">
+              <div class="story__story-text">
+                <h3 class="story__quote">Платформа дала надежду: кто-то заинтересован в трудоустройстве инвалидов</h3>
+                <p class="story__about">Максиму Чернышову из Набережных Челнов 32 года. В детстве он неудачно сделал сальто и повредил позвоночник. С тех пор ему тяжело передвигаться на большие расстояния</p>
+                <a href="#" class="story__full button button_link_blue">История Максима</a>
+              </div>
+            </li>
+          </ul>
+
+          <ul class="stories__list-story-card">
+
+            <li class="story-card">
+              <div class="story-card__container">
+                <img class="story-card__avatar" src="./images/story-avatar-card1.jpg" alt="Автор истории Айслу Асан">
+                <div class="story-card__text">
+                  <p class="story-card__name">Айслу Асан</p>
+                  <h3 class="story-card__title">Когда хочется жить</h3>
+                  <a href="" class="story-card__link">История Айслу</a>
+                </div>
+              </div>
+            </li>
+
+            <li class="story-card">
+              <div class="story-card__container">
+                <img class="story-card__avatar" src="./images/story-avatar-card2.jpg" alt="Автор истории Артём Плаксин">
+                <div class="story-card__text">
+                  <p class="story-card__name">Артём Плаксин</p>
+                  <h3 class="story-card__title">Не видеть и смотреть в будущее</h3>
+                  <a href="" class="story-card__link">История Артёма</a>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </section>
+
+      <section class="news"></section>
+      <section class="agency">
+        <h2 class="agency__title">
+          Лучшие проекты агентства
+        </h2>
+        <h3 class="agency__subtitle">
+          Мы выполняем работы в области веб-разработки, дизайна, права, видео,
+          анимации и контента
+        </h3>
+        <ul class="agency__list">
+          <li class="agency__container">
+          <a href="#" class="agency__link">
+            <img
+              class="agency__image"
+              src="./images/agency-1.jpg"
+              alt="скрипты-рекомендации для бизнеса"
+            />
+            <p class="agency__caption">
+              Скрипты-рекомендации для бизнеса (DisQuestion)
+            </p>
+          </a>
+        </li>
+        <li class="agency__container">
+          <a href="#" class="agency__link">
+            <img
+              class="agency__image"
+              src="./images/agency-2.jpg"
+              alt="Проект Онконавигатор"
+            />
+            <p class="agency__caption">Проект «Онконавигатор»</p>
+          </a>
+        </li>
+        <li class="agency__container">
+          <a href="#" class="agency__link">
+            <img
+              class="agency__image"
+              src="./images/agency-3.jpg"
+              alt="Проект Миграции: приоткрывая личное"
+            />
+            <p class="agency__caption">
+              Проект «Миграции: приоткрывая личное»
+            </p>
+          </a>
+        </li>
+        </ul>
+        <!-- <button class="button"></button> -->
+      </section>
 
   <section class="donation">
     <h2>Поддержите нас</h2>
@@ -399,11 +614,49 @@
 
 </main>
 
-<footer class="footer">
+    <footer class="footer">
+      <div class="footer__info">
+        <img src="./images/logo.svg" alt="Логотип Everland" class="footer__logo">
+        <p class="footer__description">Платформа Everland — инклюзивный социальный предпринимательский проект. Реализуется ООО «ЭВЕРЛЭНД», АНО «Пространство равных возможностей».</p>
+      </div>
+      <ul class="footer__links">
+        <li class="footer__lists"><a href="#" class="footer__link">О проекте</a></li>
+        <li class="footer__lists"><a href="#" class="footer__link">Программы</a></li>
+        <li class="footer__lists"><a href="#" class="footer__link">Услуги</a></li>
+        <li class="footer__lists"><a href="#" class="footer__link">Платформа</a></li>
+        <li class="footer__lists"><a href="#" class="footer__link">Людям с инвалидностью</a></li>
+        <li class="footer__lists"><a href="#" class="footer__link">Мы благодарим</a></li>
+      </ul>
+      <div class="footer__support_container">
+        <h2 class="footer__subheader_text">При поддержке</h2>
+        <div class="footer__support_logos_container">
+          <img src="./images/beeline_logo.png" alt="Логотип Билайн" class="footer__beeline_logo">
+          <img src="./images/fund_logo.png" alt="Логотип Фонда президенстких грантов" class="footer__fund_logo">
+        </div>
+      </div>
+      <div class="footer__subscription_container">
+        <h2 class="footer__subheader_text">Подписывайтесь на нас в соцсетях</h2>
+        <div class="footer__subscription_logos_container">
+          <img src="./images/telegram_logo.png" alt="Телеграм" class="footer__telegram_logo">
+          <img src="./images/vk_logo.png" alt="VK" class="footer__vk_logo">
+        </div>
+      </div>
+      <div class="footer__contacts">
+        <div class="footer__telephones">
+          <p class="footer__phone_number">+7 (495) 646 04 28</p>
+          <p class="footer__phone_number">+7 (985) 473 08 93</p>
+      </div>
+        <p class="footer__adress">Гоголевский бульвар, дом 8, строение 2, офис 8, Москва, Россия.</p>
+      </div>
+      <p class="footer__everland_corporate">© ООО «ЭВЕРЛЭНД», АНО «Пространство равных возможностей». Если не указано иначе, все материалы сайта доступны по лицензии Creative Commons CC-BY-SA 3.0</p>
+      <div class="footer__practicum_info">
+        <img src="./images/yandex_practicum_logo.png" alt="Логотип Яндекс Практикум" class="footer__practicum_logo">
+        <p class="footer__practicum_text">сделано при участии Яндекс Практикума</p>
+      </div>
+    </footer>
 
-</footer>
+  <script src="./scripts/index.js"></script>
 
-  </div>
 </body>
 
 </html>

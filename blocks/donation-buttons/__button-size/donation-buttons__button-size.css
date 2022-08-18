@@ -1,0 +1,31 @@
+.donation-buttons__button-size{
+  padding: 0 10px;
+  margin: 0 10px 0 0;
+  max-width: 159px;
+  width: 100%;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.donation-buttons__button-size:last-of-type {
+  margin: 0;
+  max-width: 211px;
+}
+
+@media screen and (max-width: 985px){
+  .donation-buttons__button-size{
+    max-width: 75px;
+    font-size: 16px;
+  }
+
+  .donation-buttons__button-size:last-of-type {
+    max-width: 135px;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .donation-buttons__button-size{
+    max-width: 122px;
+    font-size: 14px;
+  }
+}

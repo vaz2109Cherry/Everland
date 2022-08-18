@@ -1,0 +1,26 @@
+.accordions__text {
+  margin: 0;
+  padding: 20px 0 0 0;
+  position: relative;
+  height: 0;
+  text-align: justify;
+  overflow: hidden;
+  transition: 0.5s;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+@media screen and (max-width: 568px) {
+  .accordions__text {
+    padding-top: 15px;
+  }
+}

@@ -1,0 +1,4 @@
+.story-card__text {
+  display: flex;
+  flex-direction: column;
+}

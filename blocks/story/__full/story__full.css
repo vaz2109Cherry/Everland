@@ -1,0 +1,42 @@
+.story__full {
+  grid-area: story;
+  width: 229px;
+  height: 48px;
+  text-decoration: none;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+.story__full::after {
+  content: "";
+  background-image: url('../../../images/button__arrow_blue.svg');
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+  margin-left: 14px;
+}
+
+@media screen and (max-width: 1100px) {
+
+  .story__full {
+    font-size: 16px;
+    width: 190px;
+    height: 44px;
+  }
+
+  .story__full::after {
+    width: 13px;
+    height: 13px;
+    margin-left: 13px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .story__full {
+    font-size: 14px;
+    width: 173px;
+    height: 44px;
+  }
+
+}

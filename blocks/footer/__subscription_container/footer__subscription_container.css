@@ -1,0 +1,8 @@
+.footer__subscription_container {
+}
+
+@media (max-width: 321px) {
+  .footer__subscription_container {
+    order: 5;
+  }
+}

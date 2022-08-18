@@ -1,0 +1,10 @@
+.footer__telephones {
+
+}
+
+@media (max-width: 321px) {
+  .footer__telephones {
+    display: flex;
+    column-gap: 16px;
+  }
+}
