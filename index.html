@@ -92,20 +92,19 @@
 <main class="main">
 
   <section class="about">
-    <div class="carousel">
-      <div class="carousel__slide">
-        <h1 class="about__header"><span class="about__header-accent">Everland</span>&nbsp;—&nbsp;социальный
-          предпринимательский проект</h1>
+    <div class="about__slide">
+      <div><h1 class="about__header"><span class="about__header-accent">Everland</span>&nbsp;—&nbsp;социальный
+        предпринимательский проект</h1>
         <p class="about__paragraph">Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью устойчиво
           интегрироваться в
           открытый рынок труда </p>
-        <img src="images/carousel-man.png" alt="" class="about__slide-image">
       </div>
-      <div class="carousel__control">
-        <button class="btn__arrow btn__arrow_backward btn__arrow_blue carousel__backward">Назад</button>
-        <span class="carousel__counter">1/6</span>
-        <button class="btn__arrow btn__arrow_forward btn__arrow_blue carousel__forward">Вперед</button>
-      </div>
+      <img src="images/carousel-man.png" alt="" class="about__slide-image">
+    </div>
+    <div class="about__control">
+      <button class="btn__arrow btn__arrow_backward btn__arrow_blue">Назад</button>
+      <span class="about__counter">1/6</span>
+      <button class="btn__arrow btn__arrow_forward btn__arrow_blue">Вперед</button>
     </div>
   </section>
 
@@ -509,24 +508,35 @@
       </section>
 
   <section class="donation">
-    <h2>Поддержите нас</h2>
-    <form action="POST" name="donation-form">
-      <input type="radio" name="pay_type" id="every_month" class="donation-form__radio">
-      <label for="every_month" class="donation-form__label-radio">Ежемесячно</label>
-      <input type="radio" name="pay_type" id="one_pay" class="donation-form__radio">
-      <label for="one_pay" class="donation-form__label-radio">Разово</label>
+    <h2 class="donation__header">Поддержите нас</h2>
+    <form action="POST" name="donation-form" class="donation-form">
+      <div class="donation-form__container">
+        <input type="radio" name="pay_type" id="every_month" class="donation-form__radio donation-form__radio">
+        <label for="every_month"
+               class="donation-form__label-radio donation-form__label-radio_width_big donation-form__label-radio_margin-right_big-btn">Ежемесячно
+          <span class="donation-form__help-icon"></span></label>
+        <input type="radio" name="pay_type" id="one_pay" class="donation-form__radio donation-form__radio">
+        <label for="one_pay" class="donation-form__label-radio donation-form__label-radio_width_big donation-form__label-radio_margin-right_big-btn">Разово</label>
+      </div>
 
-      <h5 class="donation-form__header">Размер пожертвования</h5>
-      <input type="radio" name="pay-sum" id="donat_250" class="donation-form__radio"><label
-      for="donat_250" class="donation-form__label-radio">250₽</label>
-      <input type="radio" name="pay-sum" id="donat_500" class="donation-form__radio"><label
-      for="donat_500" class="donation-form__label-radio">500₽</label>
-      <input type="radio" name="pay-sum" id="donat_750" class="donation-form__radio"><label
-      for="donat_750" class="donation-form__label-radio">275₽</label>
-      <input type="radio" name="pay-sum" id="donat_1000" class="donation-form__radio"><label
-      for="donat_1000" class="donation-form__label-radio">1000₽</label>
-      <input type="radio" name="pay-sum" id="donat_other" class="donation-form__radio"><label
-      for="donat_other" class="donation-form__label-radio">Другая сумма</label>
+      <h5 class="donation-form__header"><span>Размер пожертвования</span></h5>
+      <div class="donation-form__container">
+        <input type="radio" name="pay-sum" id="donat_250" class="donation-form__radio"><label
+        for="donat_250"
+        class="donation-form__label-radio donation-form__label-radio_width_small donation-form__label-radio_margin-bottom_small donation-form__label-radio_margin-right_small-btn">250₽</label>
+        <input type="radio" name="pay-sum" id="donat_500" class="donation-form__radio"><label
+        for="donat_500"
+        class="donation-form__label-radio donation-form__label-radio_width_small donation-form__label-radio_margin-bottom_small donation-form__label-radio_margin-right_small-btn">500₽</label>
+        <input type="radio" name="pay-sum" id="donat_750" class="donation-form__radio"><label
+        for="donat_750"
+        class="donation-form__label-radio donation-form__label-radio_width_small donation-form__label-radio_margin-bottom_small donation-form__label-radio_margin-right_small-btn">750₽</label>
+        <input type="radio" name="pay-sum" id="donat_1000" class="donation-form__radio"><label
+        for="donat_1000"
+        class="donation-form__label-radio donation-form__label-radio_width_small donation-form__label-radio_margin-bottom_small donation-form__label-radio_margin-right_small-btn">1000₽</label>
+        <input type="radio" name="pay-sum" id="donat_other" class="donation-form__radio"><label
+        for="donat_other"
+        class="donation-form__label-radio donation-form__label-radio_width_small donation-form__label-radio_margin-bottom_small donation-form__label-radio_margin-right_small-btn">Другая&nbsp;сумма</label>
+      </div>
 
       <p class="donation-form__paragraph">Регулярные пожертвования очень важны для Everland. Это то, что
         помогает нашим программам работать бесперебойно, что
@@ -534,40 +544,54 @@
         захотите поддерживать
         наши программы постоянно, то каждый месяц с вашей карты будет списываться указанная вами сумма.</p>
 
-      <h5 class="donation-form__header">Размер пожертвования</h5>
-      <div class="donation-form__carousel carousel">
-        <button class="carousel__backward btn__chevron">Назад</button>
-        <div class="carousel__slide">
+      <h5 class="donation-form__header"><span>Способ оплаты</span></h5>
+      <div class="donation-form__carousel">
+        <button class="btn__chevron btn__chevron_backward">Назад</button>
+        <div class="donation-form__carousel-slide">
           <input type="radio" name="pay-system" id="pay-system_cards" class="donation-form__radio">
-          <label for="pay-system_cards" class="donation-form__label-radio">
-            <img src="images/mir-logo.png" alt="Мир" class="donation-form__pay-system-logo">
-            <img src="images/maestro-logo.png" alt="Maestro" class="donation-form__pay-system-logo">
-            <img src="images/visa-logo.png" alt="VISA" class="donation-form__pay-system-logo">
-            <img src="images/mastercard-logo.png" alt="MasterCard" class="donation-form__pay-system-logo">
+          <label for="pay-system_cards"
+                 class="donation-form__label-radio donation-form__label-radio_width_186 donation-form__label-radio_margin-right_18">
+            <div class="donation-form__pay-system-logo-container">
+              <img src="images/mir-logo.png" alt="Мир"
+                   class="donation-form__pay-system-logo">
+              <img src="images/maestro-logo.png" alt="Maestro"
+                   class="donation-form__pay-system-logo">
+              <img src="images/visa-logo.png" alt="VISA"
+                   class="donation-form__pay-system-logo">
+              <img src="images/mastercard-logo.png" alt="MasterCard"
+                   class="donation-form__pay-system-logo">
+            </div>
           </label>
 
           <input type="radio" name="pay-system" id="pay-system_yoomoney" class="donation-form__radio">
-          <label for="pay-system_yoomoney" class="donation-form__label-radio">
-            <img src="images/yoo-money.png" alt="Ю-Money" class="donation-form__pay-system-logo">
+          <label for="pay-system_yoomoney"
+                 class="donation-form__label-radio donation-form__label-radio_width_186 donation-form__label-radio_margin-right_18">
+            <div class="donation-form__pay-system-logo-container">
+              <img src="images/yoo-money.png" alt="Ю-Money" class="donation-form__pay-system-logo">
+            </div>
           </label>
 
           <input type="radio" name="pay-system" id="pay-system_webmoney" class="donation-form__radio">
-          <label for="pay-system_webmoney" class="donation-form__label-radio">
-            <img src="images/webmoney-logo.png" class="donation-form__pay-system-logo">
+          <label for="pay-system_webmoney"
+                 class="donation-form__label-radio donation-form__label-radio_width_186 donation-form__label-radio_margin-right_18">
+            <div class="donation-form__pay-system-logo-container">
+              <img src="images/webmoney-logo.png" alt="webmoney" class="donation-form__pay-system-logo">
+            </div>
           </label>
         </div>
-        <button class="carousel__forward btn__chevron">Вперед</button>
+        <button class="btn__chevron">Вперед</button>
       </div>
 
-      <h5 class="donation-form__header">Ваши данные</h5>
-      <input type="text" name="name" id="fio" class="donation-form__input-text" placeholder="Иван Иванов">
-      <input type="email" name="email" id="email" class="donation-form__input-text" placeholder="myemail@example.com">
+      <h5 class="donation-form__header"><span>Ваши данные</span></h5>
+      <input type="text" name="name" id="fio" class="donation-form__input-text" placeholder="Иван Иванов" required>
+      <input type="email" name="email" id="email" class="donation-form__input-text" placeholder="myemail@example.com"
+             required>
       <input type="checkbox" name="offer" id="offer_chbx" class="donation-form__checkbox"><label for="offer_chbx"
-                                                                                                 class="donation-form__label-text">Соглашаюсь
+                                                                                                 class="donation-form__label-chbox donation-form__new_chbox">Соглашаюсь
       с <a href="#" class="donation-form__link">офертой</a></label>
       <input type="checkbox" name="personal-data" id="personal-data_chbx" class="donation-form__checkbox"><label
-      for="personal-data_chbx" class="donation-form__label-text">Соглашаюсь на <a href="#"
-                                                                                  class="donation-form__link">обработку
+      for="personal-data_chbx" class="donation-form__label-chbox donation-form__new_chbox">Соглашаюсь на <a href="#"
+                                                                                                            class="donation-form__link">обработку
       моих персональных данных</a></label>
 
       <button type="submit" class="donation-form__submit btn__submit">Поддержать</button>
@@ -577,37 +601,62 @@
     <div class="appreciate">
       <h4 class="appreciate__header">Everland создается силами многих. Мы благодарны каждому за поддержку!</h4>
       <div class="appreciate__block">
-        <p class="appreciate__paragraph">Аноним........................................500 ₽</p>
-        <p class="appreciate__paragraph">2 часа назад</p>
+        <p class="appreciate__paragraph appreciate__paragraph_position_left">Аноним</p>
+        <div>
+          <p class="appreciate__paragraph">500 ₽</p>
+          <p class="appreciate__paragraph">2 часа назад</p>
+        </div>
       </div>
       <div class="appreciate__block">
-        <p class="appreciate__paragraph">Аноним........................................500 ₽</p>
-        <p class="appreciate__paragraph">2 часа назад</p>
+        <p class="appreciate__paragraph appreciate__paragraph_position_left">Аноним</p>
+        <div>
+          <p class="appreciate__paragraph">500 ₽</p>
+          <p class="appreciate__paragraph">2 часа назад</p>
+        </div>
       </div>
       <div class="appreciate__block">
-        <p class="appreciate__paragraph">Аноним........................................500 ₽</p>
-        <p class="appreciate__paragraph">2 часа назад</p>
+        <p class="appreciate__paragraph appreciate__paragraph_position_left">Аноним</p>
+        <div>
+          <p class="appreciate__paragraph">500 ₽</p>
+          <p class="appreciate__paragraph">2 часа назад</p>
+        </div>
       </div>
       <div class="appreciate__block">
-        <p class="appreciate__paragraph">Аноним........................................500 ₽</p>
-        <p class="appreciate__paragraph">2 часа назад</p>
+        <p class="appreciate__paragraph appreciate__paragraph_position_left">Аноним</p>
+        <div>
+          <p class="appreciate__paragraph">500 ₽</p>
+          <p class="appreciate__paragraph">2 часа назад</p>
+        </div>
       </div>
-      <div class="appreciate__block">
-        <p class="appreciate__paragraph">Аноним........................................500 ₽</p>
-        <p class="appreciate__paragraph">2 часа назад</p>
+      <div class="appreciate__block appreciate__block_opacity_40">
+        <p class="appreciate__paragraph appreciate__paragraph_position_left">Аноним</p>
+        <div>
+          <p class="appreciate__paragraph">500 ₽</p>
+          <p class="appreciate__paragraph">2 часа назад</p>
+        </div>
       </div>
-      <div class="appreciate__block">
-        <p class="appreciate__paragraph">Аноним........................................500 ₽</p>
-        <p class="appreciate__paragraph">2 часа назад</p>
+      <div class="appreciate__block appreciate__block_opacity_30">
+        <p class="appreciate__paragraph appreciate__paragraph_position_left">Аноним</p>
+        <div>
+          <p class="appreciate__paragraph">500 ₽</p>
+          <p class="appreciate__paragraph">2 часа назад</p>
+        </div>
       </div>
-      <div class="appreciate__block">
-        <p class="appreciate__paragraph">Аноним........................................500 ₽</p>
-        <p class="appreciate__paragraph">2 часа назад</p>
+      <div class="appreciate__block appreciate__block_opacity_20">
+        <p class="appreciate__paragraph appreciate__paragraph_position_left">Аноним</p>
+        <div>
+          <p class="appreciate__paragraph">500 ₽</p>
+          <p class="appreciate__paragraph">2 часа назад</p>
+        </div>
       </div>
-      <div class="appreciate__block">
-        <p class="appreciate__paragraph">Аноним........................................500 ₽</p>
-        <p class="appreciate__paragraph">2 часа назад</p>
+      <div class="appreciate__block appreciate__block_opacity_10">
+        <p class="appreciate__paragraph appreciate__paragraph_position_left">Аноним</p>
+        <div>
+          <p class="appreciate__paragraph">500 ₽</p>
+          <p class="appreciate__paragraph">2 часа назад</p>
+        </div>
       </div>
+    </div>
     </div>
   </section>
 
