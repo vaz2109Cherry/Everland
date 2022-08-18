@@ -1,0 +1,21 @@
+.story-card__avatar {
+  margin: 0 20px 0 0;
+  border-radius: 50%;
+  width: 224px;
+  height: 224px;
+}
+
+@media screen and (max-width: 1100px) {
+  .story-card__avatar {
+    margin-right: 16px;
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .story-card__avatar {
+    width: 80px;
+    height: 80px;
+  }
+}

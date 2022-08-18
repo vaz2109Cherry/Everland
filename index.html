@@ -94,7 +94,42 @@
 
       <section class="about"></section>
 
-      <section class="donation-button"></section>
+      <section class="donation-buttons">
+
+        <form class="donation-buttons__form " action="#" name="donation-buttons-form">
+
+        <fieldset class="donations-buttons__sizes">
+          <label class="donation-buttons__button-size button button_link_white" for="donation-250">
+            250₽
+            <input class="donation-buttons__radio" type="radio" name="donation-size" id="donation-250">
+          </label>
+
+          <label class="donation-buttons__button-size button button_link_white" for="donation-500">
+            500₽
+            <input class="donation-buttons__radio" type="radio" name="donation-size" id="donation-500">
+          </label>
+
+          <label class="donation-buttons__button-size button button_link_white" for="donation-750">
+            750₽
+            <input class="donation-buttons__radio" type="radio" name="donation-size" id="donation-750">
+          </label>
+
+          <label class="donation-buttons__button-size button button_link_white" for="donation-1000">
+            1000₽
+            <input class="donation-buttons__radio" type="radio" name="donation-size" id="donation-1000">
+          </label>
+
+          <label class="donation-buttons__button-size button button_link_white" for="donation-other">
+            Другая сумма
+            <input class="donation-buttons__radio" type="radio" name="donation-size" id="donation-other">
+          </label>
+        </fieldset>
+
+        <button class="donation-buttons__button-send button_regular_blue-white button" type="button" name="button-send">Поддержать</button>
+
+      </form>
+
+      </section>
 
       <section class="consumers">
         <h2 class="consumers__title">Для кого мы работаем</h2>
@@ -281,51 +316,51 @@
           <button class="stories__button-all-story button button_regular_white-blue">Все истории</button>
 
           <ul class="stories__list-story">
-            <li class="stories__story">
-              <img class="stories__avatar" src="/images/story-avatar-1.jpg" alt="Автор истории Максим Гильфанов.">
-              <img class="stories__icon-quote" src="/images/icon_quote.jpg" alt="Цитата.">
-              <div class="stories__story-text">
-                <h3 class="stories__story-quote">Мне интересно слушать интервью с людьми. Это мотивация и вдохновение, которых так не хватает</h3>
-                <p class="stories__story-about">Максиму Гильфанову из Узбекистана 41 год. Диплом программиста и курсы по веб-дизайну не решили проблему с трудоустройством</p>
-                <a href="#" class="stories__story-full button button_link_blue">
-                  <p>История Максима</p>
-                  <div class="button__arrow button__arrow_blue"></div>
-                </a>
+            <li class="story stories__list-story-item">
+              <img class="story__avatar" src="./images/story-avatar-1.jpg" alt="Автор истории Максим Гильфанов.">
+              <img class="story__icon-quote" src="./images/icon-quote.svg" alt="Цитата.">
+              <div class="story__story-text">
+                <h3 class="story__quote">Мне интересно слушать интервью с&nbsp;людьми. Это мотивация и&nbsp;вдохновение, которых так не&nbsp;хватает</h3>
+                <p class="story__about">Максиму Гильфанову из Узбекистана 41 год. Диплом программиста и курсы по веб-дизайну не решили проблему с трудоустройством</p>
+                <a href="#" class="story__full button button_link_blue">История Максима</a>
               </div>
             </li>
 
-            <li class="stories__story">
-              <img class="stories__avatar" src="/images/story-avatar-2.jpg" alt="Автор истории Максим Чернышов.">
-              <img class="stories__icon-quote" src="/images/icon_quote.jpg" alt="Цитата.">
-              <div class="stories__story-text">
-                <h3 class="stories__story-quote">Платформа дала надежду: кто-то заинтересован в трудоустройстве инвалидов</h3>
-                <p class="stories__story-about">Максиму Чернышову из Набережных Челнов 32 года. В детстве он неудачно сделал сальто и повредил позвоночник. С тех пор ему тяжело передвигаться на большие расстояния</p>
-                <a href="#" class="stories__story-full button button_link_blue">
-                  <p>История Максима</p>
-                  <div class="button__arrow button__arrow_blue"></div>
-                </a>
+            <li class="story stories__list-story-item">
+              <img class="story__avatar" src="./images/story-avatar-2.jpg" alt="Автор истории Максим Чернышов.">
+              <img class="story__icon-quote" src="./images/icon-quote.svg" alt="Цитата.">
+              <div class="story__story-text">
+                <h3 class="story__quote">Платформа дала надежду: кто-то заинтересован в трудоустройстве инвалидов</h3>
+                <p class="story__about">Максиму Чернышову из Набережных Челнов 32 года. В детстве он неудачно сделал сальто и повредил позвоночник. С тех пор ему тяжело передвигаться на большие расстояния</p>
+                <a href="#" class="story__full button button_link_blue">История Максима</a>
               </div>
             </li>
           </ul>
 
-          <ul class="stories__list-card">
-            <li class="stories__card">
-              <img class="stories__card-avatar" src="/images/story-avatar-card1.jpg" alt="Автор истории Айслу Асан">
-              <div class="stories__card-text">
-                <p class="stories__card-name">Айслу Асан</p>
-                <h3 class="stories__card-title">Когда хочется жить</h3>
-                <a href="" class="stories__card-link">История Айслу</a>
+          <ul class="stories__list-story-card">
+
+            <li class="story-card">
+              <div class="story-card__container">
+                <img class="story-card__avatar" src="./images/story-avatar-card1.jpg" alt="Автор истории Айслу Асан">
+                <div class="story-card__text">
+                  <p class="story-card__name">Айслу Асан</p>
+                  <h3 class="story-card__title">Когда хочется жить</h3>
+                  <a href="" class="story-card__link">История Айслу</a>
+                </div>
               </div>
             </li>
 
-            <li class="stories__card">
-              <img class="stories__card-avatar" src="/images/story-avatar-card2.jpg" alt="Автор истории Артём Плаксин">
-              <div class="stories__card-text">
-                <p class="stories__card-name">Артём Плаксин</p>
-                <h3 class="stories__card-title">Не видеть и смотреть в будущее</h3>
-                <a href="" class="stories__card-link">История Артёма</a>
+            <li class="story-card">
+              <div class="story-card__container">
+                <img class="story-card__avatar" src="./images/story-avatar-card2.jpg" alt="Автор истории Артём Плаксин">
+                <div class="story-card__text">
+                  <p class="story-card__name">Артём Плаксин</p>
+                  <h3 class="story-card__title">Не видеть и смотреть в будущее</h3>
+                  <a href="" class="story-card__link">История Артёма</a>
+                </div>
               </div>
             </li>
+
           </ul>
 
         </div>
