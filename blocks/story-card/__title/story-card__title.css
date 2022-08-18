@@ -1,0 +1,21 @@
+.story-card__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 120%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #333333;
+  flex: 1;
+}
+
+@media screen and (max-width: 1100px) {
+  .story-card__title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .story-card__title {
+    font-size: 16px;
+  }
+}

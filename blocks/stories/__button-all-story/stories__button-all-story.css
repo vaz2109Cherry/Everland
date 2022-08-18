@@ -1,22 +1,25 @@
 .stories__button-all-story {
   width: 194px;
   height: 48px;
-  margin: 13px 18px 0 0;
+  margin: 12px 0 0 0;
   grid-area: all-story;
 }
 
-@media screen and (max-width: 985px) {
+@media screen and (max-width: 1100px) {
   .stories__button-all-story {
     margin: 0 auto 50px auto;
+    font-size: 16px;
+    line-height: 120%;
     width: 200px;
     height: 44px;
   }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 600px) {
   .stories__button-all-story {
     width: 100%;
     margin-bottom: 32px;
+    font-size: 14px;
   }
 }
 

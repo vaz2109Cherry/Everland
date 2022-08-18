@@ -61,6 +61,7 @@
 @import url(../blocks/special/__slides/special__slides.css);
 @import url(../blocks/special/__container/special__container.css);
 @import url(../blocks/special/__img/special__img.css);
+@import url(../blocks/special/__slides/special__slides.css);
 @import url(../blocks/special/__text/special__text.css);
 @import url(../blocks/special/__title/special__title.css);
 
@@ -176,3 +177,43 @@
 @import url('../blocks/footer/__practicum_info/footer__practicum_info.css');
 @import url('../blocks/footer/__practicum_logo/footer__practicum_logo.css');
 @import url('../blocks/footer/__practicum_text/footer__practicum_text.css');
+
+
+/*stories*/
+@import url('../blocks/button/button.css');
+@import url('../blocks/button/_regular/button_regular_white-blue.css');
+@import url('../blocks/button/_link/button_link_blue.css');
+@import url('../blocks/button/__arrow/button__arrow.css');
+
+/**/
+@import url('../blocks/title/title.css');
+/**/
+
+@import url('../blocks/stories/stories.css');
+@import url('../blocks/stories/__container/stories__container.css');
+
+@import url('../blocks/stories/__title/stories__title.css');
+@import url('../blocks/stories/__button-all-story/stories__button-all-story.css');
+
+@import url('../blocks/stories/__list-story/stories__list-story.css');
+@import url('../blocks/stories/__list-story-item/stories__list-story-item.css');
+
+@import url('../blocks/story/story.css');
+@import url('../blocks/story/__avatar/story__avatar.css');
+@import url('../blocks/story/__icon-quote/story__icon-quote.css');
+@import url('../blocks/story/__story-text/story__story-text.css');
+@import url('../blocks/story/__quote/story__quote.css');
+@import url('../blocks/story/__about/story__about.css');
+@import url('../blocks/story/__full/story__full.css');
+
+@import url('../blocks/story-card/story-card.css');
+@import url('../blocks/story-card/__container/story-card__container.css');
+@import url('../blocks/story-card/__avatar/story-card__avatar.css');
+@import url('../blocks/story-card/__text/story-card__text.css');
+@import url('../blocks/story-card/__name/story-card__name.css');
+@import url('../blocks/story-card/__title/story-card__title.css');
+@import url('../blocks/story-card/__link/story-card__link.css');
+
+@import url('../blocks/stories/__list-story-card/stories__list-story-card.css');
+
+/*-stories-*/

@@ -1,0 +1,21 @@
+.story__quote {
+  margin: 0 0 20px;
+  font-size: 34px;
+  line-height: 120%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #333333;
+}
+
+@media screen and (max-width: 1100px) {
+  .story__quote {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .story__quote {
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 117%;
+  }
+}

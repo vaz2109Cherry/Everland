@@ -6,8 +6,6 @@
   box-sizing: border-box;
   max-width: 1360px;
   margin: 0 40px;
-  /*TODO*/
-  /*width: 100%;*/
 }
 
 @media screen and (max-width: 985px){
