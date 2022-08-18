@@ -1,0 +1,9 @@
+.donations-buttons__sizes {
+  margin: 0;
+  padding: 0;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1007px;
+}

@@ -5,18 +5,24 @@
   display: grid;
   grid-template-columns: 167px 27px 233px 176px 10px 78px 56px 555px;
   grid-template-rows: 23px 20px 154px 20px 107px 20px 13px 35px;
-  
 }
 
 @media screen and (max-width: 1439px) {
   .special__container {
-    border-radius: 20px;
-    grid-template-columns: 148px 52px 86px 29px 27px 27px 259px;
-    grid-template-rows: 19px 12px 86px 10px 76px 37px 20px 24px;
+    grid-template-columns: 167px 27px 155px 78px 102px 455px;
+    grid-template-rows: 23px 20px 80px 20px 77px 20px 13px 35px;
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1125px) {
+  .special__container {
+    border-radius: 20px;
+    grid-template-columns: 148px 52px 86px 29px 27px 27px 259px;
+    grid-template-rows: 19px 12px 86px 10px 76px 44px 20px 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .special__container {
     padding: 25px;
     grid-template-columns: 130px 64px 56px;

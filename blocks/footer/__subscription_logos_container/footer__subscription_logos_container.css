@@ -1,0 +1,16 @@
+.footer__subscription_logos_container {
+  display: flex;
+  gap: 10px;
+  padding-top: 11px;
+}
+
+@media (max-width: 769px) {
+  .footer__subscription_logos_container {
+    gap: 4px;
+  }
+}
+
+@media (max-width: 321px) {
+  .footer__subscription_logos_container {
+  }
+}

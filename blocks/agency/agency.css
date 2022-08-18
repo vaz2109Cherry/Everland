@@ -1,0 +1,19 @@
+.agency{
+    font-family: 'Raleway', Helvetica, sans-serif;
+    padding: 100px 40px;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1040px) {
+    .agency{
+        padding: 50px 40px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .agency{
+        padding: 32px 11px;
+    }
+}

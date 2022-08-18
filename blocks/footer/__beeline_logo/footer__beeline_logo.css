@@ -1,0 +1,14 @@
+.footer__beeline_logo {
+
+}
+
+@media (max-width: 769px) {
+  .footer__beeline_logo {
+    max-height: 40px;
+  }
+}
+
+@media (max-width: 321px) {
+  .footer__beeline_logo {
+  }
+}

@@ -1,0 +1,14 @@
+.footer__telegram_logo {
+}
+
+@media (max-width: 769px) {
+  .footer__telegram_logo {
+    max-height: 40px;
+  }
+}
+
+@media (max-width: 321px) {
+  .footer__telegram_logo {
+
+  }
+}

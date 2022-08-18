@@ -1,0 +1,12 @@
+.donation-buttons__button-send {
+  flex: 0 0 23.75%;
+  max-width: 179px;
+  margin: 0 0 0 22px;
+}
+
+@media screen and (max-width: 985px){
+  .donation-buttons__button-send {
+    max-width: 143px;
+    font-size: 16px;
+  }
+}

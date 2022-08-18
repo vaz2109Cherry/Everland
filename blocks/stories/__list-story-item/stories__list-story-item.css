@@ -1,0 +1,25 @@
+.stories__list-story-item {
+  margin-bottom: 150px;
+}
+
+.stories__list-story-item:last-child {
+  margin-bottom: 149px;
+}
+
+@media screen and (max-width: 1100px) {
+
+  .stories__list-story-item {
+    margin-bottom: 30px;
+  }
+
+  .stories__list-story-item:last-child {
+    margin-bottom: 37px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .stories__list-story-item:last-child {
+    margin-bottom: 32px;
+  }
+}

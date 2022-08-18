@@ -1,0 +1,10 @@
+.story-card {
+  background-color: #EAE6FF;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 1100px) {
+  .story-card {
+    border-radius: 20px;
+  }
+}

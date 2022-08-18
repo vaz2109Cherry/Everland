@@ -1,0 +1,14 @@
+.footer__practicum_logo {
+
+}
+
+@media (max-width: 769px) {
+  .footer__practicum_logo {
+    max-height: 20px;
+  }
+}
+
+@media (max-width: 321px) {
+  .footer__practicum_logo {
+  }
+}
