@@ -203,7 +203,9 @@
 @import url(../blocks/agency/__image/agency__image.css);
 @import url(../blocks/agency/__caption/agency__caption.css);
 @import url(../blocks/agency/__link/agency__link.css);
+/* agency */
 
+/* footer */
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__info/footer__info.css');
 @import url('../blocks/footer/__logo/footer__logo.css');
@@ -228,3 +230,20 @@
 @import url('../blocks/footer/__practicum_info/footer__practicum_info.css');
 @import url('../blocks/footer/__practicum_logo/footer__practicum_logo.css');
 @import url('../blocks/footer/__practicum_text/footer__practicum_text.css');
+/* footer */
+
+/* news */
+@import url(../blocks/news/news.css);
+@import url(../blocks/news-list/news-list.css);
+@import url(../blocks/news/button_news!ToChange!.css);
+@import url(../blocks/section-title/_place/section-title_place_news.css);
+@import url(../blocks/news-card/news-card.css);
+@import url(../blocks/news-card/_img-pos/news-card_img-pos_bottom.css);
+@import url(../blocks/news-card/_img-pos/news-card_img-pos_none.css);
+@import url(../blocks/news-card/_img-pos/news-card_img-pos_top.css);
+@import url(../blocks/news-card/__date/news-card__date.css);
+@import url(../blocks/news-card/__image/news-card__image.css);
+@import url(../blocks/news-card/__text/news-card__text.css);
+@import url(../blocks/news-card/__title/news-card__title.css);
+@import url(../blocks/news-card/__word/news-card__word.css);
+/* news */
