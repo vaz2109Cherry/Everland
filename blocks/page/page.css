@@ -1,0 +1,7 @@
+.page {
+  max-width: 1440px;
+  min-width: 320px;
+  padding: 0;
+  margin: 0 auto;
+  font-family: 'Raleway';
+}
