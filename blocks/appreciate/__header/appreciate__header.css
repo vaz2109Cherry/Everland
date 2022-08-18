@@ -1,5 +1,5 @@
 .appreciate__header{
-  width: 488px;
+  max-width: 488px;
   padding: 0;
   margin: 0;
   margin-top: 39px;
@@ -9,4 +9,22 @@
   line-height: 120%;
   text-align: center;
   font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+@media screen and (max-width: 768px){
+  .appreciate__header{
+    max-width: 522px;
+    margin-top: 27px;
+    margin-bottom: 31px;
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 410px){
+  .appreciate__header{
+    margin-top: 2px;
+    margin-bottom: 36px;
+    font-size: 18px;
+    text-align: center;
+  }
 }

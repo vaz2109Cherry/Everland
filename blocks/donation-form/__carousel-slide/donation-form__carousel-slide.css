@@ -6,3 +6,16 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 726px){
+  .donation-form__carousel-slide{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 410px){
+  .donation-form__carousel-slide{
+    align-items: center;
+    row-gap: 16px;
+  }
+}

@@ -1,8 +1,0 @@
-.carousel__control{
-  width: 126px;
-  grid-column: 1 / 2;
-  grid-row: 2 / 3;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}

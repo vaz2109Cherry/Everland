@@ -98,20 +98,24 @@
 <main class="main">
 
   <section class="about">
-    <div class="carousel">
-      <div class="carousel__slide">
-        <h1 class="about__header"><span class="about__header-accent">Everland</span>&nbsp;—&nbsp;социальный
-          предпринимательский проект</h1>
+    <div class="about__slide">
+      <div><h1 class="about__header"><span class="about__header-accent">Everland</span>&nbsp;—&nbsp;социальный
+        предпринимательский проект</h1>
         <p class="about__paragraph">Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью устойчиво
           интегрироваться в
           открытый рынок труда </p>
-        <img src="images/carousel-man.png" alt="" class="about__slide-image">
       </div>
-      <div class="carousel__control">
-        <button class="btn__arrow btn__arrow_backward btn__arrow_blue carousel__backward">Назад</button>
-        <span class="carousel__counter">1/6</span>
-        <button class="btn__arrow btn__arrow_forward btn__arrow_blue carousel__forward">Вперед</button>
-      </div>
+      <img src="images/carousel-man.png" alt="" class="about__slide-image">
+<!--      <picture>-->
+<!--        <source media="(max-width: 768px)" srcset="images/carousel-man-768.png">-->
+<!--        <source media="(max-width: 320px)" srcset="images/carousel-man-320.png">-->
+<!--        <img src="images/carousel-man.png" alt="" class="about__slide-image">-->
+<!--      </picture>-->
+    </div>
+    <div class="about__control">
+      <button class="btn__arrow btn__arrow_backward btn__arrow_blue">Назад</button>
+      <span class="about__counter">1/6</span>
+      <button class="btn__arrow btn__arrow_forward btn__arrow_blue">Вперед</button>
     </div>
   </section>
 
@@ -283,6 +287,7 @@
           </div>
         </div>
       </div>
+    </div>
   </section>
 
   <section class="special">
@@ -309,32 +314,32 @@
   <section class="donation">
     <h2 class="donation__header">Поддержите нас</h2>
     <form action="POST" name="donation-form" class="donation-form">
-      <div class="donation-form_container">
+      <div class="donation-form__container">
         <input type="radio" name="pay_type" id="every_month" class="donation-form__radio donation-form__radio">
         <label for="every_month"
-               class="donation-form__label-radio donation-form__label-radio_width_315 donation-form__label-radio_margin-right_20">Ежемесячно
+               class="donation-form__label-radio donation-form__label-radio_width_big donation-form__label-radio_margin-right_big-btn">Ежемесячно
           <span class="donation-form__help-icon"></span></label>
         <input type="radio" name="pay_type" id="one_pay" class="donation-form__radio donation-form__radio">
-        <label for="one_pay" class="donation-form__label-radio donation-form__label-radio_width_315">Разово</label>
+        <label for="one_pay" class="donation-form__label-radio donation-form__label-radio_width_big donation-form__label-radio_margin-right_big-btn">Разово</label>
       </div>
 
       <h5 class="donation-form__header"><span>Размер пожертвования</span></h5>
       <div class="donation-form__container">
         <input type="radio" name="pay-sum" id="donat_250" class="donation-form__radio"><label
         for="donat_250"
-        class="donation-form__label-radio donation-form__label-radio_width_159 donation-form__label-radio_margin-bottom_12">250₽</label>
+        class="donation-form__label-radio donation-form__label-radio_width_small donation-form__label-radio_margin-bottom_small donation-form__label-radio_margin-right_small-btn">250₽</label>
         <input type="radio" name="pay-sum" id="donat_500" class="donation-form__radio"><label
         for="donat_500"
-        class="donation-form__label-radio donation-form__label-radio_width_159 donation-form__label-radio_margin-bottom_12">500₽</label>
+        class="donation-form__label-radio donation-form__label-radio_width_small donation-form__label-radio_margin-bottom_small donation-form__label-radio_margin-right_small-btn">500₽</label>
         <input type="radio" name="pay-sum" id="donat_750" class="donation-form__radio"><label
         for="donat_750"
-        class="donation-form__label-radio donation-form__label-radio_width_159 donation-form__label-radio_margin-bottom_12">275₽</label>
+        class="donation-form__label-radio donation-form__label-radio_width_small donation-form__label-radio_margin-bottom_small donation-form__label-radio_margin-right_small-btn">750₽</label>
         <input type="radio" name="pay-sum" id="donat_1000" class="donation-form__radio"><label
         for="donat_1000"
-        class="donation-form__label-radio donation-form__label-radio_width_159 donation-form__label-radio_margin-bottom_12">1000₽</label>
+        class="donation-form__label-radio donation-form__label-radio_width_small donation-form__label-radio_margin-bottom_small donation-form__label-radio_margin-right_small-btn">1000₽</label>
         <input type="radio" name="pay-sum" id="donat_other" class="donation-form__radio"><label
         for="donat_other"
-        class="donation-form__label-radio donation-form__label-radio_width_159 donation-form__label-radio_margin-bottom_12">Другая&nbsp;сумма</label>
+        class="donation-form__label-radio donation-form__label-radio_width_small donation-form__label-radio_margin-bottom_small donation-form__label-radio_margin-right_small-btn">Другая&nbsp;сумма</label>
       </div>
 
       <p class="donation-form__paragraph">Регулярные пожертвования очень важны для Everland. Это то, что

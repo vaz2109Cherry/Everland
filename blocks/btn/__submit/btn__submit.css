@@ -15,3 +15,17 @@
 .btn__submit:hover{
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px){
+  .btn__submit{
+    width: 200px;
+    height: 44px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 410px){
+  .btn__submit{
+    width: 100%;
+  }
+}

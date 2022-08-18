@@ -1,3 +1,10 @@
 .donation-form__label-radio_width_186{
   width: 186px;
 }
+
+
+@media screen and (max-width: 410px){
+  .donation-form__label-radio_width_186{
+    width: inherit;
+  }
+}

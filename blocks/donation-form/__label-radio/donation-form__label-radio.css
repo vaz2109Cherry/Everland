@@ -22,3 +22,18 @@
 .donation-form__radio:checked + .donation-form__label-radio{
   border-color: var(--background-button-pressed-blue);
 }
+
+@media screen and (max-width: 768px){
+  .donation-form__label-radio{
+    height: 44px;
+    padding: 10px 5px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 410px){
+  .donation-form__label-radio{
+    font-size: 14px;
+    width: 100%;
+  }
+}

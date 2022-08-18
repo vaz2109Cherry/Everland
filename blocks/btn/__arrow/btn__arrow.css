@@ -7,5 +7,15 @@
   background-image: url("../../../images/arrow.svg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 17px 17px;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 768px){
+  .btn__arrow{
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+    background-size: 10px 10px;
+  }
 }

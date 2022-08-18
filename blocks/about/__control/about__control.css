@@ -1,0 +1,27 @@
+.about__control{
+  position: absolute;
+  bottom: 0;
+  left: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px){
+  .about__control{
+    width: 97px;
+  }
+}
+
+@media screen and (max-width: 556px){
+  .about__control{
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 556px) {
+  .about__control{
+    align-self: center;
+    left: 0;
+  }
+}

@@ -6,3 +6,13 @@
 
   background: url("../../../images/question.svg");
 }
+
+@media screen and (max-width: 768px){
+  .donation-form__help-icon{
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 320px){
+
+}

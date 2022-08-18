@@ -1,6 +1,5 @@
 .donation-form{
   width: 691px;
-  max-height: 953px;
   padding: 30px 0;
   padding-left: 16px;
   padding-right: 23px;
@@ -12,4 +11,17 @@
   background: var(--background-main);
   border-radius: 30px;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px){
+  .donation-form{
+    width: 100%;
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 410px){
+  .donation-form{
+    padding: 32px 20px;
+  }
 }

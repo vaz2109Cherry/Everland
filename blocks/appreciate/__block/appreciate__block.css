@@ -18,3 +18,18 @@
   left: 0;
   z-index: 0;
 }
+
+@media screen and (max-width: 768px){
+  .appreciate__block{
+    width: 349px;
+  }
+}
+
+@media screen and (max-width: 410px){
+  .appreciate__block{
+    margin: 0;
+    margin-bottom: 10px;
+    width: 300px;
+    align-items: center;
+  }
+}

@@ -1,16 +1,24 @@
 .about__header{
   padding: 0;
   margin: 0;
+  margin-bottom: 20px;
   grid-row: 1 / 2;
   font-weight: 700;
-  font-size: 72px;
+  /*font-size: 72px;*/
+  font-size: calc(28px + 44 * (100vw / 1440));
   line-height: 120%;
   letter-spacing: -0.02em;
 }
 
-@media screen and (max-width: 1439px){
+@media screen and (max-width: 1032px){
   .about__header{
-    width: 424px;
-    font-size: 38px;
+    font-size: calc(28px + 10 * (100vw / 768));
+  }
+}
+
+@media screen and (max-width: 765px){
+  .about__header{
+    font-size: 28px;
+    letter-spacing: -0.06em;
   }
 }

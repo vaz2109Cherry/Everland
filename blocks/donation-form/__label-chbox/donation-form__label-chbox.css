@@ -15,3 +15,21 @@
 .donation-form__label-chbox:last-of-type{
   margin-bottom: 23px;
 }
+
+@media screen and (max-width: 768px){
+  .donation-form__label-chbox{
+    margin-bottom: 14px;
+    font-size: 12px;
+    line-height: 120%;
+  }
+
+  .donation-form__label-chbox:first-of-type{
+    margin-top: 8px;
+  }
+}
+
+@media screen and (max-width: 410px){
+  .donation-form__label-chbox:last-of-type{
+    margin-bottom: 27px;
+  }
+}

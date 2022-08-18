@@ -1,0 +1,23 @@
+.donation-form__label-radio_width_small{
+  width: 159px;
+}
+
+@media screen and (max-width: 768px){
+  .donation-form__label-radio_width_small{
+    width: 145px;
+  }
+
+  .donation-form__label-radio_width_small:last-of-type{
+    width: 190px;
+  }
+}
+
+@media screen and (max-width: 410px){
+  .donation-form__label-radio_width_small{
+    width: 122px;
+  }
+
+  .donation-form__label-radio_width_small:last-of-type{
+    width: 260px;
+  }
+}

@@ -9,3 +9,10 @@
 .btn__chevron:hover{
   cursor: pointer;
 }
+
+@media screen and (max-width: 410px){
+  .btn__chevron{
+    margin: 6px;
+    transform: rotate(90deg);
+  }
+}
