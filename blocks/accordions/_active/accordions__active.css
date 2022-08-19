@@ -10,7 +10,8 @@
 }
 
 .accordions__active .accordions__open {
-  background: transparent url(../../../images/accordion__open-hover.svg) no-repeat; 
+  background: transparent url(../../../images/accordion__open-hover.svg) no-repeat;
+  background-size: contain; 
   transform: rotate(45deg);
   transition: all 200ms ease;
 }
