@@ -3,7 +3,7 @@
   width: 180px;
 }
 
-@media (max-width: 769px) {
+@media (max-width: 1000px) {
   .button_header {
     height: 44px;
     width: 134px;
@@ -13,7 +13,7 @@
   }
 }
 
-@media (max-width: 321px) {
+@media (max-width: 650px) {
   .button_header {
     display: none;
   }

@@ -77,32 +77,34 @@
 @import url('../blocks/button/button_main.css');
 @import url('../blocks/button/_secondary_blue/button_secondary_blue.css');
 @import url('../blocks/button/_header/button_header.css');
+
+
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__first_line_container/header__first_line_container.css');
 @import url('../blocks/header/__logo/header__logo.css');
-@import url('../blocks/header/__menu/header__menu.css');
-
 @import url('../blocks/header/__menu_button/header__menu_button.css');
 @import url('../blocks/header/__menu_button_container/header__menu_button_container.css');
+@import url('../blocks/header/__menu_button_image/header__menu_button_image.css');
+@import url('../blocks/header/__menu_button_text/header__menu_button_text.css');
+@import url('../blocks/header/__blue_buttons_container/header__blue_buttons_container.css');
+@import url('../blocks/header/__menu/header__menu.css');
 @import url('../blocks/header/__menu_group/header__menu_group.css');
-@import url('../blocks/header/__menu_group_open_container/header__menu_group_open_container.css');
+@import url('../blocks/header/__menu_group_title/header__menu_group_title.css');
+@import url('../blocks/header/__menu_group_title_highlight/header__menu_group_title_highlight.css');
+@import url('../blocks/header/__menu_group_title_highlight/_last_row/header_menu_group_title_highlight_last_row.css');
+@import url('../blocks/header/__menu_group_title_button/header__menu_group_title_button.css');
+@import url('../blocks/header/__menu_group_list/header__menu_group_list.css');
+@import url('../blocks/header/__menu_group_list_element/header__menu_group_list_element.css');
+@import url('../blocks/header/__menu_group_list_element_link/header__menu_group_list_element_link.css');
 @import url('../blocks/header/__menu_group/_last_row/header_menu_group_last_row.css');
-@import url('../blocks/header/__menu_highlight/header__menu_highlight.css');
-@import url('../blocks/header/__menu_group_button/header__menu_group_button.css');
-@import url('../blocks/header/__menu_group_button_img/header__menu_group_button_img.css');
-@import url('../blocks/header/__list/header__list.css');
-@import url('../blocks/header/__list_highlight/header__list_highlight.css');
-@import url('../blocks/header/__menu_highlight/_last_row/header_menu_highlight_last_row.css');
-@import url('../blocks/header/__menu_highlight/_opened/header_menu_highlight_opened.css');
-@import url('../blocks/header/__menu_image/header__menu_image.css');
-@import url('../blocks/header/__menu_list_element/header__menu_list_element.css');
-@import url('../blocks/header/__menu_list_element_link/header__menu_list_element_link.css');
-@import url('../blocks/header/__menu_text/header__menu_text.css');
-@import url('../blocks/header/__button_container/header__button_container.css');
-@import url('../blocks/header/__navigation/header__navigation.css');
-@import url('../blocks/header/__navigation_link/header__navigation_link.css');
-@import url('../blocks/header/__navigation_list/header__navigation_list.css');
+@import url('../blocks/header/__menu_group_list_highlight/header__menu_group_list_highlight.css');
+
 @import url('../blocks/element/_opened/element_opened.css');
+
+@import url('../blocks/menu/menu.css');
+@import url('../blocks/menu/__navigation/menu__navigation.css');
+@import url('../blocks/menu/__navigation_list/menu__navigation_list.css');
+@import url('../blocks/menu/__navigation_list_link/menu__navigation_list_link.css');
 
 @import url("../blocks/about/about.css");
 @import url("../blocks/about/__slide/about__slide.css");

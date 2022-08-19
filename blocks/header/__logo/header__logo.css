@@ -1,9 +1,10 @@
 .header__logo {
   max-height: 30px;
   max-width: 172px;
+  transition: all 0.5s linear;
 }
 
-@media (max-width: 769px) {
+@media (max-width: 1000px) {
   .header__logo {
     margin-right: auto;
   }

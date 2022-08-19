@@ -1,4 +1,4 @@
-.header__navigation_list {
+.menu__navigation_list {
   padding: 0 42px 0 42px;
   margin: 0;
   list-style: none;
@@ -7,4 +7,5 @@
   justify-content: space-between;
   align-items: center;
   height: 50px;
+  transition: all 0.5s linear;
 }

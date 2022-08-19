@@ -1,16 +1,27 @@
 .header__menu {
   display: none;
   padding: 40px 40px 0 40px;
+  position: absolute;
+  background-color: #ffffff;
+  z-index: 1;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.5s linear;
+}
+
+@media (max-width: 1000px) {
+  .header__menu {
+    justify-content: space-between;
+  }
 }
 
 @media (max-width: 769px) {
   .header__menu {
     flex-wrap: wrap;
-    justify-content: space-between;
   }
 }
 
-@media (max-width: 321px) {
+@media (max-width: 630px) {
   .header__menu {
     flex-direction: column;
     flex-wrap: nowrap;

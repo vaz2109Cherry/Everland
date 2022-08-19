@@ -1,12 +1,13 @@
-.header__menu_group_open_container  {
+.header__menu_group_title  {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 0 30px 0;
+  transition: all 0.5s linear;
 }
 
-@media (max-width: 321px) {
-  .header__menu_group_open_container {
+@media (max-width: 630px) {
+  .header__menu_group_title {
     padding: 0;
   }
 }

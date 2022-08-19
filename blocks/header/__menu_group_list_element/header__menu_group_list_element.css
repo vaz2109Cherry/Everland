@@ -1,4 +1,4 @@
-.header__menu_list_element {
+.header__menu_group_list_element {
   margin: 0;
   padding: 0 0 20px 0;
   font-family: 'Raleway';
@@ -8,25 +8,22 @@
   line-height: 130%;
   font-feature-settings: 'pnum' on, 'lnum' on;
   color: #333333;
+  transition: all 0.5s linear;
 }
 
-.header__menu_list_element:last-of-type {
-  padding: 0;
-}
-
-@media (max-width: 769px) {
-  .header__menu_list_element {
+@media (max-width: 1130px) {
+  .header__menu_group_list_element {
     font-size: 16px;
     line-height: 120%;
     max-width: 196px;
   }
 }
 
-@media (max-width: 321px) {
-  .header__menu_list_element {
+@media (max-width: 630px) {
+  .header__menu_group_list_element {
     padding: 0 0 10px 0;
   }
-  .header__menu_list_element:first-of-type {
+  .header__menu_group_list_element:first-of-type {
     padding-top: 25px;
   }
 }
