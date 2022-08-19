@@ -1,4 +1,4 @@
-.header__navigation_link {
+.menu__navigation_list_link {
   padding: 0;
   margin: 0;
   text-decoration: none;
@@ -9,4 +9,12 @@
   line-height: 130%;
   font-feature-settings: 'pnum' on, 'lnum' on;
   color: #333333;
+  transition: all 0.5s linear;
+}
+
+@media (max-width: 1200px) {
+  .menu__navigation_list_link {
+    font-size: 16px;
+    line-height: 120%;
+  }
 }
