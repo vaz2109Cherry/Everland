@@ -14,30 +14,31 @@ document.querySelector('.button__slide_right').addEventListener('click', functio
   showSlides(slideIndex -= 1);
 });
 
-/* Устанавливает текущий слайд */
+/* Устанавливает текущий слайд
 function currentSlide(n) {
   showSlides(slideIndex = n);
-}
+}*/
 
 /* Основная функция слайдера */
 function showSlides(n) {
-  let i;
+  
+  /* Карточка с слайдом */
   const slides = document.querySelectorAll('.slide');
 
+  /* длина когда листаем назад */
   if (n > slides.length) {
     slideIndex = 1
   }
+
+  /* длина когда листаем вперед */
   if (n < 1) {
     slideIndex = slides.length
   }
+
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
-  for (i = 0; i < slides.length; i++) {
-    slides[i].className = slides[i].className.replace("active", "");
-  }
-  slides[slideIndex - 1].style.display = "block";
-  slides[slideIndex - 1].className += " active";
+  slides[slideIndex - 1].style.display = "block"; 
 }
 /*_______________________________________________________________________________________________________*/
 
