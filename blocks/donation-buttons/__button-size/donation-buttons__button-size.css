@@ -7,25 +7,18 @@
   box-sizing: border-box;
 }
 
-.donation-buttons__button-size:last-of-type {
-  margin: 0;
-  max-width: 211px;
-}
-
-@media screen and (max-width: 985px){
+@media screen and (max-width: 1000px){
   .donation-buttons__button-size{
-    max-width: 75px;
+    height: 44px;
     font-size: 16px;
-  }
-
-  .donation-buttons__button-size:last-of-type {
-    max-width: 135px;
   }
 }
 
 @media screen and (max-width: 700px){
+
   .donation-buttons__button-size{
-    max-width: 122px;
+    max-width: 100%;
     font-size: 14px;
   }
+
 }
