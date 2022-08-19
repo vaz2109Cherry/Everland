@@ -1,5 +1,5 @@
 .donation-buttons__container {
-  margin: 0 40px;
+  margin: 0 40px 50px 40px;
   padding: 58px 54px 58px 30px;
   background-color: #E7F0FF;
   border-radius: 10px;
@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 700px){
   .donation-buttons__container {
-    margin: 0 10px;
+    margin: 0 10px 32px 10px;
     padding: 32px 20px;
     display: flex;
     flex-direction: column;

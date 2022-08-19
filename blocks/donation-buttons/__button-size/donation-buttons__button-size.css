@@ -7,6 +7,8 @@
   box-sizing: border-box;
 }
 
+
+
 @media screen and (max-width: 1000px){
   .donation-buttons__button-size{
     height: 44px;
