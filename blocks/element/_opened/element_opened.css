@@ -1,0 +1,7 @@
+.element_opened {
+  display: flex;
+}
+
+.element_opened .header__menu_group_button{
+  transform: rotate(0);
+}

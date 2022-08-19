@@ -11,7 +11,7 @@ function plusSlide() {
 
 /* Функция уменьшяет индекс на 1, показывает предыдущий слайд*/
 function minusSlide() {
-  showSlides(slideIndex -= 1);  
+  showSlides(slideIndex -= 1);
 }
 
 /* Устанавливает текущий слайд */
@@ -48,5 +48,45 @@ for (i=0; i<accordion.length; i++) {
   accordion[i].addEventListener('click', function () {
     this.classList.toggle('accordions__active')
   })
+}
+/*_______________________________________________________________________________________________________*/
+
+
+
+/*_____________________________________________Меню заголовка___________________________________________________*/
+//Инициация функции переключения состояния элемента
+function changeElementVisibility(container) {
+  container.classList.toggle ('element_opened');
+}
+
+//"Вешаем" функцию переключения на кнопку меню и замену картинку на закрывающую при клике
+const headerMenuContainer = document.querySelector('.header__menu');
+document.querySelector('.header__menu_button').addEventListener('click', function() {
+  changeElementVisibility(headerMenuContainer);
+
+const headerMenuImage = document.querySelector('.header__menu_image');
+if (headerMenuContainer.classList.contains('element_opened') === true) {
+  headerMenuImage.src='./images/header-menu-close.svg';
+} else {
+  headerMenuImage.src='./images/header-menu-open.svg';
+};
+});
+
+//"Вешаем" функцию переключения на кнопки скроллов категорий меню на 320px, а также замену картинок при клике
+const headerList = document.querySelectorAll('.header__list');
+const headerMenuGroupButtons = document.querySelectorAll('.header__menu_group_button');
+const headerMenuGroupButtonsImg = document.querySelectorAll('.header__menu_group_button_img');
+for (let i = 0; i < headerList.length; i++) {
+  headerMenuGroupButtons[i].addEventListener('click', function() {
+    changeElementVisibility(headerList[i]);
+
+    if (headerList[i].classList.contains('element_opened') === true) {
+      headerMenuGroupButtonsImg[i].src='./images/header_menu_icon_shevron_closed.png';
+      console.log(headerMenuGroupButtonsImg[i].src);
+    } else {
+      headerMenuGroupButtonsImg[i].src='./images/header_menu_icon_shevron_opened.png';
+      console.log(headerMenuGroupButtonsImg[i].src);
+    };
+  });
 }
 /*_______________________________________________________________________________________________________*/

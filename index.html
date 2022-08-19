@@ -17,17 +17,17 @@
     <div class="header__first_line_container">
       <img src="./images/logo.svg" alt="Логотип Everland" class="header__logo">
       <button class="header__menu_button">
-        <div class="header__menu_button_container">
+        <span class="header__menu_button_container">
           <img src="./images/header-menu-open.svg" alt="Открыть меню" class="header__menu_image">
-          <p class="header__menu_text">Меню</p>
-        </div>
+          <span class="header__menu_text">Меню</span>
+        </span>
       </button>
       <div class="header__button_container">
         <button class="button_main button_secondary_blue button_header">
-          <p class="button__text">Платформа</p>
+          Платформа
         </button>
         <button class="button_main button_header">
-          <p class="button__text">Поддержать</p>
+          Поддержать
         </button>
       </div>
     </div>
@@ -35,55 +35,64 @@
       <!-- class 'header_menu_opened' for opening (right now it's always opened)  -->
       <div class="header__menu_group">
         <div class="header__menu_group_open_container">
-          <h2 class="header__menu_highlight header_menu_highlight_opened">О проекте</h2>
-          <button class="header__menu_group_button"><img src="./images/header_menu_icon_shevron.png" alt="Открыть/закрыть категорию" class="header__menu_group_button_img"></button>
+          <h4 class="header__menu_highlight header_menu_highlighgit">О проекте</h4>
+          <button class="header__menu_group_button"><img src="./images/header_menu_icon_shevron_closed.png" alt="Открыть/закрыть меню" class="header__menu_group_button_img"></button>
+
         </div>
         <!-- 'header_menu_highlight_opened' for opening menu on 320px, right now it's always opened. -->
-        <p class="header__menu_paragraph">АНО Пространство равных возможностей</p>
-        <p class="header__menu_paragraph">Новости</p>
-        <p class="header__menu_paragraph">Сотрудничество</p>
-        <p class="header__menu_paragraph">Инклюзия</p>
-        <p class="header__menu_paragraph">Учебным заведениям</p>
-        <p class="header__menu_paragraph">Годовые отчеты</p>
+        <ul class="header__list element_opened">
+          <li class="header__menu_list_element"><a href="#" class="header__menu_list_element_link">АНО Пространство равных возможностей</a></li>
+          <li class="header__menu_list_element"><a href="#" class="header__menu_list_element_link">Новости</a></li>
+          <li class="header__menu_list_element"><a href="#" class="header__menu_list_element_link">Сотрудничество</a></li>
+          <li class="header__menu_list_element"><a href="#" class="header__menu_list_element_link">Инклюзия</a></li>
+          <li class="header__menu_list_element"><a href="#" class="header__menu_list_element_link">Учебным заведениям</a></li>
+          <li class="header__menu_list_element"><a href="#" class="header__menu_list_element_link">Годовые отчеты</a></li>
+        </ul>
       </div>
       <div class="header__menu_group">
         <div class="header__menu_group_open_container">
-          <h2 class="header__menu_highlight header_menu_highlight_opened">Людям с инвалидностью</h2>
-          <button class="header__menu_group_button"><img src="./images/header_menu_icon_shevron.png" alt="Открыть/закрыть категорию" class="header__menu_group_button_img"></button>
+          <h4 class="header__menu_highlight">Людям с инвалидностью</h4>
+          <button class="header__menu_group_button"><img src="./images/header_menu_icon_shevron_closed.png" alt="Открыть/закрыть категорию" class="header__menu_group_button_img"></button>
         </div>
-        <p class="header__menu_paragraph">Платформа</p>
-        <p class="header__menu_paragraph">Курсы</p>
-        <p class="header__menu_paragraph">Everland Profi</p>
-        <p class="header__menu_paragraph">Бесплатное такси</p>
+        <ul class="header__list element_opened">
+          <li class="header__menu_list_element"><a href="#" class="header__menu_list_element_link">Платформа</a></li>
+          <li class="header__menu_list_element"><a href="#" class="header__menu_list_element_link">Курсы</a></li>
+          <li class="header__menu_list_element"><a href="#" class="header__menu_list_element_link">Everland Profi</a></li>
+          <li class="header__menu_list_element"><a href="#" class="header__menu_list_element_link">Бесплатное такси</a></li>
+        </ul>
       </div>
       <div class="header__menu_group">
         <div class="header__menu_group_open_container">
-          <h2 class="header__menu_highlight">Услуги</h2>
-          <button class="header__menu_group_button"><img src="./images/header_menu_icon_shevron.png" alt="Открыть/закрыть категорию" class="header__menu_group_button_img"></button>
+          <h4 class="header__menu_highlight">Услуги</h4>
+          <button class="header__menu_group_button"><img src="./images/header_menu_icon_shevron_closed.png" alt="Открыть/закрыть категорию" class="header__menu_group_button_img"></button>
         </div>
-        <p class="header__menu_paragraph">Услуги агентства</p>
-        <p class="header__menu_paragraph">Готовые сайты</p>
-        <p class="header__menu_paragraph">Доступность для людей с инвалидностью</p>
-        <p class="header__menu_paragraph">Работодателям</p>
-        <p class="header__menu_paragraph">Портфолио</p>
+        <ul class="header__list element_opened">
+          <li class="header__menu_list_element"><a href="#" class="header__menu_list_element_link">Услуги агентства</a></li>
+          <li class="header__menu_list_element"><a href="#" class="header__menu_list_element_link">Готовые сайты</a></li>
+          <li class="header__menu_list_element"><a href="#" class="header__menu_list_element_link">Доступность для людей с инвалидностью</a></li>
+          <li class="header__menu_list_element"><a href="#" class="header__menu_list_element_link">Работодателям</a></li>
+          <li class="header__menu_list_element"><a href="#" class="header__menu_list_element_link">Портфолио</a></li>
+        </ul>
       </div>
       <div class="header__menu_group header_menu_group_last_row">
-        <h2 class="header__menu_highlight header_menu_highlight_last_row">Мы благодарим</h2>
-        <h2 class="header__menu_highlight header_menu_highlight_last_row">Программы</h2>
-        <h2 class="header__menu_highlight header_menu_highlight_last_row">Наставникам</h2>
-        <h2 class="header__menu_highlight header_menu_highlight_last_row">Помочь</h2>
+        <ul class="header__list_highlight">
+          <li class="header__menu_highlight header_menu_highlight_last_row"><a href="#" class="header__menu_list_element_link">Мы благодарим</a></li>
+          <li class="header__menu_highlight header_menu_highlight_last_row"><a href="#" class="header__menu_list_element_link">Программы</a></li>
+          <li class="header__menu_highlight header_menu_highlight_last_row"><a href="#" class="header__menu_list_element_link">Наставникам</a></li>
+          <li class="header__menu_highlight header_menu_highlight_last_row"><a href="#" class="header__menu_list_element_link">Помочь</a></li>
+        </ul>
       </div>
     </div>
     <nav class="header__navigation">
       <ul class="header__navigation_list">
-        <li><a href="#" class="header__navigation_link">Для кого</a></li>
-        <li><a href="#" class="header__navigation_link">Направления работы</a></li>
-        <li><a href="#" class="header__navigation_link">Преимущества</a></li>
-        <li><a href="#" class="header__navigation_link">Основные цифры</a></li>
-        <li><a href="#" class="header__navigation_link">Спецпроекты</a></li>
-        <li><a href="#" class="header__navigation_link">Истории</a></li>
-        <li><a href="#" class="header__navigation_link">Агентство</a></li>
-        <li><a href="#" class="header__navigation_link">Новости</a></li>
+        <li><a href="#consumers" class="header__navigation_link">Для кого</a></li>
+        <li><a href="#directions" class="header__navigation_link">Направления работы</a></li>
+        <li><a href="#advantages" class="header__navigation_link">Преимущества</a></li>
+        <li><a href="#numbers" class="header__navigation_link">Основные цифры</a></li>
+        <li><a href="#special" class="header__navigation_link">Спецпроекты</a></li>
+        <li><a href="#stories" class="header__navigation_link">Истории</a></li>
+        <li><a href="#agency" class="header__navigation_link">Агентство</a></li>
+        <li><a href="#news" class="header__navigation_link">Новости</a></li>
       </ul>
     </nav>
     </header>
@@ -129,7 +138,7 @@
 
     </section>
 
-      <section class="consumers">
+      <section class="consumers" id="consumers">
         <h2 class="consumers__title">Для кого мы работаем</h2>
         <div class="cards">
           <div class="card card_bg-color_white">
@@ -169,7 +178,7 @@
         </div>
       </section>
 
-      <section class="directions">
+      <section class="directions" id="directions">
         <h2 class="consumers__title directions__title">Наши направления</h2>
         <div class="cards directions__cards">
           <div class="card directions__card card_bg-color_light-orange">
@@ -235,7 +244,7 @@
         </div>
       </section>
 
-      <section class="advantages">
+      <section class="advantages" id="advantages">
         <h2 class="section-title section-title__advantages_off">Главное в работе</h2>
         <h2 class="section-title section-title__advantages_on">Главное в нашей работе</h2>
         <div class="accordions">
@@ -291,7 +300,7 @@
         </div>
       </section>
 
-      <section class="numbers">
+      <section class="numbers" id="numbers">
         <h2 class="section-title">Everland в цифрах</h2>
         <div class="numbers__container">
           <img class="numbers__img" src="./images/Evarland-numbers.jpg" alt="">
@@ -317,7 +326,7 @@
         </div>
       </section>
 
-      <section class="special">
+      <section class="special" id="special">
         <div class="special__slides">
           <button type="button" class="button__slide button__slide_black button__slide_left" onclick="minusSlide()"></button>
           <button type="button" class="button__slide button__slide_black button__slide_right" onclick="plusSlide()"></button>
@@ -384,7 +393,7 @@
         </div>
       </section>
 
-      <section class="stories">
+      <section class="stories" id="stories">
 
         <div class="stories__container">
 
@@ -443,8 +452,8 @@
 
       </section>
 
-      <section class="news"></section>
-      <section class="agency">
+      <section class="news" id="news"></section>
+      <section class="agency" id="agency">
         <h2 class="agency__title">
           Лучшие проекты агентства
         </h2>
