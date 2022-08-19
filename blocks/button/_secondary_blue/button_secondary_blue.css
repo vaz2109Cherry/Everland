@@ -2,30 +2,24 @@
   background-color: #FFFFFF;
   border: 1px solid #0C4BA0;
 }
-.button_secondary_blue .button__text {
+
+.button_secondary_blue {
   color: #0C4BA0;
 }
+
 .button_secondary_blue:hover {
   border: 1px solid #00275C;
   background-color: #FFFFFF;
-}
-
-.button_secondary_blue:hover .button__text {
   color: #00275C;
 }
 
 .button_secondary_blue:active {
   background-color: #00275C;
-}
-.button_secondary_blue:active .button__text {
   color: #FFFFFF;
 }
 
 .button_secondary_blue:disabled {
   background-color: #F5F5F5;
   border: 2px solid rgba(196, 196, 196, 1);
-}
-
-.button_secondary_blue:disabled .button__text {
   color: rgba(38, 38, 38, 0.5);
 }
