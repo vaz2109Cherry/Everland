@@ -19,8 +19,6 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
-
-
 /* Основная функция слайдера */
 function showSlides(n) {
   let i;
