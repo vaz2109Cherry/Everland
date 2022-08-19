@@ -1,7 +1,3 @@
-.footer__info {
-
-}
-
 @media (max-width: 321px) {
   .footer__info {
     order: 3;

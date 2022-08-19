@@ -1,4 +1,4 @@
-.footer__link {
+.footer__links_points_link {
   text-decoration: none;
   font-family: 'Raleway';
   font-style: normal;
@@ -7,10 +7,18 @@
   line-height: 130%;
   font-feature-settings: 'pnum' on, 'lnum' on;
   color: #333333;
+  transition: all 0.5s linear;
 }
 
-@media (max-width: 321px) {
-  .footer__link {
+@media (max-width: 1300px) {
+  .footer__links_points_link {
+    font-size: 16px;
+    line-height: 120%;
+  }
+}
+
+@media (max-width: 630px) {
+  .footer__links_points_link {
     font-size: 14px;
     line-height: 120%;
   }
