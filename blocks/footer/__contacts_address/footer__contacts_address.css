@@ -1,4 +1,4 @@
-.footer__everland_corporate {
+.footer__contacts_address {
   margin: 0;
   padding: 0;
   font-family: 'Raleway';
@@ -7,24 +7,21 @@
   font-size: 18px;
   line-height: 130%;
   font-feature-settings: 'pnum' on, 'lnum' on;
-  color: rgba(38, 38, 38, 0.5);
-  max-width: 629px;
-  padding-top: 50px;
+  color: #333333;
+  max-width: 313px;
+  transition: all 0.5s linear;
 }
 
-@media (max-width: 769px) {
-  .footer__everland_corporate {
+@media (max-width: 1300px) {
+  .footer__contacts_address {
     font-weight: 500;
     font-size: 14px;
     line-height: 120%;
-    padding-top: 28px;
   }
 }
 
-@media (max-width: 321px) {
-  .footer__everland_corporate {
+@media (max-width: 630px) {
+  .footer__contacts_address {
     font-size: 12px;
-    order: 6;
-    padding-top: 32px;
   }
 }

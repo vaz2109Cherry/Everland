@@ -1,4 +1,4 @@
-.footer__subheader_text {
+.footer__subheader {
   padding: 0;
   margin: 0;
   font-family: 'Raleway';
@@ -9,17 +9,18 @@
   font-feature-settings: 'pnum' on, 'lnum' on;
   color: #333333;
   padding-top: 90px;
+  transition: all 0.5s linear;
 }
 
-@media (max-width: 769px) {
-  .footer__subheader_text {
+@media (max-width: 1300px) {
+  .footer__subheader {
     font-size: 20px;
     padding-top: 56px;
   }
 }
 
-@media (max-width: 321px) {
-  .footer__subheader_text {
+@media (max-width: 630px) {
+  .footer__subheader {
     font-size: 16px;
     padding-top: 24px;
   }

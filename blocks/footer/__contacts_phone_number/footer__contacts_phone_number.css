@@ -1,4 +1,4 @@
-.footer__phone_number {
+.footer__contacts_phone_number {
   margin: 0;
   padding: 0 0 3px 0;
   font-family: 'Raleway';
@@ -8,28 +8,29 @@
   line-height: 130%;
   font-feature-settings: 'pnum' on, 'lnum' on;
   color: #333333;
+  transition: all 0.5s linear;
 }
 
-.footer__phone_number:last-of-type {
+.footer__contacts_phone_number:last-of-type {
   padding: 0;
 }
 
-@media (max-width: 769px) {
-  .footer__phone_number {
+@media (max-width: 1300px) {
+  .footer__contacts_phone_number {
     font-weight: 500;
     font-size: 14px;
     line-height: 120%;
   }
-  .footer__phone_number:last-of-type {
+  .footer__contacts_phone_number:last-of-type {
     padding-top: 16px;
   }
 }
 
-@media (max-width: 321px) {
-  .footer__phone_number {
+@media (max-width: 630px) {
+  .footer__contacts_phone_number {
     font-size: 12px;
   }
-  .footer__phone_number:last-of-type {
+  .footer__contacts_phone_number:last-of-type {
     padding-top: 0;
   }
 }

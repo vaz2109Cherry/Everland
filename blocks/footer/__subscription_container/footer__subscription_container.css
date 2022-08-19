@@ -1,7 +1,8 @@
 .footer__subscription_container {
+  transition: all 0.5s linear;
 }
 
-@media (max-width: 321px) {
+@media (max-width: 630px) {
   .footer__subscription_container {
     order: 5;
   }

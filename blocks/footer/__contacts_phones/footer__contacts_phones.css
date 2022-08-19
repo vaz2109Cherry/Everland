@@ -1,0 +1,17 @@
+.footer__contacts_phones {
+  transition: all 0.5s linear;
+}
+
+@media (max-width: 1300px) {
+  .footer__contacts_phones {
+    display: flex;
+    flex-direction: column;
+    column-gap: 16px;
+  }
+}
+
+@media (max-width: 630px) {
+  .footer__contacts_phones {
+    flex-direction: row;
+  }
+}
