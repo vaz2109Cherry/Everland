@@ -1,0 +1,25 @@
+.header__menu_button_text {
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #333333;
+  transition: all 0.5s linear;
+}
+
+@media (max-width: 1000px) {
+  .header__menu_button_text {
+    font-size: 16px;
+    line-height: 120%;
+  }
+}
+
+@media (max-width: 630px) {
+  .header__menu_button_text {
+    display: none;
+  }
+}

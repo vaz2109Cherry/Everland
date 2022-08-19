@@ -1,0 +1,14 @@
+.header__menu_group_title_button {
+  display: none;
+  transition: all 0.5s linear;
+}
+
+@media (max-width: 630px) {
+  .header__menu_group_title_button {
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+  }
+}

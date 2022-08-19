@@ -1,0 +1,8 @@
+.header__menu_group_list_highlight {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.5s linear;
+}

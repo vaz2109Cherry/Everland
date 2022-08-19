@@ -62,10 +62,11 @@ function changeElementVisibility(container) {
 
 //"Вешаем" функцию переключения на кнопку меню и замену картинку на закрывающую при клике
 const headerMenuContainer = document.querySelector('.header__menu');
+const headerMenuImage = document.querySelector('.header__menu_buttom_image');
+
 document.querySelector('.header__menu_button').addEventListener('click', function() {
   changeElementVisibility(headerMenuContainer);
 
-const headerMenuImage = document.querySelector('.header__menu_image');
 if (headerMenuContainer.classList.contains('element_opened') === true) {
   headerMenuImage.src='./images/header-menu-close.svg';
 } else {
@@ -74,19 +75,18 @@ if (headerMenuContainer.classList.contains('element_opened') === true) {
 });
 
 //"Вешаем" функцию переключения на кнопки скроллов категорий меню на 320px, а также замену картинок при клике
-const headerList = document.querySelectorAll('.header__list');
-const headerMenuGroupButtons = document.querySelectorAll('.header__menu_group_button');
-const headerMenuGroupButtonsImg = document.querySelectorAll('.header__menu_group_button_img');
+const headerList = document.querySelectorAll('.header__menu_group_list');
+const headerMenuGroupButtons = document.querySelectorAll('.header__menu_group_title_button');
+const headerMenuGroupButtonsImg = document.querySelectorAll('.header__menu_group_title_button_img');
+
 for (let i = 0; i < headerList.length; i++) {
   headerMenuGroupButtons[i].addEventListener('click', function() {
     changeElementVisibility(headerList[i]);
 
     if (headerList[i].classList.contains('element_opened') === true) {
-      headerMenuGroupButtonsImg[i].src='./images/header_menu_icon_shevron_closed.png';
-      console.log(headerMenuGroupButtonsImg[i].src);
-    } else {
       headerMenuGroupButtonsImg[i].src='./images/header_menu_icon_shevron_opened.png';
-      console.log(headerMenuGroupButtonsImg[i].src);
+    } else {
+      headerMenuGroupButtonsImg[i].src='./images/header_menu_icon_shevron_closed.png';
     };
   });
 }
