@@ -1,0 +1,7 @@
+.button__arrow_green{
+    background-image: url(../../../../images/button__arrow_green.svg);
+}
+
+.button_link_green:hover .button__arrow_green{
+    background-image: url(../../../../images/button__arrow_white.svg);
+}

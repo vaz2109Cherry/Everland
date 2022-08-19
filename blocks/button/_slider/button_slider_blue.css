@@ -1,0 +1,18 @@
+.button_slider_blue{
+    background-color: #0C4BA0;
+    padding: 0;
+}
+
+.button_slider_blue:hover{
+    background-color: #4183DC;
+}
+
+.button_slider_blue:active{
+    background-color: #00275C;
+}
+
+@media screen and (max-width: 768px) {
+    .button_slider_blue{
+        border-radius: 6px;
+    }
+}
