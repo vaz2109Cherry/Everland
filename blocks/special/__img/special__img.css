@@ -3,7 +3,7 @@
   height: 393px;
   border-radius: 30px;
   object-fit: cover;
-  grid-column: 8 / 9;
+  grid-column: 5 / 6;
   grid-row: 1 / 9;
 }
 
@@ -12,7 +12,7 @@
     width: 455px;
     height: 293px;
     border-radius: 30px;
-    grid-column: 6 / 7;
+    grid-column: 5 / 6;
   }
 }
 
