@@ -1,7 +1,9 @@
 .about__slide{
   width: 100%;
-  display: flex;
+  display: none;
   flex-direction: row;
+  animation-name: fade;
+  animation-duration: 0.5s;
 }
 
 @media screen and (max-width: 556px){
