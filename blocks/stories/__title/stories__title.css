@@ -1,6 +1,7 @@
 .stories__title {
   margin-bottom: 98px;
   grid-area: header;
+  color: #333333;
 }
 
 @media screen and (max-width: 1100px){
