@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 767px) {
   .button_watch {
-    width: 250px;
+    width: 254px;
     grid-column: 1 / 4;
     grid-row: 9 / 10;
   }
