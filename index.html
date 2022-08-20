@@ -24,12 +24,12 @@
         </span>
       </button>
       <div class="header__blue_buttons_container">
-        <button class="button button_regular_white-blue button_place_header">
+        <a class="button button_regular_white-blue button_place_header">
           <p class="button__text">Платформа</p>
-        </button>
-        <button class="button button_regular_blue-white button_place_header">
+        </a>
+        <a class="button button_regular_blue-white button_place_header">
           <p class="button__text">Поддержать</p>
-        </button>
+        </a>
       </div>
     </div>
     <div class="header__menu">
@@ -132,15 +132,21 @@
             <input class="donation-buttons__radio" type="radio" name="donation_size" id="donation-250">
             <label class="donation-buttons__button-size button button_link_white" for="donation-250">250₽</label>
 
-            <input class="donation-buttons__radio" type="radio" name="donation_size" id="donation-500">
-            <label class="donation-buttons__button-size button button_link_white" for="donation-500">500₽</label>
+          <label class="donation-buttons__button-size button button_link_white" for="donation-750">
+            750₽
+            <input class="donation-buttons__radio" type="radio" name="donation-size" id="donation-750">
+          </label>
 
-            <input class="donation-buttons__radio" type="radio" name="donation_size" id="donation-750">
-            <label class="donation-buttons__button-size button button_link_white" for="donation-750">750₽</label>
+          <label class="donation-buttons__button-size button button_link_white" for="donation-1000">
+            1000₽
+            <input class="donation-buttons__radio" type="radio" name="donation-size" id="donation-1000">
+          </label>
 
-            <input class="donation-buttons__radio" type="radio" name="donation_size" id="donation-1000">
-            <label class="donation-buttons__button-size button button_link_white" for="donation-1000">1000₽</label>
-          </fieldset>
+          <label class="donation-buttons__button-size button button_link_white" for="donation-other">
+            Другая сумма
+            <input class="donation-buttons__radio" type="radio" name="donation-size" id="donation-other">
+          </label>
+        </fieldset>
 
           <input class="donation-buttons__radio" type="radio" name="donation_size" id="donation-other">
           <label class="donation-buttons__button-size donation-buttons__button-size_other button button_link_white" for="donation-other">Другая сумма</label>
@@ -354,7 +360,7 @@
                 <p class="special__title">Наши спецпроекты</p>
                 <h2 class="section-title section-title_special">Фотопроект «Семья как семья»</h2>
                 <p class="special__text">Фотопроект Алексея Горшенина включает в себя восемь историй людей и семей, где один или оба супруга имеют инвалидность</p>
-                <button type="button" class="button_link_purple button_watch">Посмотреть</button>
+                <a href="#" target="_blank" class="button button_regular_white-black button_place_special">Посмотреть</a>
                 <img class="special__img" src="./images/special-img.jpg" alt="Фотопроект Алексея Горшенина">
               </div>
             </div>

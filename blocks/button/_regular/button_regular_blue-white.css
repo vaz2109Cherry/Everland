@@ -2,6 +2,7 @@
   background-color: #0C4BA0;
   color: white;
   box-sizing: border-box;
+  padding: 0;
 }
 
 .button_regular_blue-white:hover{

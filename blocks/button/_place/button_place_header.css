@@ -13,7 +13,7 @@
     }
   }
   
-  @media (max-width: 321px) {
+  @media (max-width: 680px) {
     .button_place_header {
       display: none;
     }
