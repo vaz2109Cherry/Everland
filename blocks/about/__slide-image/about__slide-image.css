@@ -5,6 +5,7 @@
   /*grid-column: 2 / 3;*/
   justify-self: end;
   object-fit: cover;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 1440px ) {
