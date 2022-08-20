@@ -7,6 +7,12 @@
   object-fit: cover;
 }
 
+@media screen and (min-width: 1440px ) {
+  .about__slide-image{
+    max-width: 520px;
+  }
+}
+
 @media screen and (max-width: 1032px) {
   .about__slide-image{
     height: 465px;
