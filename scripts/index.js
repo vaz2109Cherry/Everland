@@ -92,3 +92,16 @@ for (let i = 0; i < headerList.length; i++) {
   });
 }
 /*_______________________________________________________________________________________________________*/
+
+//При нажатии на кнопку Поддержать в секции donation-buttons - выбор кнопки с таким же размером пожертвования в секции donation
+const formDonationButtons =  document.forms['donation_buttons_form'];
+const buttonDonation = document.querySelector('.donation-buttons__button-send');
+const formDonation =  document.forms['donation-form'];
+const radioDonationSize =  formDonation.elements['pay-sum'];
+buttonDonation.addEventListener('click', (event) => {
+  formDonationButtons.donation_size.forEach((radio, index) => {
+    if (radio.checked) {
+      radioDonationSize[index].checked = true;
+    }
+  })
+});
