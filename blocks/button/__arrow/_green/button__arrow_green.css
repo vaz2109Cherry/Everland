@@ -6,10 +6,3 @@
     background-image: url(../../../../images/button__arrow_white.svg);
 }
 
-@media screen and (max-width: 1000px) {
-    .button__arrow_green{
-        width: 13px;
-        height: 13px;
-        background-size: 13px;
-    }
-}

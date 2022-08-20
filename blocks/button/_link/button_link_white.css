@@ -12,3 +12,15 @@
 .button_link_white:active{
     color: #0C4BA0;
 }
+
+@media screen and (max-width: 1000px) {
+    .button_link_white{
+        height: 39px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .button_link_white{
+        height: 37px;
+    }
+}
