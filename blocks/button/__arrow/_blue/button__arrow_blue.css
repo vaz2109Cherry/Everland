@@ -1,7 +1,8 @@
 .button__arrow_blue{
-  background-image: url(../../../../images/button__arrow_blue.svg);
+    background-image: url(../../../../images/button__arrow_blue.svg);
 }
 
 .button_link_blue:hover .button__arrow_blue{
-  background-image: url(../../../../images/button__arrow_white.svg);
+    background-image: url(../../../../images/button__arrow_white.svg);
 }
+

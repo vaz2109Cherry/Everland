@@ -1,0 +1,16 @@
+.button__arrow_slider-left{
+    background-image: url(../../../../images/button__arrow_white.svg);
+    width: 17px;
+    height: 17px;
+    background-size: 17px;
+    margin: 0;
+    transform: rotate(180deg);
+}
+
+@media screen and (max-width: 768px) {
+    .button__arrow_slider-left{
+        width: 10px;
+        height: 10px;
+        background-size: 10px;
+    }
+}

@@ -24,11 +24,11 @@
         </span>
       </button>
       <div class="header__blue_buttons_container">
-        <button class="button_main button_secondary_blue button_header">
-          Платформа
+        <button class="button button_regular_white-blue button_place_header">
+          <p class="button__text">Платформа</p>
         </button>
-        <button class="button_main button_header">
-          Поддержать
+        <button class="button button_regular_blue-white button_place_header">
+          <p class="button__text">Поддержать</p>
         </button>
       </div>
     </div>
@@ -112,9 +112,13 @@
       </div>
     </template>
     <div class="about__control">
-      <button class="btn__arrow btn__arrow_backward btn__arrow_blue" id="aboutBackward">Назад</button>
+      <button class="button button_slider_blue button_place_about">
+        <div class="button__arrow button__arrow_slider-left"></div>
+      </button>
       <span class="about__counter">1/6</span>
-      <button class="btn__arrow btn__arrow_forward btn__arrow_blue" id="aboutForward">Вперед</button>
+      <button class="button button_slider_blue button_place_about">
+        <div class="button__arrow button__arrow_slider-right"></div>
+      </button>
     </div>
   </section>
 
@@ -158,9 +162,9 @@
               <h4 class="card__title">Для людей с инвалидностью</h4>
               <p class="card__text">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
             </div>
-            <a href="#" class="card__button card__button_color_light-blue">
-              <p class="card__button-text card__button-text_color_blue">Подробнее</p><img
-                src="./images/forwardiconarrow_blue.svg" alt="Стрелка" class="card__button-arrow">
+            <a href="#" target="_blank" class="button button_link_blue button_place_consumers">
+              <p class="button__text">Поддержать</p>
+              <div class="button__arrow button__arrow_blue"></div>
             </a>
           </div>
           <div class="card card_bg-color_white">
@@ -170,20 +174,20 @@
               <p class="card__text">Помогаем создать устойчивые инклюзивные команды, вовлекаем интеллектуальных
                 волонтеров</p>
             </div>
-            <a href="#" class="card__button card_bg-color_light-orange">
-              <p class="card__button-text card__button-text_color_orange">Подробнее</p><img
-                src="./images/forwardiconarrow_orange.svg" alt="Стрелка" class="card__button-arrow">
+            <a href="#" target="_blank" class="button button_link_orange button_place_consumers">
+              <p class="button__text">Поддержать</p>
+              <div class="button__arrow button__arrow_orange"></div>
             </a>
           </div>
           <div class="card card_bg-color_white">
-            <div class="card__icon card__icon_type_following card__icon_color_light-green"></div>
+            <div class="card__icon card__icon_type_following card__icon_color_light-green button_place_consumers"></div>
             <div class="card__content">
               <h4 class="card__title">Для КСО-партнеров </h4>
               <p class="card__text">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
             </div>
-            <a href="#" class="card__button card__button_color_light-green">
-              <p class="card__button-text card__button-text_color_green">Подробнее</p><img
-                src="./images/forwardiconarrow_green.svg" alt="Стрелка" class="card__button-arrow">
+            <a href="#" target="_blank" class="button button_link_green button_place_consumers">
+              <p class="button__text">Поддержать</p>
+              <div class="button__arrow button__arrow_green"></div>
             </a>
           </div>
         </div>
@@ -197,9 +201,9 @@
               <h4 class="card__title">Доступность услуг DisQuestion</h4>
               <p class="card__text">Сервисы для бизнеса по повышению доступности услуг для маломобильных клиентов ― контракты с крупнейшими компаниями в России</p>
             </div>
-            <a href="#" class="card__button card__button_color_white">
-              <p class="card__button-text card__button-text_color_black">Подробнее</p><img
-                src="./images/forwardiconarrow_black.svg" alt="Стрелка" class="card__button-arrow">
+            <a href="#" target="_blank" class="button button_link_white button_place_directions">
+              <p class="button__text">Поддержать</p>
+              <div class="button__arrow button__arrow_white"></div>
             </a>
           </div>
           <div class="card directions__card card_bg-color_light-blue">
@@ -207,9 +211,9 @@
               <h4 class="card__title">Трудоустройство</h4>
               <p class="card__text">Решение социальной проблемы с использованием предпринимательских инструментов: оказываем услуги разным компаниям и НКО, таким образом зарабатываем и даем работу людям с инвалидностью</p>
             </div>
-            <a href="#" class="card__button card__button_color_white">
-              <p class="card__button-text card__button-text_color_black">Подробнее</p><img
-                src="./images/forwardiconarrow_black.svg" alt="Стрелка" class="card__button-arrow">
+            <a href="#" target="_blank" class="button button_link_white button_place_directions">
+              <p class="button__text">Поддержать</p>
+              <div class="button__arrow button__arrow_white"></div>
             </a>
           </div>
           <div class="card directions__card card_bg-color_light-green">
@@ -217,9 +221,9 @@
               <h4 class="card__title">Биржа проектов и готовые решения</h4>
               <p class="card__text">ИТ-система для интеграции в открытый рынок труда людей с инвалидностью  в качестве самозанятых и в рамках трудоустройства в другие компании</p>
             </div>
-            <a href="#" class="card__button card__button_color_white">
-              <p class="card__button-text card__button-text_color_black">Подробнее</p><img
-                src="./images/forwardiconarrow_black.svg" alt="Стрелка" class="card__button-arrow">
+            <a href="#" target="_blank" class="button button_link_white button_place_directions">
+              <p class="button__text">Поддержать</p>
+              <div class="button__arrow button__arrow_white"></div>
             </a>
           </div>
           <div class="card directions__card card_bg-color_light-blue">
@@ -227,9 +231,9 @@
               <h4 class="card__title">Агентство</h4>
               <p class="card__text">Услуги специалистов с инвалидностью для крупных компаний (дизайн, право, контент и другие)</p>
             </div>
-            <a href="#" class="card__button card__button_color_white">
-              <p class="card__button-text card__button-text_color_black">Подробнее</p><img
-                src="./images/forwardiconarrow_black.svg" alt="Стрелка" class="card__button-arrow">
+            <a href="#" target="_blank" class="button button_link_white button_place_directions">
+              <p class="button__text">Поддержать</p>
+              <div class="button__arrow button__arrow_white"></div>
             </a>
           </div>
           <div class="card directions__card card_bg-color_light-green">
@@ -237,9 +241,9 @@
               <h4 class="card__title">Коворкинг</h4>
               <p class="card__text">Уникальное пространство, в котором специалисты с инвалидностью могут работать и офлайн – приходить, участвовать в образовательных мероприятиях, встречаться с заказчиками, работать в команде</p>
             </div>
-            <a href="#" class="card__button card__button_color_white">
-              <p class="card__button-text card__button-text_color_black">Подробнее</p><img
-                src="./images/forwardiconarrow_black.svg" alt="Стрелка" class="card__button-arrow">
+            <a href="#" target="_blank" class="button button_link_white button_place_directions">
+              <p class="button__text">Поддержать</p>
+              <div class="button__arrow button__arrow_white"></div>
             </a>
           </div>
           <div class="card directions__card card_bg-color_light-orange">
@@ -247,9 +251,9 @@
               <h4 class="card__title">Для людей с инвалидностью</h4>
               <p class="card__text">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
             </div>
-            <a href="#" class="card__button card__button_color_white">
-              <p class="card__button-text card__button-text_color_black">Подробнее</p><img
-                src="./images/forwardiconarrow_black.svg" alt="Стрелка" class="card__button-arrow">
+            <a href="#" target="_blank" class="button button_link_white button_place_directions">
+              <p class="button__text">Поддержать</p>
+              <div class="button__arrow button__arrow_white"></div>
             </a>
           </div>
         </div>
