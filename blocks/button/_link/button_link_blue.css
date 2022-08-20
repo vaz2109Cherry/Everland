@@ -1,14 +1,15 @@
 .button_link_blue{
-  background-color: #E7F0FF;
-  color: #0C4BA0;
-  padding: 0 14px 0 10px;
+    text-decoration: none;
+    background-color: #E7F0FF;
+    color: #0C4BA0;
+    padding: 0 14px 0 10px;
 }
 
 .button_link_blue:hover{
-  background-color: #0C4BA0;
-  color: white;
+    background-color: #0C4BA0;
+    color: white;
 }
 
 .button_link_blue:active{
-  background-color: #00275C;
+    background-color: #00275C;
 }

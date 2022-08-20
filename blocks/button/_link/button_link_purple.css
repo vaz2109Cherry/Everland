@@ -1,14 +1,15 @@
 .button_link_purple{
-  background-color: #EAE6FF;
-  color: #8B75FF;
-  padding: 0 14px 0 10px;
+    text-decoration: none;
+    background-color: #EAE6FF;
+    color: #8B75FF;
+    padding: 0 14px 0 10px;
 }
 
 .button_link_purple:hover{
-  background-color: #8B75FF;
-  color: white;
+    background-color: #8B75FF;
+    color: white;
 }
 
 .button_link_purple:active{
-  background-color: #4935B5;
+    background-color: #4935B5;
 }

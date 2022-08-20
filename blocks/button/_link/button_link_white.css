@@ -1,13 +1,14 @@
 .button_link_white{
-  background-color: #FFFFFF;
-  color: #333333;
-  padding: 0 14px 0 10px;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    color: #333333;
+    padding: 0 14px 0 10px;
 }
 
 .button_link_white:hover{
-  color: #00275C;
+    color: #00275C;
 }
 
 .button_link_white:active{
-  color: #0C4BA0;
+    color: #0C4BA0;
 }
