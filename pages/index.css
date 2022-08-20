@@ -171,9 +171,12 @@
 @import url(../blocks/button/_slider/button_slider_black.css);
 @import url(../blocks/button/__plus/button__plus.css);
 @import url(../blocks/button/_accordeon/button_accordeon.css);
+@import url(../blocks/button/_place/button_place_header.css);
 @import url(../blocks/button/_place/button_place_about.css);
 @import url(../blocks/button/_place/button_place_consumers.css);
 @import url(../blocks/button/_place/button_place_directions.css);
+@import url(../blocks/button/_regular/button_regular_white-black.css);
+@import url(../blocks/button/_place/button_place_special.css);
 
 /**/
 @import url('../blocks/title/title.css');
