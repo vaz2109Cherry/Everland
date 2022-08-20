@@ -151,7 +151,6 @@
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_regular/button_regular_blue-white.css);
 @import url(../blocks/button/_regular/button_regular_white-blue.css);
-@import url(../blocks/button/_white-black/button_white-black.css);
 @import url(../blocks/button/_regular/button_regular_white-black.css);
 @import url(../blocks/button/__text/button__text.css);
 @import url(../blocks/button/_link/button_link_blue.css);
@@ -167,8 +166,6 @@
 @import url(../blocks/button/__arrow/_white/button__arrow_white.css);
 @import url(../blocks/button/__arrow/_slider/button__arrow_slider-left.css);
 @import url(../blocks/button/__arrow/_slider/button__arrow_slider-right.css);
-@import url(../blocks/button/_slider/button_slider_blue.css);
-@import url(../blocks/button/_slider/button_slider_black.css);
 @import url(../blocks/button/__plus/button__plus.css);
 @import url(../blocks/button/_accordeon/button_accordeon.css);
 @import url(../blocks/button/_place/button_place_header.css);
