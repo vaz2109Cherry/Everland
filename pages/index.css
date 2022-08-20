@@ -164,16 +164,10 @@
 @import url('../blocks/button/_link/button_link_white.css');
 @import url('../blocks/button/__arrow/button__arrow.css');
 
-/**/
-@import url('../blocks/title/title.css');
-/**/
-
 @import url('../blocks/stories/stories.css');
 @import url('../blocks/stories/__container/stories__container.css');
-
 @import url('../blocks/stories/__title/stories__title.css');
 @import url('../blocks/stories/__button-all-story/stories__button-all-story.css');
-
 @import url('../blocks/stories/__list-story/stories__list-story.css');
 @import url('../blocks/stories/__list-story-item/stories__list-story-item.css');
 @import url('../blocks/stories/__list-story-card/stories__list-story-card.css');
@@ -193,7 +187,6 @@
 @import url('../blocks/story-card/__name/story-card__name.css');
 @import url('../blocks/story-card/__title/story-card__title.css');
 @import url('../blocks/story-card/__link/story-card__link.css');
-
 /*-stories-*/
 
 /*donation-buttons*/
@@ -205,7 +198,6 @@
 @import url('../blocks/donation-buttons/__button-send/donation-buttons__button-send.css');
 @import url('../blocks/donation-buttons/__button-size/donation-buttons__button-size.css');
 @import url('../blocks/donation-buttons/__button-size/_other/donation-buttons__button-size_other.css');
-
 /*-donation-buttons-*/
 
 /* agency */
@@ -223,27 +215,28 @@
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__info/footer__info.css');
 @import url('../blocks/footer/__logo/footer__logo.css');
-@import url('../blocks/footer/__description/footer__description.css');
+@import url('../blocks/footer/__info_description/footer__info_description.css');
 @import url('../blocks/footer/__links/footer__links.css');
-@import url('../blocks/footer/__lists/footer__lists.css');
-@import url('../blocks/footer/__link/footer__link.css');
+@import url('../blocks/footer/__links_points/footer__links_points.css');
+@import url('../blocks/footer/__links_points_link/footer__links_points_link.css');
 @import url('../blocks/footer/__support_container/footer__support_container.css');
-@import url('../blocks/footer/__subheader_text/footer__subheader_text.css');
-@import url('../blocks/footer/__support_logos_container/footer__support_logos_container.css');
+@import url('../blocks/footer/__subheader/footer__subheader.css');
+@import url('../blocks/footer/__subheader/_subheader_support/footer_subheader_support.css');
+@import url('../blocks/footer/__support_container_logos/footer__support_container_logos.css');
 @import url('../blocks/footer/__beeline_logo/footer__beeline_logo.css');
 @import url('../blocks/footer/__fund_logo/footer__fund_logo.css');
 @import url('../blocks/footer/__subscription_container/footer__subscription_container.css');
-@import url('../blocks/footer/__subscription_logos_container/footer__subscription_logos_container.css');
+@import url('../blocks/footer/__subscription_container_logos/footer__subscription_container_logos.css');
 @import url('../blocks/footer/__telegram_logo/footer__telegram_logo.css');
 @import url('../blocks/footer/__vk_logo/footer__vk_logo.css');
 @import url('../blocks/footer/__contacts/footer__contacts.css');
-@import url('../blocks/footer/__telephones/footer__telephones.css');
-@import url('../blocks/footer/__phone_number/footer__phone_number.css');
-@import url('../blocks/footer/__adress/footer__adress.css');
-@import url('../blocks/footer/__everland_corporate/footer__everland_corporate.css');
+@import url('../blocks/footer/__contacts_phones/footer__contacts_phones.css');
+@import url('../blocks/footer/__contacts_phone_number/footer__contacts_phone_number.css');
+@import url('../blocks/footer/__contacts_address/footer__contacts_address.css');
+@import url('../blocks/footer/__corporate_info/footer__corporate_info.css');
 @import url('../blocks/footer/__practicum_info/footer__practicum_info.css');
 @import url('../blocks/footer/__practicum_logo/footer__practicum_logo.css');
-@import url('../blocks/footer/__practicum_text/footer__practicum_text.css');
+@import url('../blocks/footer/__practicum_info_text/footer__practicum_info_text.css');
 /* footer */
 
 /* news */
