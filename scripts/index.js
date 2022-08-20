@@ -3,8 +3,9 @@
 const aboutSlideTemplate = document.querySelector("#aboutSlideTemplate");
 const btnAboutForward = document.querySelector("#aboutForward");
 const btnAboutBackward = document.querySelector("#aboutBackward");
+const counterAbout = document.querySelector("#counterAbout");
 const aboutSlidesContainer = document.querySelector(".about");
-let slideIndex = 1;
+let slideIndex = 0;
 const aboutSlidesInformation = [
   {
     "header": `<span class="about__header-accent">Everland</span>&nbsp;—&nbsp;социальный
@@ -17,10 +18,8 @@ const aboutSlidesInformation = [
     }
   },
   {
-    "header": `<h1 class="about__header"><span class="about__header-accent">Everland</span>&nbsp;—&nbsp;социальный
-          предпринимательский проект</h1>`,
-    "paragraph": `<p class="about__paragraph">Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью устойчиво
-            интегрироваться в открытый рынок труда </p>`,
+    "header": `Lorem ipsum dolor sit amet, consectetur adipisicing elit.`,
+    "paragraph": `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at deserunt, dignissimos distinctio exercitationem expedita harum ipsum laborum libero minus nam, perspiciatis quaerat quam quidem repellat saepe sint voluptas voluptate.`,
     "image": {
       "link": `images/carousel-man.png`,
       "alt": `Люди в Everland`
@@ -81,12 +80,21 @@ const specialSlidesInformation = [
  */
 function getAboutSlides(template, slideInfo) {
   let temp = template.content.firstElementChild.cloneNode(true);
-  temp.querySelector(".about__header").content = slideInfo.header;
-  temp.querySelector(".about__paragraph").content = slideInfo.paragraph;
+  temp.querySelector(".about__header").innerHTML = slideInfo.header;
+  temp.querySelector(".about__paragraph").innerHTML = slideInfo.paragraph;
   temp.querySelector(".about__slide-image").link = slideInfo.image.link;
   temp.querySelector(".about__slide-image").alt = slideInfo.image.alt;
 
   return temp;
+}
+
+/**
+ * Для счетчика в блоке about добавляет отображение количества слайдов и его номера.
+ * @param counter - счетчик, отображающий текущий показанный слайд.
+ * @param element - элемент, куда вставляем отображение.
+ */
+function setAboutCounter (counter, element){
+  element.innerHTML = `${slideIndex} / ${aboutSlidesInformation.length}`
 }
 
 /**
@@ -158,13 +166,17 @@ function startCarousel(aboutSlidesInformation, btnForward, btnBackward, slidesCo
   setSlidesIntoContainer(aboutSlidesInformation, slidesContainer, templateFunction, template)
 
   showSlide(slideIndex, sliderId, slidesContainer);
+  setAboutCounter(slideIndex ,counterAbout);
 
   btnForward.addEventListener("click", () => {
-    showSlide(slideIndex += 1, sliderId, slidesContainer)
+    showSlide(slideIndex += 1, sliderId, slidesContainer);
+    setAboutCounter(slideIndex ,counterAbout);
   })
 
   btnBackward.addEventListener("click", () => {
-    showSlide(slideIndex -= 1, sliderId, slidesContainer)
+    showSlide(slideIndex -= 1, sliderId, slidesContainer);
+    setAboutCounter(slideIndex ,counterAbout);
+
   })
 
 }

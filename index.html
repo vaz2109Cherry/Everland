@@ -98,7 +98,7 @@
       </ul>
     </nav>
   </section>
-  
+
   <section class="about">
     <template id="aboutSlideTemplate">
       <div class="about__slide">
@@ -112,10 +112,10 @@
       </div>
     </template>
     <div class="about__control">
-      <button class="button-slider button-slider_left button-slider_blue">
+      <button class="button-slider button-slider_left button-slider_blue" id="aboutBackward">
       </button>
-      <span class="about__counter">1/6</span>
-      <button class="button-slider button-slider_blue">
+      <span class="about__counter" id="counterAbout">1/6</span>
+      <button class="button-slider button-slider_blue" id="aboutForward">
       </button>
     </div>
   </section>
@@ -351,7 +351,7 @@
           <button type="button" class="button-slider button-slider_black button-slider_left" id="specialForward"></button>
           <button type="button" class="button-slider button-slider_black" id="specialBackward"></button>
         </div>
-  
+
           <template id="specialSlideTemplate">
             <div class="slide">
               <div class="special__container">
@@ -366,7 +366,7 @@
         </section>
 
     <section class="stories" id="stories">
-      
+
         <div class="stories__container">
 
           <h2 class="section-title stories__title">Истории</h2>
