@@ -1,7 +1,7 @@
-.button__arrow_purple{
-    background-image: url(../../../../images/button__arrow_purple.svg);
+.button__arrow_purple {
+  background-image: url(../../../../images/button__arrow_purple.svg);
 }
 
-.button_link_purple:hover .button__arrow_purple{
-    background-image: url(../../../../images/button__arrow_white.svg);
+.button_link_purple:hover .button__arrow_purple {
+  background-image: url(../../../../images/button__arrow_white.svg);
 }

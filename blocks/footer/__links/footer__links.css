@@ -7,7 +7,6 @@
   column-gap: 145px;
   row-gap: 10px;
   align-content: flex-start;
-  transition: all 0.5s linear;
 }
 
 @media (max-width: 1300px) {

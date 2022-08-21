@@ -1,15 +1,15 @@
-.button_link_green{
-    text-decoration: none;
-    background-color: #DAEFD5;
-    color: #319B17;
-    padding: 0 14px 0 10px;
+.button_link_green {
+  text-decoration: none;
+  background-color: #DAEFD5;
+  color: #319B17;
+  padding: 0 14px 0 10px;
 }
 
-.button_link_green:hover{
-    background-color: #319B17;
-    color: white;
+.button_link_green:hover {
+  background-color: #319B17;
+  color: white;
 }
 
-.button_link_green:active{
-    background-color: #0E4900;
+.button_link_green:active {
+  background-color: #0E4900;
 }

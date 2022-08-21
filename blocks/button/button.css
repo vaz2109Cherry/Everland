@@ -1,4 +1,4 @@
-.button{
+.button {
   text-decoration: none;
   border-radius: 10px;
   border: 0;
@@ -15,14 +15,14 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .button{
+  .button {
     height: 44px;
     font-size: 16px;
   }
 }
 
 @media screen and (max-width: 550px) {
-  .button{
+  .button {
     font-size: 14px;
   }
 }

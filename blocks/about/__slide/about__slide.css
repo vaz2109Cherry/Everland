@@ -1,4 +1,4 @@
-.about__slide{
+.about__slide {
   width: 100%;
   display: none;
   flex-direction: row;
@@ -6,8 +6,8 @@
   animation-duration: 0.5s;
 }
 
-@media screen and (max-width: 556px){
-  .about__slide{
+@media screen and (max-width: 556px) {
+  .about__slide {
     flex-direction: column;
   }
 }

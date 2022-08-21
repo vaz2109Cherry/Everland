@@ -1,15 +1,15 @@
-.donation-form__label-radio_width_big{
+.donation-form__label-radio_width_big {
   width: 315px;
 }
 
-@media screen and (max-width: 768px){
-  .donation-form__label-radio_width_big{
+@media screen and (max-width: 768px) {
+  .donation-form__label-radio_width_big {
     width: 298px;
   }
 }
 
-@media screen and (max-width: 410px){
-  .donation-form__label-radio_width_big{
+@media screen and (max-width: 410px) {
+  .donation-form__label-radio_width_big {
     width: 122px;
   }
 }

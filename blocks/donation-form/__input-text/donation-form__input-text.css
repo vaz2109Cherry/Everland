@@ -1,4 +1,4 @@
-.donation-form__input-text{
+.donation-form__input-text {
   max-width: 455px;
   height: 45px;
   padding: 11px 20px;
@@ -11,28 +11,24 @@
   box-sizing: border-box;
 }
 
-.donation-form__input-text:first-of-type{
+.donation-form__input-text:first-of-type {
   margin-top: 12px;
 }
 
-.donation-form__input-text:last-of-type{
+.donation-form__input-text:last-of-type {
   margin-bottom: 0;
 }
 
 
-@media screen and (max-width: 768px){
-  .donation-form__input-text{
+@media screen and (max-width: 768px) {
+  .donation-form__input-text {
     height: 44px;
     margin-bottom: 16px;
     font-size: 14px;
     line-height: 120%;
   }
 
-  .donation-form__input-text:first-of-type{
+  .donation-form__input-text:first-of-type {
     margin-top: 0;
   }
-}
-
-@media screen and (max-width: 320px){
-
 }

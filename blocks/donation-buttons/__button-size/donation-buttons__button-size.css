@@ -1,4 +1,4 @@
-.donation-buttons__button-size{
+.donation-buttons__button-size {
   padding: 0 10px;
   margin: 0 10px 0 0;
   max-width: 159px;
@@ -7,16 +7,16 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1000px){
-  .donation-buttons__button-size{
+@media screen and (max-width: 1000px) {
+  .donation-buttons__button-size {
     height: 44px;
     font-size: 16px;
   }
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px) {
 
-  .donation-buttons__button-size{
+  .donation-buttons__button-size {
     max-width: 100%;
     font-size: 14px;
   }

@@ -1,5 +1,4 @@
 .header__blue_buttons_container {
   display: flex;
   gap: 16px;
-  transition: all 0.5s linear;
 }

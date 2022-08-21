@@ -1,9 +1,9 @@
-.btn__chevron_backward{
+.btn__chevron_backward {
   transform: rotate(180deg);
 }
 
-@media screen and (max-width: 410px){
-  .btn__chevron_backward{
+@media screen and (max-width: 410px) {
+  .btn__chevron_backward {
     transform: rotate(-90deg);
   }
 }

@@ -1,20 +1,15 @@
-.directions
-{
+.directions {
   margin-bottom: 150px;
 }
 
-@media screen and (max-width: 960px) 
-{
- .directions
- {
-  margin-bottom: 100px;
- } 
+@media screen and (max-width: 960px) {
+  .directions {
+    margin-bottom: 100px;
+  }
 }
 
-@media screen and (max-width: 460px) 
-{
- .directions
- {
-  margin-bottom: 64px;
- } 
+@media screen and (max-width: 460px) {
+  .directions {
+    margin-bottom: 64px;
+  }
 }

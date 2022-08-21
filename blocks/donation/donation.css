@@ -1,4 +1,4 @@
-.donation{
+.donation {
   padding: 100px 40px;
   display: grid;
   grid-template-rows: min-content 1fr;
@@ -8,8 +8,8 @@
   background: var(--background-blocks-blue);
 }
 
-@media screen and (max-width: 1399px){
-  .donation{
+@media screen and (max-width: 1399px) {
+  .donation {
     padding: 40px;
     padding-top: 44px;
     display: flex;
@@ -19,8 +19,8 @@
   }
 }
 
-@media screen and (max-width: 410px){
-  .donation{
+@media screen and (max-width: 410px) {
+  .donation {
     padding: 31px 10px;
     row-gap: 30px;
   }

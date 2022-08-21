@@ -1,4 +1,4 @@
-.donation-form__new_chbox{
+.donation-form__new_chbox {
   position: relative;
   padding-left: 33px;
   display: flex;
@@ -6,7 +6,8 @@
   justify-content: start;
   align-items: center;
 }
-.donation-form__new_chbox:after{
+
+.donation-form__new_chbox:after {
   content: "";
   display: block;
   width: 25px;
@@ -18,18 +19,18 @@
   left: 0;
 }
 
-.donation-form__checkbox:checked + .donation-form__new_chbox:after{
+.donation-form__checkbox:checked+.donation-form__new_chbox:after {
   background: var(--outline-elements-grey) url("../../../images/Icon_check.svg") no-repeat center;
 }
 
-@media screen and (max-width: 768px){
-  .donation-form__new_chbox{
+@media screen and (max-width: 768px) {
+  .donation-form__new_chbox {
     height: 25px;
   }
 }
 
-@media screen and (max-width: 410px){
-  .donation-form__new_chbox{
+@media screen and (max-width: 410px) {
+  .donation-form__new_chbox {
     display: inline;
   }
 }

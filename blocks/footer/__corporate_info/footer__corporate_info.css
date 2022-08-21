@@ -10,7 +10,6 @@
   color: rgba(38, 38, 38, 0.5);
   max-width: 629px;
   padding-top: 50px;
-  transition: all 0.5s linear;
 }
 
 @media (max-width: 1300px) {

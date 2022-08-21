@@ -1,14 +1,14 @@
-.button_regular_white-black{
-    background-color: transparent;
-    border: 1px solid #333333;
-    color: #333333;
+.button_regular_white-black {
+  background-color: transparent;
+  border: 1px solid #333333;
+  color: #333333;
 }
 
-.button_regular_white-black:hover{
-    border: 2px solid #333333;
+.button_regular_white-black:hover {
+  border: 2px solid #333333;
 }
 
-.button_regular_white-black:active{
-    background-color: #333333;
-    color: white;
+.button_regular_white-black:active {
+  background-color: #333333;
+  color: white;
 }

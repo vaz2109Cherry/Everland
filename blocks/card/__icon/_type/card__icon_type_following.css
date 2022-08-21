@@ -1,9 +1,9 @@
 .card__icon_type_following {
-    background-image: url(../../../../images/icon_following.svg);
+  background-image: url(../../../../images/icon_following.svg);
 }
 
 @media screen and (max-width: 985px) {
-    .card__icon_type_following {
-        background-image: url(../../../../images/icon_following_768_320.svg);
-    }
+  .card__icon_type_following {
+    background-image: url(../../../../images/icon_following_768_320.svg);
+  }
 }

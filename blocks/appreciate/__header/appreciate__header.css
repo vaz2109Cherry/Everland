@@ -1,4 +1,4 @@
-.appreciate__header{
+.appreciate__header {
   max-width: 488px;
   padding: 0;
   margin: 0;
@@ -11,8 +11,8 @@
   font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
-@media screen and (max-width: 768px){
-  .appreciate__header{
+@media screen and (max-width: 768px) {
+  .appreciate__header {
     max-width: 522px;
     margin-top: 27px;
     margin-bottom: 31px;
@@ -20,8 +20,8 @@
   }
 }
 
-@media screen and (max-width: 410px){
-  .appreciate__header{
+@media screen and (max-width: 410px) {
+  .appreciate__header {
     margin-top: 2px;
     margin-bottom: 36px;
     font-size: 18px;

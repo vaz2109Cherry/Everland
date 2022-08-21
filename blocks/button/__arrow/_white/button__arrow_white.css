@@ -1,11 +1,11 @@
-.button__arrow_white{
-    background-image: url(../../../../images/button__arrow_black.svg);
+.button__arrow_white {
+  background-image: url(../../../../images/button__arrow_black.svg);
 }
 
-.button_link_white:hover .button__arrow_white{
-    background-image: url(../../../../images/button__arrow_dark-blue.svg);
+.button_link_white:hover .button__arrow_white {
+  background-image: url(../../../../images/button__arrow_dark-blue.svg);
 }
 
-.button_link_white:active .button__arrow_white{
-    background-image: url(../../../../images/button__arrow_blue.svg);
+.button_link_white:active .button__arrow_white {
+  background-image: url(../../../../images/button__arrow_blue.svg);
 }

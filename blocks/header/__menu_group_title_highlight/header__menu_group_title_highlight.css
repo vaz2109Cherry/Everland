@@ -7,7 +7,6 @@
   font-size: 34px;
   line-height: 120%;
   font-feature-settings: 'pnum' on, 'lnum' on;
-  transition: all 0.5s linear;
 }
 
 @media (max-width: 1130px) {
