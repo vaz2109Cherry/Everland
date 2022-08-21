@@ -184,16 +184,11 @@
 @import url(../blocks/button/_place/button_place_agency.css);
 @import url(../blocks/button/_place/button_place_news.css);
 
-/**/
-@import url('../blocks/title/title.css');
-/**/
-
+/*stories*/
 @import url('../blocks/stories/stories.css');
 @import url('../blocks/stories/__container/stories__container.css');
-
 @import url('../blocks/stories/__title/stories__title.css');
 @import url('../blocks/stories/__button-all-story/stories__button-all-story.css');
-
 @import url('../blocks/stories/__list-story/stories__list-story.css');
 @import url('../blocks/stories/__list-story-item/stories__list-story-item.css');
 @import url('../blocks/stories/__list-story-card/stories__list-story-card.css');
@@ -213,16 +208,17 @@
 @import url('../blocks/story-card/__name/story-card__name.css');
 @import url('../blocks/story-card/__title/story-card__title.css');
 @import url('../blocks/story-card/__link/story-card__link.css');
-
 /*-stories-*/
 
 /*donation-buttons*/
+@import url('../blocks/donation-buttons/__container/donation-buttons__container.css');
 @import url('../blocks/donation-buttons/__form/donation-buttons__form.css');
 @import url('../blocks/donation-buttons/donation-buttons.css');
 @import url('../blocks/donation-buttons/__sizes/donations-buttons__sizes.css');
 @import url('../blocks/donation-buttons/__radio/donation-buttons__radio.css');
 @import url('../blocks/donation-buttons/__button-send/donation-buttons__button-send.css');
 @import url('../blocks/donation-buttons/__button-size/donation-buttons__button-size.css');
+@import url('../blocks/donation-buttons/__button-size/_other/donation-buttons__button-size_other.css');
 /*-donation-buttons-*/
 
 /* agency */
