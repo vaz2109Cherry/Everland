@@ -257,19 +257,21 @@ buttonDonation.addEventListener('click', (event) => {
 });
 
 /*_______________________________________________________________________________________________________*/
+/**
+ * Функция скрывает поле #payothersum выбрана конкретная сумма пожертвования и показывает при выборре "Другая сумма".
+ */
+function showInputForOtherPaySum(){
+  const checkedOtherPaySum = document.querySelector("#donat_other");
+  const inputOtherSum = document.querySelector("#payothersum");
 
-// function showInputForOtherPaySum(){
-//   const checkedOtherPaySum = document.querySelector("#donat_other");
-//   const inputOtherSum = document.querySelector("#payothersum");
+  if (checkedOtherPaySum.checked) {
+    inputOtherSum.style.display = "inline-block";
+  } else {
+    inputOtherSum.style.display = "none";
+  }
+}
 
-//   if (checkedOtherPaySum.checked) {
-//     inputOtherSum.style.display = "inline-block";
-//   } else {
-//     inputOtherSum.style.display = "none";
-//   }
-// }
+const form = document.querySelector(".donation-form");
+form.addEventListener("change", showInputForOtherPaySum)
 
-// const form = document.querySelector(".donation-form");
-// form.addEventListener("change", showInputForOtherPaySum)
-
-// showInputForOtherPaySum();
+showInputForOtherPaySum();

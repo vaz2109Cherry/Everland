@@ -276,6 +276,7 @@
 @import url(../blocks/donation-form/__label-radio/_width_186/donation-form__label-radio_width_186.css);
 @import url(../blocks/donation-form/__pay-system-logo/donation-form__pay-system-logo.css);
 @import url(../blocks/donation-form/__input-text/donation-form__input-text.css);
+@import url(../blocks/donation-form/__input-text/_hidden/donation-form__input-text_hidden.css);
 @import url(../blocks/donation-form/__checkbox/donation-form__checkbox.css);
 @import url(../blocks/donation-form/__label-chbox/donation-form__label-chbox.css);
 @import url(../blocks/donation-form/__link/donation-form__link.css);
