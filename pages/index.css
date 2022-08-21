@@ -245,7 +245,6 @@
 /* news */
 @import url(../blocks/news/news.css);
 @import url(../blocks/news-list/news-list.css);
-@import url(../blocks/news/button_news!ToChange!.css);
 @import url(../blocks/section-title/_place/section-title_place_news.css);
 @import url(../blocks/news-card/news-card.css);
 @import url(../blocks/news-card/_img-pos/news-card_img-pos_bottom.css);
