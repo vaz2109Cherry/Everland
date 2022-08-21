@@ -6,10 +6,6 @@
 @import url(../blocks/page/page.css);
 /*-page-*/
 
-/*popup_munu_element*/
-@import url(../blocks/element/_opened/element_opened.css);
-/*-popup_element-*/
-
 /*cards*/
 @import url(../blocks/cards/cards.css);
 /*-cards-*/
@@ -166,6 +162,10 @@
 @import url(../blocks/header/__menu_group/_last_row/header_menu_group_last_row.css);
 @import url(../blocks/header/__menu_group_list_highlight/header__menu_group_list_highlight.css);
 /*-header-*/
+
+/*popup_munu_element*/
+@import url(../blocks/element/_opened/element_opened.css);
+/*-popup_element-*/
 
 /*menu*/
 @import url(../blocks/menu/menu.css);
