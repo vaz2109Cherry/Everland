@@ -1,4 +1,4 @@
-.donation-form__help-icon{
+.donation-form__help-icon {
   width: 10px;
   height: 10px;
   margin-left: 10px;
@@ -7,12 +7,8 @@
   background: url("../../../images/question.svg");
 }
 
-@media screen and (max-width: 768px){
-  .donation-form__help-icon{
+@media screen and (max-width: 768px) {
+  .donation-form__help-icon {
     margin-top: 5px;
   }
-}
-
-@media screen and (max-width: 320px){
-
 }

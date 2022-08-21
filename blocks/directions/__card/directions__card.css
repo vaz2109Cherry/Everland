@@ -1,24 +1,25 @@
 @media screen and (max-width: 985px) {
   .directions__card {
-      min-height: 272px;
-      max-width: 90%;
-      margin-left: 10%;
-      /*margin-left: 5.208333333333333%;*/
+    min-height: 272px;
+    max-width: 90%;
+    margin-left: 10%;
+    /*margin-left: 5.208333333333333%;*/
   }
 }
 
 @media screen and (max-width: 985px) {
   .directions__card:nth-of-type(2n) {
-      margin-left: 0;
+    margin-left: 0;
   }
 }
 
 @media screen and (max-width: 600px) {
   .directions__card {
-      margin-left: auto;
-      margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
+
   .directions__card:nth-of-type(2n) {
     margin-left: auto;
-}
+  }
 }

@@ -1,7 +1,7 @@
-.appreciate__block_opacity_30{
+.appreciate__block_opacity_30 {
   color: var(--text-donation-30);
 }
 
-.appreciate__block_opacity_30:after{
+.appreciate__block_opacity_30:after {
   border-top: 2px dotted var(--text-donation-30);
 }

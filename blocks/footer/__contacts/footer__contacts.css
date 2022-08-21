@@ -2,7 +2,6 @@
   display: flex;
   column-gap: 53px;
   padding-top: 50px;
-  transition: all 0.5s linear;
 }
 
 @media (max-width: 1300px) {

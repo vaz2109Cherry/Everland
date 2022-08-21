@@ -1,22 +1,22 @@
-.news-card__image{
-    grid-area: image;
-    margin: 0 0 30px 0;
-    border-radius: 30px;
-    width: 380px;
-    height: 302px;
-    object-fit: contain;
+.news-card__image {
+  grid-area: image;
+  margin: 0 0 30px 0;
+  border-radius: 30px;
+  width: 380px;
+  height: 302px;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 1000px) {
-    .news-card__image{
-        width: 274px;
-        height: 212px;
-    }
+  .news-card__image {
+    width: 274px;
+    height: 212px;
+  }
 }
 
 @media screen and (max-width: 760px) {
-    .news-card__image{
-        width: 252px;
-        height: 192px;
-    }
+  .news-card__image {
+    width: 252px;
+    height: 192px;
+  }
 }

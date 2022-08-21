@@ -1,14 +1,14 @@
-.button_link_purple{
+.button_link_purple {
   background: transparent;
   color: #333333;
   cursor: pointer;
 }
 
-.button_link_purple:hover{
-    background-color: #8B75FF;
-    color: white;
+.button_link_purple:hover {
+  background-color: #8B75FF;
+  color: white;
 }
 
-.button_link_purple:active{
-    background-color: #4935B5;
+.button_link_purple:active {
+  background-color: #4935B5;
 }

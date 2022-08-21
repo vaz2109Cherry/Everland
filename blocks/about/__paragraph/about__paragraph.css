@@ -1,4 +1,4 @@
-.about__paragraph{
+.about__paragraph {
   max-width: 543px;
   padding: 0;
   margin: 0;
@@ -9,15 +9,15 @@
   line-height: 120%;
 }
 
-@media screen and (max-width: 768px){
-  .about__paragraph{
+@media screen and (max-width: 768px) {
+  .about__paragraph {
     font-size: 16px;
     line-height: 120%;
   }
 }
 
-@media screen and (max-width: 320px){
-  .about__paragraph{
+@media screen and (max-width: 320px) {
+  .about__paragraph {
     font-size: 14px;
     line-height: 120%;
   }

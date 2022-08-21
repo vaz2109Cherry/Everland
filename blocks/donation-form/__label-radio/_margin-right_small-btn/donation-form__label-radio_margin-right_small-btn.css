@@ -1,32 +1,32 @@
-.donation-form__label-radio_margin-right_small-btn{
+.donation-form__label-radio_margin-right_small-btn {
   margin-right: 5px;
 }
 
-.donation-form__label-radio_margin-right_small-btn:nth-of-type(4){
+.donation-form__label-radio_margin-right_small-btn:nth-of-type(4) {
   margin-right: 0;
 }
 
 
-@media screen and (max-width: 768px){
-  .donation-form__label-radio_margin-right_small-btn{
+@media screen and (max-width: 768px) {
+  .donation-form__label-radio_margin-right_small-btn {
     margin-right: 11px;
   }
 
-  .donation-form__label-radio_margin-right_small-btn:nth-of-type(4){
+  .donation-form__label-radio_margin-right_small-btn:nth-of-type(4) {
     margin-right: 0;
   }
 }
 
-@media screen and (max-width: 410px){
-  .donation-form__label-radio_margin-right_small-btn{
+@media screen and (max-width: 410px) {
+  .donation-form__label-radio_margin-right_small-btn {
     margin-right: 16px;
   }
 
-  .donation-form__label-radio_margin-right_small-btn:nth-of-type(2){
+  .donation-form__label-radio_margin-right_small-btn:nth-of-type(2) {
     margin-right: 0;
   }
 
-  .donation-form__label-radio_margin-right_small-btn:last-of-type{
+  .donation-form__label-radio_margin-right_small-btn:last-of-type {
     margin-right: 0;
   }
 }

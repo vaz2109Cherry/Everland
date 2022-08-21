@@ -1,4 +1,4 @@
-.about__header-accent{
+.about__header-accent {
   font-weight: 700;
   /*font-size: 72px;*/
   font-size: calc(28px + 44 * (100vw / 1440));
@@ -6,20 +6,20 @@
   color: var(--text-card-blue);
 }
 
-@media screen and (min-width: 1440px){
-  .about__header-accent{
+@media screen and (min-width: 1440px) {
+  .about__header-accent {
     font-size: 72px;
   }
 }
 
-@media screen and (max-width: 1032px){
-  .about__header-accent{
+@media screen and (max-width: 1032px) {
+  .about__header-accent {
     font-size: calc(28px + 10 * (100vw / 768));
   }
 }
 
-@media screen and (max-width: 765px){
-  .about__header-accent{
+@media screen and (max-width: 765px) {
+  .about__header-accent {
     font-size: 28px;
     letter-spacing: -0.03em;
   }

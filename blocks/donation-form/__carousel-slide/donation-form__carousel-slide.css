@@ -1,4 +1,4 @@
-.donation-form__carousel-slide{
+.donation-form__carousel-slide {
   width: 100%;
   padding: 0;
   margin: 0 8px;
@@ -7,14 +7,14 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 726px){
-  .donation-form__carousel-slide{
+@media screen and (max-width: 726px) {
+  .donation-form__carousel-slide {
     flex-direction: column;
   }
 }
 
-@media screen and (max-width: 410px){
-  .donation-form__carousel-slide{
+@media screen and (max-width: 410px) {
+  .donation-form__carousel-slide {
     align-items: center;
     row-gap: 16px;
   }

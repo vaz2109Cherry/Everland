@@ -1,29 +1,29 @@
-.news{
-    font-family: 'Raleway', Helvetica, sans-serif;
-    padding: 100px 40px;
-    background-color: #FFFFFF;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, min-content);
-    grid-template-areas: 
+.news {
+  font-family: 'Raleway', Helvetica, sans-serif;
+  padding: 100px 40px;
+  background-color: #FFFFFF;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, min-content);
+  grid-template-areas:
     "title button"
     "news-list news-list";
 }
 
 @media screen and (max-width: 1000px) {
-    .news{
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(3, min-content);
-        grid-template-areas: 
-        "title"
-        "news-list"
-        "button";
-        padding: 50px 40px;
-    }
+  .news {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, min-content);
+    grid-template-areas:
+      "title"
+      "news-list"
+      "button";
+    padding: 50px 40px;
+  }
 }
 
 @media screen and (max-width: 760px) {
-    .news{
-        padding: 32px 10px;
-    }
+  .news {
+    padding: 32px 10px;
+  }
 }

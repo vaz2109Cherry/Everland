@@ -1,21 +1,22 @@
-.button-slider{
-    background-image: url(../../../../images/button__arrow_white.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 17px;
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
-    border: 0;
-    padding: 0;
-    border-radius: 10px;
+.button-slider {
+  background-image: url(../../images/button__arrow_white.svg);
+  /* background-image: url(../../../images/button__arrow_white.svg); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 17px;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 1000px) {
-    .button-slider{
-        background-size: 10px;
-        width: 24px;
-        height: 24px;
-        border-radius: 6px;
-    }
+  .button-slider {
+    background-size: 10px;
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+  }
 }

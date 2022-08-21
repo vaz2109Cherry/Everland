@@ -1,27 +1,29 @@
-.about__control{
+.about__control {
   position: absolute;
   bottom: 0;
   left: 40px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  column-gap: 10px;
   align-items: center;
 }
 
-@media screen and (max-width: 768px){
-  .about__control{
+@media screen and (max-width: 768px) {
+  .about__control {
     width: 97px;
+    justify-content: space-between;
+    column-gap: 0;
   }
 }
 
-@media screen and (max-width: 556px){
-  .about__control{
+@media screen and (max-width: 556px) {
+  .about__control {
     position: relative;
   }
 }
 
 @media screen and (max-width: 556px) {
-  .about__control{
+  .about__control {
     align-self: center;
     left: 0;
   }

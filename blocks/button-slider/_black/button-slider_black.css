@@ -1,11 +1,11 @@
-.button-slider_black{
-    background-color: #333333;
+.button-slider_black {
+  background-color: #333333;
 }
 
-.button-slider_black:hover{
-    background-color: #0C4BA0;
+.button-slider_black:hover {
+  background-color: #0C4BA0;
 }
 
-.button-slider_black:active{
-    background-color: #00275C;
+.button-slider_black:active {
+  background-color: #00275C;
 }

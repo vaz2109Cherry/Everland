@@ -1,5 +1,5 @@
-.news-card_img-pos_top{
-    grid-template-areas: 
+.news-card_img-pos_top {
+  grid-template-areas:
     "word"
     "image"
     "title"

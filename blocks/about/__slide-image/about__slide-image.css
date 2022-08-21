@@ -8,28 +8,28 @@
   overflow: hidden;
 }
 
-@media screen and (min-width: 1440px ) {
-  .about__slide-image{
+@media screen and (min-width: 1440px) {
+  .about__slide-image {
     max-width: 520px;
   }
 }
 
 @media screen and (max-width: 1032px) {
-  .about__slide-image{
+  .about__slide-image {
     height: 465px;
   }
 }
 
-@media screen and (max-width: 768px){
-  .about__slide-image{
+@media screen and (max-width: 768px) {
+  .about__slide-image {
     height: 272px;
     margin-top: 16px;
     margin-bottom: 23px;
   }
 }
 
-@media screen and (max-width: 320px){
-  .about__slide-image{
+@media screen and (max-width: 320px) {
+  .about__slide-image {
     width: 300px;
     height: 200px;
     margin-bottom: 23px;

@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 767px) {
   .special {
-  max-width: 300px;
-  padding: 0 10px 64px;
+    max-width: 300px;
+    padding: 0 10px 64px;
   }
 }

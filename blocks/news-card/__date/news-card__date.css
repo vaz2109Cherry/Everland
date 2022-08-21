@@ -1,21 +1,21 @@
-.news-card__date{
-    grid-area: date;
-    margin: auto 0 0 0;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 130%;
+.news-card__date {
+  grid-area: date;
+  margin: auto 0 0 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
 }
 
 @media screen and (max-width: 1000px) {
-    .news-card__date{
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 120%;
-    }
+  .news-card__date {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+  }
 }
 
 @media screen and (max-width: 760px) {
-    .news-card__date{
-        font-size: 12px;
-    }
+  .news-card__date {
+    font-size: 12px;
+  }
 }

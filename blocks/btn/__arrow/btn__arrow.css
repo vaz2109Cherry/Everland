@@ -1,4 +1,4 @@
-.btn__arrow{
+.btn__arrow {
   width: 35px;
   height: 35px;
   font-size: 0;
@@ -11,12 +11,12 @@
   border-radius: 10px;
 }
 
-.btn__arrow:hover{
+.btn__arrow:hover {
   cursor: pointer;
 }
 
-@media screen and (max-width: 768px){
-  .btn__arrow{
+@media screen and (max-width: 768px) {
+  .btn__arrow {
     width: 24px;
     height: 24px;
     border-radius: 6px;

@@ -1,6 +1,5 @@
 .header__menu_group_title_button {
   display: none;
-  transition: all 0.5s linear;
 }
 
 @media (max-width: 630px) {

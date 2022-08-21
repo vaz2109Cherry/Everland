@@ -2,6 +2,6 @@
   display: none;
 }
 
-.donation-buttons__radio:checked + .donation-buttons__button-size {
+.donation-buttons__radio:checked+.donation-buttons__button-size {
   border: 1px solid #0C4BA0;
 }

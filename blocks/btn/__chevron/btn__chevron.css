@@ -1,4 +1,4 @@
-.btn__chevron{
+.btn__chevron {
   width: 20px;
   height: 20px;
   font-size: 0;
@@ -6,12 +6,12 @@
   border: none;
 }
 
-.btn__chevron:hover{
+.btn__chevron:hover {
   cursor: pointer;
 }
 
-@media screen and (max-width: 410px){
-  .btn__chevron{
+@media screen and (max-width: 410px) {
+  .btn__chevron {
     margin: 6px;
     transform: rotate(90deg);
   }

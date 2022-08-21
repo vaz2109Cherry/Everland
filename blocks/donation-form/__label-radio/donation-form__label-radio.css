@@ -1,4 +1,4 @@
-.donation-form__label-radio{
+.donation-form__label-radio {
   height: 48px;
   padding: 12px 16px;
   margin: 0;
@@ -15,24 +15,24 @@
   box-sizing: border-box;
 }
 
-.donation-form__label-radio:hover{
+.donation-form__label-radio:hover {
   cursor: pointer;
 }
 
-.donation-form__radio:checked + .donation-form__label-radio{
+.donation-form__radio:checked+.donation-form__label-radio {
   border-color: var(--background-button-pressed-blue);
 }
 
-@media screen and (max-width: 768px){
-  .donation-form__label-radio{
+@media screen and (max-width: 768px) {
+  .donation-form__label-radio {
     height: 44px;
     padding: 10px 5px;
     font-size: 16px;
   }
 }
 
-@media screen and (max-width: 410px){
-  .donation-form__label-radio{
+@media screen and (max-width: 410px) {
+  .donation-form__label-radio {
     font-size: 14px;
     width: 100%;
   }

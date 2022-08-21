@@ -1,4 +1,4 @@
-.donation-form__container{
+.donation-form__container {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -6,12 +6,10 @@
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 768px){
-  .donation-form__container{
+@media screen and (max-width: 768px) {
+  .donation-form__container {
     justify-content: space-between;
   }
 }
 
-@media screen and (max-width: 320px){
-
-}
+@media screen and (max-width: 320px) {}

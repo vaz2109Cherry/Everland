@@ -1,14 +1,9 @@
-.header_menu_group_last_row {
-  transition: all 0.5s linear;
-}
-
 @media (max-width: 1000px) {
   .header_menu_group_last_row {
     display: grid;
     grid-template-columns: repeat(2, minmax(min-content, max-content));
     grid-template-rows: repeat(2, minmax(min-content, max-content));
     column-gap: 78px;
-    padding: 64px 0 0 0;
   }
 }
 

@@ -1,9 +1,0 @@
-.section-title__advantages_on {
-  display: none;
-}
-
-@media screen and (max-width: 1439px) {
-  .section-title__advantages_on {
-    display: block;
-  }
-}

@@ -7,14 +7,14 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .special__slides{
+  .special__slides {
     top: 288px;
     right: 560px;
   }
 }
 
 @media screen and (max-width: 1125px) {
-  .special__slides{
+  .special__slides {
     max-width: 56px;
     top: 290px;
     right: 355px;

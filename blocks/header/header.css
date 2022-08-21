@@ -4,3 +4,15 @@
   background-color: white;
   z-index: 3;
 }
+
+@media (max-width: 1000px) {
+  .header {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media (max-width: 630px) {
+  .header {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  }
+}

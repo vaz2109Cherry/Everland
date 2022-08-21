@@ -1,17 +1,17 @@
-.button_place_news{
-    width: 194px;
-    justify-self: end;
+.button_place_news {
+  width: 194px;
+  justify-self: end;
 }
 
 @media screen and (max-width: 1000px) {
-    .button_place_news{
-        width: 200px;
-        justify-self: center;
-    }
+  .button_place_news {
+    width: 200px;
+    justify-self: center;
+  }
 }
 
 @media screen and (max-width: 550px) {
-    .button_place_news{
-        width: 100%;
-    }
+  .button_place_news {
+    width: 100%;
+  }
 }

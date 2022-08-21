@@ -1,9 +1,8 @@
 .footer__practicum_info {
   display: flex;
-  align-items:flex-end;
+  align-items: flex-end;
   gap: 20px;
   padding-top: 60px;
-  transition: all 0.5s linear;
   grid-column: 1 / 3;
 }
 

@@ -1,4 +1,4 @@
-.btn__submit{
+.btn__submit {
   width: 194px;
   height: 48px;
   align-self: center;
@@ -12,20 +12,20 @@
   color: var(--background-main);
 }
 
-.btn__submit:hover{
+.btn__submit:hover {
   cursor: pointer;
 }
 
-@media screen and (max-width: 768px){
-  .btn__submit{
+@media screen and (max-width: 768px) {
+  .btn__submit {
     width: 200px;
     height: 44px;
     font-size: 16px;
   }
 }
 
-@media screen and (max-width: 410px){
-  .btn__submit{
+@media screen and (max-width: 410px) {
+  .btn__submit {
     width: 100%;
   }
 }

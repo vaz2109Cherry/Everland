@@ -1,19 +1,19 @@
-.agency__image{
-    width: 440px;
-    height: 440px;
-    border-radius: 30px;
+.agency__image {
+  width: 440px;
+  height: 440px;
+  border-radius: 30px;
 }
 
 @media screen and (max-width: 1040px) {
-    .agency__image{
-        width: 334px;
-        height: 334px;
-    }
+  .agency__image {
+    width: 334px;
+    height: 334px;
+  }
 }
 
 @media screen and (max-width: 550px) {
-    .agency__image{
-        width: 300px;
-        height: 300px;
-    }
+  .agency__image {
+    width: 300px;
+    height: 300px;
+  }
 }
