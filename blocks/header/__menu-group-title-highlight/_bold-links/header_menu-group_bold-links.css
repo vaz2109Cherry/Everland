@@ -1,0 +1,15 @@
+.header_menu-group_bold-links {
+  padding-bottom: 26px;
+}
+
+@media (max-width: 1000px) {
+  .header_menu-group_bold-links {
+    padding-bottom: 24px;
+  }
+}
+
+@media (max-width: 630px) {
+  .header_menu-group_bold-links {
+    padding-bottom: 20px;
+  }
+}

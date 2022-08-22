@@ -211,9 +211,9 @@ function changeElementVisibility(container) {
 
 //"Вешаем" функцию переключения на кнопку меню и замену картинку на закрывающую при клике
 const headerMenuContainer = document.querySelector('.header__menu');
-const headerMenuImage = document.querySelector('.header__menu_buttom_image');
+const headerMenuImage = document.querySelector('.header__menu-button-image');
 
-document.querySelector('.header__menu_button').addEventListener('click', function () {
+document.querySelector('.header__menu-button').addEventListener('click', function () {
   changeElementVisibility(headerMenuContainer);
 
   if (headerMenuContainer.classList.contains('element_opened') === true) {
@@ -225,9 +225,9 @@ document.querySelector('.header__menu_button').addEventListener('click', functio
 });
 
 //"Вешаем" функцию переключения на кнопки скроллов категорий меню на 320px, а также замену картинок при клике
-const headerList = document.querySelectorAll('.header__menu_group_list');
-const headerMenuGroupButtons = document.querySelectorAll('.header__menu_group_title_button');
-const headerMenuGroupButtonsImg = document.querySelectorAll('.header__menu_group_title_button_img');
+const headerList = document.querySelectorAll('.header__menu-group-list');
+const headerMenuGroupButtons = document.querySelectorAll('.header__menu-group-title-button');
+const headerMenuGroupButtonsImg = document.querySelectorAll('.header__menu-group-title-button-img');
 
 for (let i = 0; i < headerList.length; i++) {
   headerMenuGroupButtons[i].addEventListener('click', function () {

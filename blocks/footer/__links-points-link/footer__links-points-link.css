@@ -1,0 +1,24 @@
+.footer__links-points-link {
+  text-decoration: none;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #333333;
+}
+
+@media (max-width: 1300px) {
+  .footer__links-points-link {
+    font-size: 16px;
+    line-height: 120%;
+  }
+}
+
+@media (max-width: 630px) {
+  .footer__links-points-link {
+    font-size: 14px;
+    line-height: 120%;
+  }
+}

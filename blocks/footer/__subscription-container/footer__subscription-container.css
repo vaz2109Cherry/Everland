@@ -1,0 +1,5 @@
+@media (max-width: 630px) {
+  .footer__subscription-container {
+    order: 5;
+  }
+}
