@@ -2,7 +2,7 @@
   padding: 80px 40px 150px 40px;
   display: grid;
   grid-template-columns: repeat(2, minmax(min-content, max-content));
-  column-gap: 60px;
+  column-gap: 82px;
 }
 
 @media (max-width: 1300px) {

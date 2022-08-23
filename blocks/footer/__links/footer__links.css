@@ -4,8 +4,8 @@
   list-style-type: none;
   display: grid;
   grid-template-columns: repeat(2, minmax(min-content, max-content));
-  column-gap: 145px;
-  row-gap: 10px;
+  column-gap: 74px;
+  row-gap: 12px;
   align-content: flex-start;
 }
 
