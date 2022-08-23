@@ -1,12 +1,14 @@
 .accordions__active .accordions__text {
   height: 76px;
   transition: all 300ms ease;
+  padding-top: 20px;
 }
 
 @media screen and (max-width: 568px) {
   .accordions__active .accordions__text {
     height: 126px;
     border-radius: 15px;
+    padding-top: 15px;
   }
 }
 
