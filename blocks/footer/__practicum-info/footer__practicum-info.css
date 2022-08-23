@@ -9,6 +9,7 @@
 @media (max-width: 1300px) {
   .footer__practicum-info {
     padding-top: 34px;
+    gap: 10px;
   }
 }
 

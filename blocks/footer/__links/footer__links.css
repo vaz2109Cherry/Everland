@@ -12,13 +12,16 @@
 @media (max-width: 1300px) {
   .footer__links {
     column-gap: 55px;
+    row-gap: 10px;
+    padding-top: 10px;
   }
 }
 
 @media (max-width: 630px) {
   .footer__links {
     column-gap: 18px;
-    padding-top: 40px;
+    padding-top: 38px;
     order: 3;
+    grid-template-columns: repeat(2, 2fr);
   }
 }

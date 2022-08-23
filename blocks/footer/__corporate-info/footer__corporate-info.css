@@ -1,7 +1,7 @@
 .footer__corporate-info {
   margin: 0;
   padding: 0;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -17,7 +17,7 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 120%;
-    padding-top: 28px;
+    padding-top: 25px;
   }
 }
 
@@ -25,6 +25,6 @@
   .footer__corporate-info {
     font-size: 12px;
     order: 6;
-    padding-top: 32px;
+    padding-top: 28px;
   }
 }

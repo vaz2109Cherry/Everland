@@ -6,7 +6,7 @@
 
 @media (max-width: 1300px) {
   .footer__contacts {
-    padding-top: 28px;
+    padding-top: 23px;
     flex-direction: column;
     row-gap: 16px;
   }
@@ -16,6 +16,6 @@
   .footer__contacts {
     order: 4;
     padding-top: 47px;
-    row-gap: 10px;
+    row-gap: 8px;
   }
 }
