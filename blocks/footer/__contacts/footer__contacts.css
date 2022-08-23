@@ -1,7 +1,7 @@
 .footer__contacts {
   display: flex;
   column-gap: 53px;
-  padding-top: 50px;
+  padding-top: 44px;
 }
 
 @media (max-width: 1300px) {

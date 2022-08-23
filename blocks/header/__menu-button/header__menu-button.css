@@ -1,6 +1,7 @@
 .header__menu-button {
   background-color: transparent;
   border: 0;
+  padding-left: 110px;
 }
 
 .header__menu-button:hover {

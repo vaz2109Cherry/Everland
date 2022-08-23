@@ -9,7 +9,7 @@
   font-feature-settings: 'pnum' on, 'lnum' on;
   color: rgba(38, 38, 38, 0.5);
   max-width: 629px;
-  padding-top: 50px;
+  padding-top: 44px;
 }
 
 @media (max-width: 1300px) {
