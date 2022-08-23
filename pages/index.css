@@ -193,6 +193,9 @@
 @import url(../blocks/directions/__content/directions__content.css);
 @import url(../blocks/directions/__cards/directions__cards.css);
 @import url(../blocks/directions/__card/directions__card.css);
+@import url(../blocks/directions/__title/directions__title.css);
+@import url(../blocks/directions/__title/_big/directions__title_big.css);
+@import url(../blocks/directions/__title/_small/directions__title_small.css);
 /*-directions-*/
 
 /*advantages*/
