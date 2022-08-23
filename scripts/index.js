@@ -205,8 +205,8 @@ for (i = 0; i < accordion.length; i++) {
 /*_____________________________________________Меню заголовка___________________________________________________*/
 
 //Инициация функции переключения состояния элемента
-function changeElementVisibility(container) {
-  container.classList.toggle('element_opened');
+function changeElementVisibility(container, modifier) {
+  container.classList.toggle(modifier);
 }
 
 //"Вешаем" функцию переключения на кнопку меню и замену картинку на закрывающую при клике
@@ -214,14 +214,13 @@ const headerMenuContainer = document.querySelector('.header__menu');
 const headerMenuImage = document.querySelector('.header__menu-button-image');
 
 document.querySelector('.header__menu-button').addEventListener('click', function () {
-  changeElementVisibility(headerMenuContainer);
+  changeElementVisibility(headerMenuContainer, 'header__menu_opened');
 
-  if (headerMenuContainer.classList.contains('element_opened') === true) {
+  if (headerMenuContainer.classList.contains('header__menu_opened') === true) {
     headerMenuImage.src = './images/header-menu-close.svg';
   } else {
     headerMenuImage.src = './images/header-menu-open.svg';
   }
-  ;
 });
 
 //"Вешаем" функцию переключения на кнопки скроллов категорий меню на 320px, а также замену картинок при клике
@@ -231,14 +230,13 @@ const headerMenuGroupButtonsImg = document.querySelectorAll('.header__menu-group
 
 for (let i = 0; i < headerList.length; i++) {
   headerMenuGroupButtons[i].addEventListener('click', function () {
-    changeElementVisibility(headerList[i]);
+    changeElementVisibility(headerList[i], 'header__menu-group-list_opened');
 
-    if (headerList[i].classList.contains('element_opened') === true) {
-      headerMenuGroupButtonsImg[i].src = './images/header_menu_icon_shevron_opened.png';
+    if (headerList[i].classList.contains('header__menu-group-list_opened') === true) {
+      headerMenuGroupButtonsImg[i].src = './images/header_menu_icon_shevron_opened.svg';
     } else {
-      headerMenuGroupButtonsImg[i].src = './images/header_menu_icon_shevron_closed.png';
+      headerMenuGroupButtonsImg[i].src = './images/header_menu_icon_shevron_closed.svg';
     }
-    ;
   });
 }
 /*_______________________________________________________________________________________________________*/

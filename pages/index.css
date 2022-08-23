@@ -140,21 +140,19 @@
 @import url(../blocks/header/__menu-button-text/header__menu-button-text.css);
 @import url(../blocks/header/__blue-buttons-container/header__blue-buttons-container.css);
 @import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu/_opened/header__menu_opened.css);
 @import url(../blocks/header/__menu-group/header__menu-group.css);
 @import url(../blocks/header/__menu-group-title/header__menu-group-title.css);
 @import url(../blocks/header/__menu-group-title-highlight/header__menu-group-title-highlight.css);
-@import url(../blocks/header/__menu-group-title-highlight/_bold-links/header_menu-group_bold-links.css);
+@import url(../blocks/header/__menu-group-title-highlight/_bold-links/header__menu-group-title-highlight_bold-links.css);
 @import url(../blocks/header/__menu-group-title-button/header__menu-group-title-button.css);
 @import url(../blocks/header/__menu-group-list/header__menu-group-list.css);
+@import url(../blocks/header/__menu-group-list/_opened/header__menu-group-list_opened.css);
 @import url(../blocks/header/__menu-group-list-element/header__menu-group-list-element.css);
 @import url(../blocks/header/__menu-group-list-element-link/header__menu-group-list-element-link.css);
-@import url(../blocks/header/__menu-group/_bold/header_menu-group_bold.css);
+@import url(../blocks/header/__menu-group/_bold/header__menu-group_bold.css);
 @import url(../blocks/header/__menu-group-list-highlight/header__menu-group-list-highlight.css);
 /*-header-*/
-
-/*popup_munu_element*/
-@import url(../blocks/element/_opened/element_opened.css);
-/*-popup_element-*/
 
 /*menu*/
 @import url(../blocks/menu/menu.css);
@@ -296,7 +294,7 @@
 @import url(../blocks/footer/__links-points-link/footer__links-points-link.css);
 @import url(../blocks/footer/__support-container/footer__support-container.css);
 @import url(../blocks/footer/__subheader/footer__subheader.css);
-@import url(../blocks/footer/__subheader/_subheader_support/footer_subheader_support.css);
+@import url(../blocks/footer/__subheader/_subheader_support/footer__subheader_support.css);
 @import url(../blocks/footer/__support-container-logos/footer__support-container-logos.css);
 @import url(../blocks/footer/__beeline-logo/footer__beeline-logo.css);
 @import url(../blocks/footer/__fund-logo/footer__fund-logo.css);
