@@ -156,7 +156,6 @@
 
 /*menu*/
 @import url(../blocks/menu/menu.css);
-@import url(../blocks/menu/__navigation/menu__navigation.css);
 @import url(../blocks/menu/__navigation-list/menu__navigation-list.css);
 @import url(../blocks/menu/__navigation-list-link/menu__navigation_list_link.css);
 /*-menu-*/
