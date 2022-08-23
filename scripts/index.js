@@ -253,6 +253,12 @@ buttonDonation.addEventListener('click', () => {
     }
   });
   showInputForOtherPaySum();
+
+  //Плавный скролл
+  document.querySelector("#donation").scrollIntoView({
+    behavior: 'smooth',
+    block: 'start'
+  });
 });
 
 /*_______________________________________________________________________________________________________*/
