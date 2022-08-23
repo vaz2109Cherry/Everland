@@ -246,20 +246,13 @@ const formDonationButtons = document.forms['donation_buttons_form'];
 const buttonDonation = document.querySelector('.donation-buttons__button-send');
 const formDonation = document.forms['donation-form'];
 const radioDonationSize = formDonation.elements['pay-sum'];
-buttonDonation.addEventListener('click', (event) => {
+buttonDonation.addEventListener('click', () => {
   formDonationButtons.donation_size.forEach((radio, index) => {
     if (radio.checked) {
       radioDonationSize[index].checked = true;
     }
   });
   showInputForOtherPaySum();
-
-  //Плавный скролл
-  event.preventDefault();
-  document.querySelector("#donation").scrollIntoView({
-    behavior: 'smooth',
-    block: 'start'
-  });
 });
 
 /*_______________________________________________________________________________________________________*/
