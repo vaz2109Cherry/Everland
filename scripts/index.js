@@ -280,3 +280,17 @@ const form = document.querySelector(".donation-form");
 form.addEventListener("change", showInputForOtherPaySum)
 
 showInputForOtherPaySum();
+
+/**
+ * Функция скролла якорных ссылок".
+ */
+
+document.querySelectorAll('.page a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+});
