@@ -1,5 +1,5 @@
 @media (max-width: 1000px) {
-  .header_menu-group_bold {
+  .header__menu-group_bold {
     display: grid;
     grid-template-columns: repeat(2, minmax(min-content, max-content));
     grid-template-rows: repeat(2, minmax(min-content, max-content));
@@ -8,7 +8,7 @@
 }
 
 @media (max-width: 630px) {
-  .header_menu-group_bold {
+  .header__menu-group_bold {
     display: flex;
     flex-direction: column;
     padding: 0;
