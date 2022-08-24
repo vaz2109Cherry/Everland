@@ -3,8 +3,8 @@
   margin: 0;
   list-style: none;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  column-gap: 35px;
   align-items: center;
   height: 50px;
 }
