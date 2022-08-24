@@ -2,6 +2,7 @@
   width: 194px;
   justify-self: end;
   box-sizing: border-box;
+  align-self: center;
 }
 
 @media screen and (max-width: 1000px) {

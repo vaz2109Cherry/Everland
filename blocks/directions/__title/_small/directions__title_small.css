@@ -7,13 +7,7 @@
   letter-spacing: -0.01em;
 }
 
-@media screen and (max-width: 600px) 
-{
-  .directions__title_small
-  {
-    font-size: 26px;
-  }  
-}
+
 .directions__title_small
 { 
   font-weight: 700;
@@ -21,6 +15,14 @@
   line-height: 120%;
   /* or 43px */
   letter-spacing: -0.01em;
+}
+
+@media screen and (max-width: 600px) 
+{
+  .directions__title_small
+  {
+    font-size: 26px;
+  }  
 }
 
 @media screen and (min-width: 985px) 

@@ -1,17 +1,20 @@
 .about {
   padding: 0 40px;
   margin-bottom: 90px;
+  margin-top: 50px;
   position: relative;
 }
 
 @media screen and (max-width: 768px) {
   .about {
     margin-bottom: 50px;
+    margin-top: 56px;
   }
 }
 
 @media screen and (max-width: 556px) {
   .about {
+    margin-top: 50px;
     padding: 0 10px;
     margin-bottom: 39px;
     display: flex;
