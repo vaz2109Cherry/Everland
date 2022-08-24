@@ -10,6 +10,7 @@
 
   .stories__list-story-item {
     margin-bottom: 30px;
+    align-items: center;
   }
 
   .stories__list-story-item:last-child {
