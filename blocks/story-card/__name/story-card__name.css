@@ -9,28 +9,16 @@
 
 @media screen and (max-width: 1100px) {
   .story-card__name {
-    margin: 7px 0 6px 0;
+    margin: 6px 0 6px 0;
     font-size: 16px;
     line-height: 120%;
-  }
-
-  .story-card:last-of-type .story-card__name {
-    margin-bottom: 5px;
   }
 }
 
 @media screen and (max-width: 765px) {
   .story-card__name {
     font-size: 14px;
-    line-height: 120%;
+    margin: 8px 0 3px 0;
   }
 }
 
-@media screen and (max-width: 600px) {
-  .story-card__name {
-    margin-bottom: 0;
-  }
-  .story-card:last-of-type .story-card__name {
-    margin-top: 2px;
-  }
-}
