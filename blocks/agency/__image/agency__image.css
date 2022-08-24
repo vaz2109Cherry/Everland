@@ -15,5 +15,6 @@
   .agency__image {
     width: 300px;
     height: 300px;
+    display: inline-block;
   }
 }
