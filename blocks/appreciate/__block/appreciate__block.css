@@ -21,15 +21,31 @@
 
 @media screen and (max-width: 768px) {
   .appreciate__block {
-    width: 349px;
+    width: 361px;
+    margin-right: 43px;
+    margin-bottom: 31px;
+  }
+
+  .appreciate__block:after{
+    top: 13px;
+  }
+
+  .appreciate__block:first-of-type{
+    display: none;
   }
 }
 
 @media screen and (max-width: 410px) {
   .appreciate__block {
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     width: 300px;
-    align-items: center;
+    align-items: start;
+  }
+
+  .appreciate__block:nth-of-type(1),
+  .appreciate__block:nth-of-type(2),
+  .appreciate__block:nth-of-type(3){
+    display: none;
   }
 }

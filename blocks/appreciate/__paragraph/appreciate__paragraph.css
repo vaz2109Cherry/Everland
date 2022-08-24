@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 320px) {
   .appreciate__paragraph {
-    padding: 0 10px;
+    padding: 0;
     font-size: 14px;
   }
 }

@@ -280,10 +280,11 @@
 @import url(../blocks/donation-form/__checkbox/donation-form__checkbox.css);
 @import url(../blocks/donation-form/__label-chbox/donation-form__label-chbox.css);
 @import url(../blocks/donation-form/__link/donation-form__link.css);
-@import url(../blocks/donation-form/__new_chbox/donation-form__new_chbox.css);
+@import url(../blocks/donation-form/__new-chbox/donation-form__new-chbox.css);
 @import url(../blocks/donation-form/__carousel/donation-form__carousel.css);
 @import url(../blocks/donation-form/__carousel-slide/donation-form__carousel-slide.css);
 @import url(../blocks/donation-form/__pay-system-logo-container/donation-form__pay-system-logo-container.css);
+@import url(../blocks/donation-form/__submit/donation-form__submit.css);
 /*-donation-*/
 
 /* footer */

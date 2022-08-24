@@ -10,6 +10,10 @@
   letter-spacing: -0.02em;
 }
 
+.about__header_mobile{
+  display: none;
+}
+
 @media screen and (min-width: 1440px) {
   .about__header {
     font-size: 72px;
@@ -24,6 +28,12 @@
 
 @media screen and (max-width: 765px) {
   .about__header {
+    display: none;
+  }
+
+  .about__header_mobile{
+    width: 95%;
+    display: block;
     font-size: 28px;
     letter-spacing: -0.06em;
   }

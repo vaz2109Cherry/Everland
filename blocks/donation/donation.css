@@ -12,6 +12,7 @@
   .donation {
     padding: 40px;
     padding-top: 44px;
+    padding-bottom: 22px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -22,6 +23,6 @@
 @media screen and (max-width: 410px) {
   .donation {
     padding: 31px 10px;
-    row-gap: 30px;
+    row-gap: 0;
   }
 }
