@@ -28,5 +28,6 @@
     grid-template-rows: min-content;
     max-height: min-content;
     min-width: auto;
+    gap: 16px;
   }
 }
