@@ -1,6 +1,7 @@
 .button_place_header {
   height: 48px;
   width: 180px;
+  box-sizing: border-box;
 }
 
 @media (max-width: 769px) {

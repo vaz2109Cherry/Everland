@@ -1,6 +1,7 @@
 .button_place_news {
   width: 194px;
   justify-self: end;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1000px) {
