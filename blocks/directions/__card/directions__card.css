@@ -17,6 +17,7 @@
   .directions__card {
     margin-left: auto;
     margin-right: auto;
+    max-width: 93.75%;
   }
 
   .directions__card:nth-of-type(2n) {
