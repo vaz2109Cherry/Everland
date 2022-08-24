@@ -1,7 +1,7 @@
 .footer__subheader {
   padding: 0;
   margin: 0;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 34px;
@@ -22,5 +22,11 @@
   .footer__subheader {
     font-size: 16px;
     padding-top: 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer__subheader {
+    max-width: 166px;
   }
 }

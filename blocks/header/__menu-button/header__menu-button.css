@@ -12,6 +12,7 @@
 @media (max-width: 1000px) {
   .header__menu-button {
     order: 4;
+    padding: 0;
     padding-left: 24px;
   }
 }

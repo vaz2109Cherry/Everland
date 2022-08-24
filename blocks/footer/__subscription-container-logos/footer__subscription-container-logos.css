@@ -9,3 +9,10 @@
     gap: 4px;
   }
 }
+
+@media (max-width: 630px) {
+  .footer__subscription-container-logos {
+    padding-top: 7px;
+    align-items: center;
+  }
+}
