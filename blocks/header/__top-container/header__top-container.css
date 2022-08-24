@@ -12,7 +12,6 @@
 @media (max-width: 1000px) {
   .header__top-container {
     justify-content: flex-end;
-    box-shadow: 0px 4px 30px rgba(42, 48, 56, 0.1);
   }
 }
 
