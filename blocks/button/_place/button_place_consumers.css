@@ -6,6 +6,9 @@
 {
   .button_place_consumers
   {
-    margin: auto 0 30px 30px;
+    margin-top: auto;
+    margin-left: 24px;
+    margin-bottom: 24px;
   }  
 }
+
