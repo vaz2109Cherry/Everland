@@ -1,0 +1,26 @@
+.special {
+  padding: 0 40px 150px;
+  max-width: 1360px;
+  margin: 0 auto;
+  position: relative;
+}
+
+@media screen and (max-width: 1439px) {
+  .special {
+    max-width: 1045px;
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 1125px) {
+  .special {
+    max-width: 688px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .special {
+    max-width: 300px;
+    padding: 0 10px 64px;
+  }
+}

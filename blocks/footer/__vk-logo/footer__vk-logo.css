@@ -1,0 +1,9 @@
+.footer__vk-logo {
+  width: 64px;
+}
+
+@media (max-width: 1300px) {
+  .footer__vk-logo {
+    width: 40px;
+  }
+}

@@ -1,0 +1,15 @@
+.numbers__card {
+  max-width: 670px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+  row-gap: 30px;
+  column-gap: 20px;
+}
+
+@media screen and (max-width: 730px) {
+  .numbers__card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}

@@ -1,0 +1,16 @@
+.donation-form__carousel {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 410px) {
+  .donation-form__carousel {
+    margin-bottom: 0;
+    flex-direction: column;
+  }
+}

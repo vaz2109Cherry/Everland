@@ -1,0 +1,25 @@
+.card {
+  margin: 0 auto;
+  width: 100%;
+  min-height: 428px;
+  max-height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 985px) {
+  .card {
+    min-height: 272px;
+    max-width: 59.89583333333333%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .card {
+    margin: 0 auto;
+    min-height: 300px;
+    max-width: 93.75%;
+  }
+}

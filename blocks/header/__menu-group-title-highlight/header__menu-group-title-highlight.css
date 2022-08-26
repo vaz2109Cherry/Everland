@@ -1,0 +1,17 @@
+.header__menu-group-title-highlight {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 120%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+@media (max-width: 1130px) {
+  .header__menu-group-title-highlight {
+    font-size: 20px;
+    line-height: 120%;
+  }
+}

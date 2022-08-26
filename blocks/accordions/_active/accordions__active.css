@@ -1,0 +1,19 @@
+.accordions__active .accordions__text {
+  height: 76px;
+  transition: all 300ms ease;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 568px) {
+  .accordions__active .accordions__text {
+    height: 126px;
+    border-radius: 15px;
+    padding-top: 15px;
+  }
+}
+
+.accordions__active .accordions__open {
+  background: transparent url(../../../images/accordion__open-hover.svg) no-repeat;
+  background-size: contain;
+  transform: rotate(45deg);
+}

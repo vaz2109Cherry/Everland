@@ -1,0 +1,15 @@
+.donation-buttons__form {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  max-width: 1007px;
+}
+
+@media screen and (max-width: 700px) {
+
+  .donation-buttons__form {
+    display: flex;
+    flex-direction: column;
+  }
+
+}

@@ -1,0 +1,22 @@
+.accordions__item {
+  box-sizing: border-box;
+  border: 2px solid #DADADA;
+  border-radius: 30px;
+  padding: 30px 20px;
+  height: fit-content;
+}
+
+@media screen and (max-width: 1439px) {
+  .accordions__item {
+    max-width: 100%;
+    border-radius: 20px;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .accordions__item {
+    padding: 15px;
+    border-radius: 15px;
+  }
+}

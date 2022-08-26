@@ -1,0 +1,22 @@
+.agency__title {
+  margin: 0 0 20px 0;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+}
+
+@media screen and (max-width: 1040px) {
+  .agency__title {
+    font-size: 36px;
+    margin-bottom: 15px;
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .agency__title {
+    font-size: 26px;
+    margin-bottom: 10px;
+    max-width: 300px;
+  }
+}

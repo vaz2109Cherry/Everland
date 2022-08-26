@@ -1,0 +1,13 @@
+.header__menu-group-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  flex-direction: column;
+}
+
+@media (min-width: 630px) {
+  .header__menu-group-list {
+    display: flex;
+  }
+}

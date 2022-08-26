@@ -1,0 +1,27 @@
+.footer__links {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  column-gap: 74px;
+  row-gap: 12px;
+  align-content: flex-start;
+}
+
+@media (max-width: 1300px) {
+  .footer__links {
+    column-gap: 55px;
+    row-gap: 10px;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 630px) {
+  .footer__links {
+    column-gap: 18px;
+    padding-top: 38px;
+    order: 3;
+    grid-template-columns: repeat(2, 2fr);
+  }
+}

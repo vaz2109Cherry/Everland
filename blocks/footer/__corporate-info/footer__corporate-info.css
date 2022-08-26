@@ -1,0 +1,30 @@
+.footer__corporate-info {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: rgba(38, 38, 38, 0.5);
+  max-width: 629px;
+  padding-top: 44px;
+}
+
+@media (max-width: 1300px) {
+  .footer__corporate-info {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    padding-top: 25px;
+  }
+}
+
+@media (max-width: 630px) {
+  .footer__corporate-info {
+    font-size: 12px;
+    order: 6;
+    padding-top: 28px;
+  }
+}

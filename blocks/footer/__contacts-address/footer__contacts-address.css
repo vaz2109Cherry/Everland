@@ -1,0 +1,26 @@
+.footer__contacts-address {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #333333;
+  max-width: 313px;
+}
+
+@media (max-width: 1300px) {
+  .footer__contacts-address {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+  }
+}
+
+@media (max-width: 630px) {
+  .footer__contacts-address {
+    font-size: 12px;
+  }
+}

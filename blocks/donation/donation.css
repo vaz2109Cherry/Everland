@@ -1,0 +1,28 @@
+.donation {
+  padding: 100px 40px;
+  display: grid;
+  grid-template-rows: min-content 1fr;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 50px;
+  column-gap: 117px;
+  background: var(--background-blocks-blue);
+}
+
+@media screen and (max-width: 1399px) {
+  .donation {
+    padding: 40px;
+    padding-top: 44px;
+    padding-bottom: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 24px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .donation {
+    padding: 31px 10px;
+    row-gap: 0;
+  }
+}

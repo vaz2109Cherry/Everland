@@ -1,0 +1,37 @@
+.footer__contacts-phone-number {
+  margin: 0;
+  padding: 0 0 3px 0;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #333333;
+}
+
+.footer__contacts-phone-number:last-of-type {
+  padding: 0;
+}
+
+@media (max-width: 1300px) {
+  .footer__contacts-phone-number {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+  }
+
+  .footer__contacts-phone-number:last-of-type {
+    padding-top: 16px;
+  }
+}
+
+@media (max-width: 630px) {
+  .footer__contacts-phone-number {
+    font-size: 12px;
+  }
+
+  .footer__contacts-phone-number:last-of-type {
+    padding-top: 0;
+  }
+}

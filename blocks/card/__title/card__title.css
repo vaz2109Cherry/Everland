@@ -1,0 +1,33 @@
+.card__title {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 120%;
+  /* or 41px */
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  /* Black */
+  color: #333333;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+@media screen and (max-width: 985px) {
+  .card__title {
+
+    text-align: left;
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .card__title {
+    margin-left: 24px;
+    font-size: 18px;
+  }
+}

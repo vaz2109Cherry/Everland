@@ -1,0 +1,16 @@
+.button_place_agency {
+  width: 204px;
+  align-self: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .button_place_agency {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .button_place_agency {
+    width: 100%;
+  }
+}

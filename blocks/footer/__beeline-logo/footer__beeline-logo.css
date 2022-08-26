@@ -1,0 +1,23 @@
+.footer__beeline-logo {
+  width: 100px;
+  height: 52.48px;
+  background-image: url('../../../images/beeline_logo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 1300px) {
+  .footer__beeline-logo {
+    background-image: url('../../../images/beeline_logo_small_res.png');
+    width: 55.85px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 630px) {
+  .footer__beeline-logo {
+    width: 47.47px;
+    height: 34px;
+  }
+}

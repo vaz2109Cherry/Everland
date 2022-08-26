@@ -1,0 +1,19 @@
+.footer__support-container-logos {
+  display: flex;
+  gap: 50px;
+  padding-top: 19px;
+}
+
+@media (max-width: 1300px) {
+  .footer__support-container-logos {
+    gap: 21.15px;
+    padding-left: 15px;
+  }
+}
+
+@media (max-width: 630px) {
+  .footer__support-container-logos {
+    gap: 21.15px;
+    padding-left: 10px;
+  }
+}

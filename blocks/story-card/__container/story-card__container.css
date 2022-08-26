@@ -1,0 +1,16 @@
+.story-card__container {
+  margin: 30px 30px;
+  display: flex;
+}
+
+@media screen and (max-width: 1100px) {
+  .story-card__container {
+    margin: 25px 13px 25px 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .story-card__container {
+    margin: 16px 14px 16px 16px;
+  }
+}

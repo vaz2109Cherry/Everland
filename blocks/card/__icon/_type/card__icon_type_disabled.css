@@ -1,0 +1,9 @@
+.card__icon_type_disabled {
+  background-image: url(../../../../images/icon_disabled.svg);
+}
+
+@media screen and (max-width: 985px) {
+  .card__icon_type_disabled {
+    background-image: url(../../../../images/icon_disabled_768_320.svg);
+  }
+}

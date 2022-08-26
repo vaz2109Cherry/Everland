@@ -1,0 +1,4 @@
+.numbers__cards {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,39 @@
+.donation-form__label-radio {
+  height: 48px;
+  padding: 12px 16px;
+  margin: 0;
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  border: 1px solid var(--outline-elements-grey);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.donation-form__label-radio:hover {
+  cursor: pointer;
+}
+
+.donation-form__radio:checked+.donation-form__label-radio {
+  border-color: var(--background-button-pressed-blue);
+}
+
+@media screen and (max-width: 768px) {
+  .donation-form__label-radio {
+    height: 44px;
+    padding: 10px 5px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .donation-form__label-radio {
+    font-size: 14px;
+    width: 100%;
+  }
+}

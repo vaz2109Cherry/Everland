@@ -1,0 +1,31 @@
+.btn__submit {
+  width: 194px;
+  height: 48px;
+  align-self: center;
+  border: none;
+  border-radius: 10px;
+  background: var(--text-card-blue);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--background-main);
+}
+
+.btn__submit:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .btn__submit {
+    width: 200px;
+    height: 44px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .btn__submit {
+    width: 100%;
+  }
+}

@@ -1,0 +1,5 @@
+@media (max-width: 630px) {
+  .footer__support-container {
+    order: 3;
+  }
+}

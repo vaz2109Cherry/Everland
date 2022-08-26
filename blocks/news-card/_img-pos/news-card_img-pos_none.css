@@ -1,0 +1,10 @@
+.news-card_img-pos_none {
+  grid-template-rows: repeat(3, min-content) 1fr;
+  grid-template-areas:
+    "word"
+    "title"
+    "text"
+    "date";
+  background-color: #DAEFD5;
+  border: 0;
+}

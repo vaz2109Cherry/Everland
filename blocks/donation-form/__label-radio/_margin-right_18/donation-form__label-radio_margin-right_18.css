@@ -1,0 +1,13 @@
+.donation-form__label-radio_margin-right_18 {
+  margin-right: 18px;
+}
+
+.donation-form__label-radio_margin-right_18:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 410px) {
+  .donation-form__label-radio_margin-right_18 {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,44 @@
+.story-card__link {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 130%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #333333;
+  display: flex;
+  align-items: center;
+}
+
+.story-card__link::after {
+  content: "";
+  background-image: url('../../../images/icon-play.jpg');
+  background-size: cover;
+  width: 39px;
+  height: 39px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1100px) {
+
+  .story-card__link {
+    font-size: 16px;
+    line-height: 120%;
+  }
+
+  .story-card__link::after {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media screen and (max-width: 765px) {
+
+  .story-card__link {
+    font-size: 12px;
+  }
+
+  .story-card__link::after {
+    width: 24px;
+    height: 24px;
+  }
+}

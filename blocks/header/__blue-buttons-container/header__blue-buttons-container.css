@@ -1,0 +1,10 @@
+.header__blue-buttons-container {
+  display: flex;
+  gap: 16px;
+}
+
+@media (max-width: 1000px) {
+  .header__blue-buttons-container {
+    gap: 8px;
+  }
+}

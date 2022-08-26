@@ -1,0 +1,10 @@
+.menu__navigation-list {
+  padding: 0 42px 0 42px;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 35px;
+  align-items: center;
+  height: 50px;
+}

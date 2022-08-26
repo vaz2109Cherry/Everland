@@ -1,0 +1,36 @@
+.donation-form__new-chbox {
+  position: relative;
+  padding-left: 33px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.donation-form__new-chbox:after {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-color: var(--outline-elements-grey);
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.donation-form__checkbox:checked+.donation-form__new-chbox:after {
+  background: var(--outline-elements-grey) url("../../../images/Icon_check.svg") no-repeat center;
+}
+
+@media screen and (max-width: 768px) {
+  .donation-form__new-chbox {
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .donation-form__new-chbox {
+    display: inline;
+  }
+}

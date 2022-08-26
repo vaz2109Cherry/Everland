@@ -1,0 +1,21 @@
+.directions__title
+  {
+    margin: 0;
+    margin-bottom: 50px;
+    margin-left: 3%;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+
+@media screen and (max-width: 985px) 
+{
+  .directions__title
+  {
+    margin-bottom: 32px;
+  }
+
+}

@@ -1,0 +1,22 @@
+.donation-buttons__sizes {
+  margin: 0;
+  padding: 0;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  max-width: 756px;
+}
+
+.donation-buttons__sizes :last-child {
+  margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .donation-buttons__sizes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+  }
+}
+

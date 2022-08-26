@@ -1,0 +1,19 @@
+.about__counter {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+}
+
+@media screen and (max-width: 768px) {
+  .about__counter {
+    font-size: 16px;
+    line-height: 120%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about__counter {
+    font-size: 14px;
+    line-height: 120%;
+  }
+}

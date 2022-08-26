@@ -1,0 +1,21 @@
+.section-title {
+  margin: 0;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+}
+
+@media screen and (max-width: 1439px) {
+  .section-title {
+    font-size: 36px;
+    letter-spacing: -0.01em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section-title {
+    font-size: 26px;
+  }
+}

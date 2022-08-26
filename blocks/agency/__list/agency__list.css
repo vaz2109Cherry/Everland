@@ -1,0 +1,36 @@
+.agency__list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 440px);
+  gap: 20px;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  max-height: 540px;
+  min-width: 688px;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1040px) {
+  .agency__list {
+    grid-template-columns: repeat(auto-fill, 334px);
+    max-height: 398px;
+    margin-bottom: 33px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .agency__list {
+    max-height: fit-content;
+    min-width: auto;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .agency__list {
+    grid-template-columns: 300px;
+    gap: 28px;
+    margin-bottom: 22px;
+  }
+}
